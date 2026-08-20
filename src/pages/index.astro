@@ -1,0 +1,114 @@
+---
+import catalogData from '../data/women.json';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { assertCatalog } from '../lib/catalog';
+import { dailyIndex } from '../lib/daily';
+import type { Woman } from '../types';
+
+assertCatalog(catalogData);
+const women: Woman[] = [...catalogData].sort((a, b) => a.name.localeCompare(b.name));
+const featured = women[dailyIndex(new Date(), women.length)];
+const featuredQuotes = featured.quotes?.length ? featured.quotes : featured.quote ? [featured.quote] : [];
+const lifespan = featured.died ? `${featured.born.display} – ${featured.died.display}` : `Born ${featured.born.display}`;
+---
+
+<BaseLayout headerTheme="dark">
+	<section class="daily-home" aria-labelledby="daily-name">
+		<div class="daily-home-glow" aria-hidden="true"></div>
+		<div class="daily-home-heading">
+			<p class="eyebrow">Legend of the day</p>
+			<p id="today-date" class="daily-date"></p>
+		</div>
+		<article class="daily-spotlight">
+			<div class="daily-portrait">
+				<img id="daily-image" src={featured.image.url} alt={featured.image.alt} />
+				<div class="daily-image-overlay"></div>
+			</div>
+			<div class="daily-story">
+				<div id="daily-categories" class="category-list">
+					{featured.categories.map((category) => <span class="category">{category}</span>)}
+				</div>
+				<h1 id="daily-name">{featured.name}</h1>
+				<p id="daily-lifespan" class="daily-lifespan">{lifespan}</p>
+				<p id="daily-summary" class="daily-summary">{featured.summary}</p>
+				<div id="daily-quotes" class="daily-quotes" hidden={featuredQuotes.length === 0}>
+					<p class="quote-label">In her words</p>
+					<blockquote class="daily-quote">
+						<p id="daily-quote-text">{featuredQuotes[0] && `“${featuredQuotes[0].text}”`}</p>
+						<cite id="daily-quote-source">{featuredQuotes[0]?.source}</cite>
+					</blockquote>
+					<div id="quote-controls" class="quote-controls" hidden={featuredQuotes.length < 2}>
+						<button id="quote-previous" type="button" aria-label="Previous quote">←</button>
+						<span id="quote-position">1 / {featuredQuotes.length}</span>
+						<button id="quote-next" type="button" aria-label="Next quote">→</button>
+					</div>
+				</div>
+				<a id="daily-details" class="primary-button" href={`/women/${featured.slug}/`}>Read her full story <span aria-hidden="true">→</span></a>
+			</div>
+		</article>
+		<a class="discover-catalog" href="/catalog/">
+			<span><small>There are {women.length} stories waiting</small><strong>Discover the full catalog</strong></span>
+			<span class="discover-arrow" aria-hidden="true">→</span>
+		</a>
+	</section>
+</BaseLayout>
+
+<script is:inline define:vars={{ women }}>
+	const now = new Date();
+	const day = Math.floor(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) / 86400000);
+	const mixed = Math.imul(day ^ (day >>> 16), 0x45d9f3b);
+	const selected = women[Math.abs(mixed ^ (mixed >>> 16)) % women.length];
+	const quotes = selected.quotes?.length ? selected.quotes : selected.quote ? [selected.quote] : [];
+	let quoteIndex = 0;
+
+	document.querySelector('#today-date').textContent = new Intl.DateTimeFormat(undefined, {
+		weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
+	}).format(now);
+	const image = document.querySelector('#daily-image');
+	image.src = selected.image.url;
+	image.alt = selected.image.alt;
+	document.querySelector('#daily-name').textContent = selected.name;
+	document.querySelector('#daily-lifespan').textContent = selected.died
+		? `${selected.born.display} – ${selected.died.display}`
+		: `Born ${selected.born.display}`;
+	document.querySelector('#daily-summary').textContent = selected.summary;
+	document.querySelector('#daily-details').href = `/women/${selected.slug}/`;
+	const categoryList = document.querySelector('#daily-categories');
+	categoryList.replaceChildren(...selected.categories.map((category) => {
+		const span = document.createElement('span');
+		span.className = 'category';
+		span.textContent = category;
+		return span;
+	}));
+
+	const quoteSection = document.querySelector('#daily-quotes');
+	const controls = document.querySelector('#quote-controls');
+	const quoteCard = document.querySelector('.daily-quote');
+	const showQuote = () => {
+		if (!quotes.length) {
+			quoteSection.hidden = true;
+			return;
+		}
+		quoteSection.hidden = false;
+		document.querySelector('#daily-quote-text').textContent = `“${quotes[quoteIndex].text}”`;
+		document.querySelector('#daily-quote-source').textContent = quotes[quoteIndex].source;
+		document.querySelector('#quote-position').textContent = `${quoteIndex + 1} / ${quotes.length}`;
+		controls.hidden = quotes.length < 2;
+		quoteCard.classList.remove('quote-changing');
+		void quoteCard.offsetWidth;
+		quoteCard.classList.add('quote-changing');
+	};
+	document.querySelector('#quote-previous').addEventListener('click', () => {
+		quoteIndex = (quoteIndex - 1 + quotes.length) % quotes.length;
+		showQuote();
+	});
+	document.querySelector('#quote-next').addEventListener('click', () => {
+		quoteIndex = (quoteIndex + 1) % quotes.length;
+		showQuote();
+	});
+	showQuote();
+	if (quotes.length > 1) setInterval(() => {
+		quoteIndex = (quoteIndex + 1) % quotes.length;
+		showQuote();
+	}, 14000);
+</script>

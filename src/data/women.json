@@ -1,0 +1,3030 @@
+[
+  {
+    "slug": "ada-lovelace",
+    "name": "Ada Lovelace",
+    "fullName": "Augusta Ada King, Countess of Lovelace",
+    "born": {
+      "date": null,
+      "display": "1815"
+    },
+    "died": {
+      "date": null,
+      "display": "1852"
+    },
+    "categories": [
+      "Science & Technology"
+    ],
+    "summary": "English mathematician and writer whose work on the Analytical Engine anticipated general-purpose computing.",
+    "bio": "Ada Lovelace studied Charles Babbage's proposed Analytical Engine and recognized that it could have uses beyond numerical calculation. Her published notes included an algorithm intended for the machine, and she is widely regarded as one of the first computer programmers.",
+    "accomplishments": [
+      "Published an early algorithm intended for a computing machine",
+      "Recognized the broader potential of general-purpose computers"
+    ],
+    "quotes": [
+      {
+        "text": "The Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves.",
+        "source": "Notes on the Analytical Engine, 1843"
+      },
+      {
+        "text": "That brain of mine is something more than mortal; as time will show.",
+        "source": "Letter to Charles Babbage, 5 July 1843"
+      }
+    ],
+    "image": {
+      "url": "/images/women/ada-lovelace-day-2018-quotes-facts-biography-2.jpg",
+      "alt": "Portrait of Ada Lovelace",
+      "credit": "Antoine Claudet",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Ada Lovelace",
+        "url": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace?utm_source=copilot.com"
+  },
+  {
+    "slug": "amelia-earhart",
+    "name": "Amelia Earhart",
+    "fullName": "Amelia Mary Earhart",
+    "born": {
+      "date": null,
+      "display": "1897"
+    },
+    "died": {
+      "date": null,
+      "display": "Presumed 1937"
+    },
+    "categories": [
+      "Aviation & Exploration"
+    ],
+    "summary": "Record-setting aviator and the first woman to fly solo across the Atlantic Ocean.",
+    "bio": "Amelia Earhart set numerous aviation records and wrote bestselling accounts of her flights. In 1932 she completed a nonstop solo transatlantic flight in a Lockheed Vega 5B, becoming the first woman to do so, and helped establish The Ninety-Nines organization for women pilots.",
+    "accomplishments": [
+      "First woman to fly solo nonstop across the Atlantic",
+      "Received the United States Distinguished Flying Cross",
+      "Helped establish The Ninety-Nines"
+    ],
+    "image": {
+      "url": "/images/women/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small.jpg",
+      "alt": "Amelia Earhart standing beneath an aircraft",
+      "credit": "Underwood & Underwood",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Amelia Earhart",
+        "url": "https://en.wikipedia.org/wiki/Amelia_Earhart"
+      },
+      {
+        "label": "Purdue University Archives — Amelia Earhart Papers",
+        "url": "https://earchives.lib.purdue.edu/digital/collection/earhart/id/266/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Amelia_Earhart?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others.",
+        "source": "Letter to George Palmer Putnam, 1937"
+      }
+    ]
+  },
+  {
+    "slug": "anne-frank",
+    "name": "Anne Frank",
+    "fullName": "Annelies Marie Frank",
+    "born": {
+      "date": null,
+      "display": "1929"
+    },
+    "died": {
+      "date": null,
+      "display": "1945"
+    },
+    "categories": [
+      "Arts & Literature",
+      "Civil Rights"
+    ],
+    "summary": "Jewish diarist whose account of hiding during the Holocaust became one of the world's most widely read books.",
+    "bio": "Anne Frank documented her family's life in hiding during the German occupation of the Netherlands from 1942 to 1944. Published after her death as The Diary of a Young Girl, her writing has helped generations understand the human impact of the Holocaust.",
+    "accomplishments": [
+      "Authored a defining firsthand account of life in hiding during the Holocaust",
+      "Became an enduring international voice against hatred and persecution"
+    ],
+    "image": {
+      "url": "/images/women/annefranktopp1600_I002455_-1.jpg",
+      "alt": "Portrait of Anne Frank",
+      "credit": "Unknown photographer / Anne Frank House collection",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Anne_Frank_passport_photo,_May_1942_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Anne Frank",
+        "url": "https://en.wikipedia.org/wiki/Anne_Frank"
+      },
+      {
+        "label": "Anne Frank House research database — 15 July 1944 diary entry",
+        "url": "https://research.annefrank.org/en/onderwerpen/06baebbd-7420-48fb-833f-6c7ee60ba232/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Anne_Frank?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "Yet I cling to them because I still believe, in spite of everything, that people are truly good at heart.",
+        "source": "Diary entry, 15 July 1944"
+      }
+    ]
+  },
+  {
+    "slug": "billie-jean-king",
+    "name": "Billie Jean King",
+    "fullName": "Billie Jean King",
+    "born": {
+      "date": null,
+      "display": "1943"
+    },
+    "died": null,
+    "categories": [
+      "Sports",
+      "Civil Rights"
+    ],
+    "summary": "Champion tennis player and lifelong advocate for gender equality and social justice.",
+    "bio": "Billie Jean King won 39 Grand Slam titles and represented the United States in Federation Cup and Wightman Cup competition. Her 1973 victory over Bobby Riggs in the Battle of the Sexes became a landmark cultural moment in the campaign for equality in sports.",
+    "accomplishments": [
+      "Won 39 Grand Slam titles",
+      "Won the 1973 Battle of the Sexes",
+      "Pioneered equal opportunity and pay in professional sports"
+    ],
+    "image": {
+      "url": "/images/women/billie-jean-king-9364876-1-402.jpg",
+      "alt": "Portrait of Billie Jean King",
+      "credit": "Claire Fridkin / WikiPortraits",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Billie_Jean_King_at_the_2026_Sundance_Film_Festival_02_(crop_2).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Billie Jean King",
+        "url": "https://en.wikipedia.org/wiki/Billie_Jean_King"
+      },
+      {
+        "label": "US Open — Billie Jean King explains “Pressure is a privilege”",
+        "url": "https://www.usopen.org/en_US/news/articles/2024-07-19/billie_jean_king_reveals_origin_of_iconic_quote_pressure_is_a_privilege.html"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Billie_Jean_King?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "Pressure is a privilege, and champions adjust.",
+        "source": "Remark to Lindsay Davenport during the 2000 Fed Cup"
+      }
+    ]
+  },
+  {
+    "slug": "clara-barton",
+    "name": "Clara Barton",
+    "fullName": "Clarissa Harlowe Barton",
+    "born": {
+      "date": null,
+      "display": "1821"
+    },
+    "died": {
+      "date": null,
+      "display": "1912"
+    },
+    "categories": [
+      "Healthcare",
+      "Civil Rights"
+    ],
+    "summary": "Pioneering nurse, humanitarian, educator, and founder of the American Red Cross.",
+    "bio": "Clara Barton provided self-taught nursing care during the American Civil War and became known for bringing supplies and aid directly to wounded soldiers. She later founded the American Red Cross and pursued humanitarian and civil rights work decades before women could vote.",
+    "accomplishments": [
+      "Founded the American Red Cross",
+      "Provided frontline nursing care during the Civil War",
+      "Advanced humanitarian relief and civil rights"
+    ],
+    "image": {
+      "url": "/images/women/Clara Barton.jpg",
+      "alt": "Portrait of Clara Barton",
+      "credit": "C. R. B. Claflin / Library of Congress",
+      "license": "No known copyright restrictions",
+      "source": "https://commons.wikimedia.org/wiki/File:(Union_nurse_Clara_Barton)_(LOC).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Clara Barton",
+        "url": "https://en.wikipedia.org/wiki/Clara_Barton"
+      },
+      {
+        "label": "U.S. National Park Service — Clara Barton",
+        "url": "https://www.nps.gov/resources/story-series.htm?id=5"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Clara_Barton?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "I may be compelled to face danger, but never fear it, and while our soldiers can stand and fight, I can stand and feed and nurse them.",
+        "source": "Statement on her Civil War battlefield service"
+      }
+    ]
+  },
+  {
+    "slug": "eleanor-roosevelt",
+    "name": "Eleanor Roosevelt",
+    "fullName": "Anna Eleanor Roosevelt",
+    "born": {
+      "date": null,
+      "display": "1884"
+    },
+    "died": {
+      "date": null,
+      "display": "1962"
+    },
+    "categories": [
+      "Politics & Law",
+      "Civil Rights"
+    ],
+    "summary": "Diplomat, activist, and longest-serving First Lady of the United States.",
+    "bio": "Eleanor Roosevelt transformed the public role of First Lady during Franklin D. Roosevelt's four terms. She later served as a United States delegate to the United Nations General Assembly and became a central international advocate for human rights.",
+    "accomplishments": [
+      "Longest-serving First Lady of the United States",
+      "Served as a United States delegate to the United Nations",
+      "Helped shape the modern international human rights movement"
+    ],
+    "image": {
+      "url": "/images/women/eleanor roosevelt.jpg",
+      "alt": "Portrait of Eleanor Roosevelt",
+      "credit": "FDR Presidential Library & Museum",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_at_the_United_Nations,_circa_1946-1947_(3x4_cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Eleanor Roosevelt",
+        "url": "https://en.wikipedia.org/wiki/Eleanor_Roosevelt"
+      },
+      {
+        "label": "Eleanor Roosevelt Papers Project — Quotations",
+        "url": "https://erpapers.columbian.gwu.edu/quotations-eleanor-roosevelt"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Eleanor_Roosevelt?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "In political life I have never felt that anything really mattered but the satisfaction of knowing that you stood for the things in which you believed, and had done the best you could.",
+        "source": "My Day column, 8 November 1944"
+      }
+    ]
+  },
+  {
+    "slug": "eva-peron",
+    "name": "Eva Perón",
+    "fullName": "María Eva Duarte de Perón",
+    "born": {
+      "date": null,
+      "display": "1919"
+    },
+    "died": {
+      "date": null,
+      "display": "1952"
+    },
+    "categories": [
+      "Politics & Law",
+      "Civil Rights"
+    ],
+    "summary": "First Lady of Argentina who championed labor rights, social welfare, and women's suffrage.",
+    "bio": "Eva Perón rose from poverty to become an influential figure in Argentine public life. She advocated for workers, led a major charitable foundation, supported women's suffrage, and founded the Female Peronist Party, the nation's first large-scale women's political party.",
+    "accomplishments": [
+      "Championed women's suffrage in Argentina",
+      "Founded the Eva Perón Foundation",
+      "Created the Female Peronist Party"
+    ],
+    "image": {
+      "url": "/images/women/eva peron.jpg",
+      "alt": "Portrait of Eva Perón",
+      "credit": "Annemarie Heinrich",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Eva_Duarte_by_Annemarie_Heinrich,_1944_(later_Eva_P%C3%A9ron).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Eva Perón",
+        "url": "https://en.wikipedia.org/wiki/Eva_Per%C3%B3n"
+      },
+      {
+        "label": "Educ.ar — Eva Perón speech transcript, 22 August 1951",
+        "url": "https://backend.educ.ar/refactor_resource/get-attachment/24404?disposition=inline"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Eva_Per%C3%B3n?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "It is a great emotion for me to find myself once again with the descamisados, as on October 17 and on every occasion when the people were present.",
+        "source": "Open Cabildo of Justicialism speech, 22 August 1951; translated from Spanish"
+      }
+    ]
+  },
+  {
+    "slug": "florence-nightingale",
+    "name": "Florence Nightingale",
+    "fullName": "Florence Nightingale",
+    "born": {
+      "date": null,
+      "display": "1820"
+    },
+    "died": {
+      "date": null,
+      "display": "1910"
+    },
+    "categories": [
+      "Healthcare",
+      "Science & Technology"
+    ],
+    "summary": "Social reformer, statistician, and founder of modern professional nursing.",
+    "bio": "Florence Nightingale organized and improved care for wounded soldiers during the Crimean War. She used evidence and statistics to press for public health reform and established a nursing school at St Thomas' Hospital in 1860, helping make nursing a respected profession.",
+    "accomplishments": [
+      "Established a foundational professional nursing school",
+      "Reformed military and public health practices",
+      "Pioneered the use of statistics in healthcare advocacy"
+    ],
+    "image": {
+      "url": "/images/women/Florence_Nightingale_(H_Hering_NPG_x82368).jpg",
+      "alt": "Portrait of Florence Nightingale",
+      "credit": "Henry Hering",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_(H_Hering_NPG_x82368).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Florence Nightingale",
+        "url": "https://en.wikipedia.org/wiki/Florence_Nightingale"
+      },
+      {
+        "label": "Project Gutenberg — Notes on Nursing",
+        "url": "https://www.gutenberg.org/cache/epub/12439/pg12439.html"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Florence_Nightingale?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "The very first canon of nursing, the first and the last thing upon which a nurse’s attention must be fixed, the first essential to a patient, without which all the rest you can do for him is as nothing, with which I had almost said you may leave all the rest alone, is this: TO KEEP THE AIR HE BREATHES AS PURE AS THE EXTERNAL AIR, WITHOUT CHILLING HIM.",
+        "source": "Notes on Nursing: What It Is, and What It Is Not, 1860"
+      }
+    ]
+  },
+  {
+    "slug": "frida-kahlo",
+    "name": "Frida Kahlo",
+    "fullName": "Magdalena Carmen Frida Kahlo y Calderón",
+    "born": {
+      "date": null,
+      "display": "1907"
+    },
+    "died": {
+      "date": null,
+      "display": "1954"
+    },
+    "categories": [
+      "Arts & Literature"
+    ],
+    "summary": "Mexican painter whose vivid self-portraits explored identity, culture, gender, and chronic pain.",
+    "bio": "Frida Kahlo drew on Mexican popular culture, autobiography, realism, and fantasy to create an unmistakable body of work. Her portraits explored identity, postcolonialism, class, race, gender, disability, and her own experience of chronic pain.",
+    "accomplishments": [
+      "Created an internationally influential body of self-portraiture",
+      "Centered Mexican identity and popular culture in modern art",
+      "Brought candid representations of pain and disability into visual culture"
+    ],
+    "image": {
+      "url": "/images/women/frida-khalo.jpg",
+      "alt": "Portrait of Frida Kahlo",
+      "credit": "Guillermo Kahlo",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Frida Kahlo",
+        "url": "https://en.wikipedia.org/wiki/Frida_Kahlo"
+      },
+      {
+        "label": "Smithsonian Archives of American Art — Frida Kahlo letter to Diego Rivera",
+        "url": "https://www.aaa.si.edu/collections/items/detail/frida-kahlo-letter-to-diego-rivera-739"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Frida_Kahlo?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "Diego my love—Remember that once you finish the fresco we will be together forever once and for all, without arguments or anything, only to love one another.",
+        "source": "Letter to Diego Rivera, 1940; English translation"
+      }
+    ]
+  },
+  {
+    "slug": "grace-hopper",
+    "name": "Grace Hopper",
+    "fullName": "Grace Brewster Murray Hopper",
+    "born": {
+      "date": null,
+      "display": "1906"
+    },
+    "died": {
+      "date": null,
+      "display": "1992"
+    },
+    "categories": [
+      "Science & Technology"
+    ],
+    "summary": "Computer scientist and U.S. Navy rear admiral who pioneered machine-independent programming.",
+    "bio": "Grace Hopper was among the first programmers of the Harvard Mark I and developed one of the earliest linkers. Her theory of machine-independent programming led to FLOW-MATIC and helped shape COBOL, one of the earliest widely used high-level programming languages.",
+    "accomplishments": [
+      "Programmed the Harvard Mark I",
+      "Developed one of the first linkers",
+      "Pioneered machine-independent programming and influenced COBOL"
+    ],
+    "image": {
+      "url": "/images/women/Grace-Murray-Hopper-Bureau-of-Ordnance-Computation-1946.jpg",
+      "alt": "Grace Hopper working with computing equipment",
+      "credit": "James S. Davis / U.S. Navy",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Grace Hopper",
+        "url": "https://en.wikipedia.org/wiki/Grace_Hopper"
+      },
+      {
+        "label": "Smithsonian — Grace Hopper oral-history interview",
+        "url": "https://www.si.edu/media/NMAH/NMAH-AC0196_hopp680700.pdf"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Grace_Hopper?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "You see by '51 I'm beginning to work on our first compiler.",
+        "source": "Smithsonian computer oral-history interview, July 1968"
+      }
+    ]
+  },
+  {
+    "slug": "harriet-tubman",
+    "name": "Harriet Tubman",
+    "fullName": "Harriet Tubman",
+    "born": {
+      "date": null,
+      "display": "c. 1822"
+    },
+    "died": {
+      "date": null,
+      "display": "1913"
+    },
+    "categories": [
+      "Civil Rights"
+    ],
+    "summary": "Abolitionist who escaped slavery and repeatedly returned to guide others to freedom.",
+    "bio": "Harriet Tubman escaped slavery and made about 13 missions through the Underground Railroad to rescue approximately 70 enslaved people, including family and friends. During the Civil War she served the Union as a scout and spy, and later advocated for women's suffrage.",
+    "accomplishments": [
+      "Guided approximately 70 people to freedom",
+      "Served the Union Army as a scout and spy",
+      "Advocated for women's suffrage"
+    ],
+    "quotes": [
+      {
+        "text": "I had reasoned this out in my mind; there was one of two things I had a right to, liberty or death.",
+        "source": "Sarah H. Bradford, Harriet: The Moses of Her People, 1886"
+      }
+    ],
+    "image": {
+      "url": "/images/women/HarrietTubman-PhotofromBill.jpg",
+      "alt": "Portrait of Harriet Tubman",
+      "credit": "Benjamin F. Powelson",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Harriet Tubman",
+        "url": "https://en.wikipedia.org/wiki/Harriet_Tubman"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Harriet_Tubman?utm_source=copilot.com"
+  },
+  {
+    "slug": "hedy-lamarr",
+    "name": "Hedy Lamarr",
+    "fullName": "Hedwig Eva Maria Kiesler",
+    "born": {
+      "date": null,
+      "display": "1914"
+    },
+    "died": {
+      "date": null,
+      "display": "2000"
+    },
+    "categories": [
+      "Science & Technology",
+      "Arts & Literature"
+    ],
+    "summary": "Actor and inventor who co-developed an early frequency-hopping communication system.",
+    "bio": "Alongside a successful film career, Hedy Lamarr co-invented a frequency-hopping spread-spectrum system intended for torpedo guidance. Related spread-spectrum concepts later became important to wireless communications, and she was inducted into the National Inventors Hall of Fame.",
+    "accomplishments": [
+      "Co-invented an early frequency-hopping communication system",
+      "Built a 28-year film career",
+      "Inducted into the National Inventors Hall of Fame"
+    ],
+    "image": {
+      "url": "/images/women/hedy_lamarr-publicity.jpg",
+      "alt": "Publicity portrait of Hedy Lamarr",
+      "credit": "Unknown studio photographer",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Hedy Lamarr",
+        "url": "https://en.wikipedia.org/wiki/Hedy_Lamarr"
+      },
+      {
+        "label": "Forbes — Hedy Lamarr interview recording history",
+        "url": "https://www.forbes.com/sites/hilarybrueck/2017/04/30/the-most-beautiful-girl-in-the-world-was-a-brilliant-inventor-who-changed-our-lives/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hedy_Lamarr?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "I can't explain, I have an inventive mind. Inventions are easy for me to do.",
+        "source": "Interview with Fleming Meeks for Forbes, 1990"
+      }
+    ]
+  },
+  {
+    "slug": "helen-keller",
+    "name": "Helen Keller",
+    "fullName": "Helen Adams Keller",
+    "born": {
+      "date": null,
+      "display": "1880"
+    },
+    "died": {
+      "date": null,
+      "display": "1968"
+    },
+    "categories": [
+      "Education & Advocacy",
+      "Civil Rights"
+    ],
+    "summary": "Author and disability rights advocate who became the first deafblind person to earn a Bachelor of Arts degree.",
+    "bio": "Helen Keller became an internationally known author, lecturer, and campaigner. She worked for the American Foundation for the Blind for more than four decades and advocated across the world for disability rights, women's suffrage, labor rights, and peace.",
+    "accomplishments": [
+      "First deafblind person to earn a Bachelor of Arts degree",
+      "Advanced disability rights in the United States and abroad",
+      "Campaigned for suffrage, labor rights, and peace"
+    ],
+    "image": {
+      "url": "/images/women/Helen_KellerA.jpg",
+      "alt": "Portrait of Helen Keller",
+      "credit": "Unknown photographer / Library of Congress",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Helen_Keller_(circa_1904).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Helen Keller",
+        "url": "https://en.wikipedia.org/wiki/Helen_Keller"
+      },
+      {
+        "label": "Project Gutenberg — The Story of My Life",
+        "url": "https://www.gutenberg.org/cache/epub/2397/pg2397.html"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Helen_Keller?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "The most important day I remember in all my life is the one on which my teacher, Anne Mansfield Sullivan, came to me.",
+        "source": "The Story of My Life, chapter 4, 1903"
+      },
+      {
+        "text": "That living word awakened my soul, gave it light, hope, joy, set it free!",
+        "source": "The Story of My Life, chapter 4, 1903"
+      }
+    ]
+  },
+  {
+    "slug": "jane-goodall",
+    "name": "Jane Goodall",
+    "fullName": "Dame Jane Morris Goodall",
+    "born": {
+      "date": null,
+      "display": "1934"
+    },
+    "died": {
+      "date": "2025-10-01",
+      "display": "2025"
+    },
+    "categories": [
+      "Science & Technology",
+      "Environment"
+    ],
+    "summary": "Primatologist whose long-term study transformed scientific understanding of wild chimpanzees.",
+    "bio": "Jane Goodall began studying chimpanzees at Gombe Stream in 1960 and built the world's longest-running field study of wild chimpanzee social and family life. She later became a leading advocate for conservation, animal welfare, and environmental education.",
+    "accomplishments": [
+      "Established a landmark long-term study of wild chimpanzees",
+      "Transformed the study of primate behavior",
+      "Named a United Nations Messenger of Peace"
+    ],
+    "image": {
+      "url": "/images/women/jane_goodall.jpg",
+      "alt": "Portrait of Jane Goodall",
+      "credit": "U.S. Department of State",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department%27s_Global_Health_Diplomacy_Director_Jordan_in_Washington_(22365513310)_(2)_(cropped_2).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Jane Goodall",
+        "url": "https://en.wikipedia.org/wiki/Jane_Goodall"
+      },
+      {
+        "label": "United Nations Human Rights — Jane Goodall Institute submission",
+        "url": "https://www.ohchr.org/sites/default/files/documents/issues/development/sr/cfi-2024-reports/subm-2024-sr-development-cso-roots-shoots-global-jane-goodall-inst-obal.pdf"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jane_Goodall?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "We are seeing the consequences of the crazy idea that there can be unlimited economic development on a planet with finite natural resources and a growing population. Decisions are made for short-term gain at the expense of protecting the environment for the future.",
+        "source": "Jane Goodall Institute and Roots & Shoots Global submission to the United Nations, 2024"
+      }
+    ]
+  },
+  {
+    "slug": "madeleine-albright",
+    "name": "Madeleine Albright",
+    "fullName": "Madeleine Jana Korbel Albright",
+    "born": {
+      "date": null,
+      "display": "1937"
+    },
+    "died": {
+      "date": null,
+      "display": "2022"
+    },
+    "categories": [
+      "Politics & Law",
+      "Education & Advocacy"
+    ],
+    "summary": "Diplomat and scholar who became the first woman to serve as United States Secretary of State.",
+    "bio": "Madeleine Albright served as U.S. ambassador to the United Nations before becoming Secretary of State from 1997 to 2001. She later taught diplomacy at Georgetown University and received the Presidential Medal of Freedom in 2012.",
+    "accomplishments": [
+      "First woman to serve as United States Secretary of State",
+      "Served as U.S. ambassador to the United Nations",
+      "Received the Presidential Medal of Freedom"
+    ],
+    "image": {
+      "url": "/images/women/madeline_albright_3-2.jpg",
+      "alt": "Portrait of Madeleine Albright",
+      "credit": "U.S. Department of State",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Secalbright.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Madeleine Albright",
+        "url": "https://en.wikipedia.org/wiki/Madeleine_Albright"
+      },
+      {
+        "label": "Miller Center — Madeleine K. Albright Oral History",
+        "url": "https://millercenter.org/the-presidency/presidential-oral-histories/madeleine-k-albright-oral-history"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Madeleine_Albright?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "The institutional conflict is inevitable, so this magnifies the importance of personal relationships and of informal decision-making procedures.",
+        "source": "Clinton Presidential History Project oral-history interview, Miller Center"
+      },
+      {
+        "text": "I used to say all the time that they weren’t hearings, they were yellings.",
+        "source": "Clinton Presidential History Project oral-history interview, Miller Center"
+      }
+    ]
+  },
+  {
+    "slug": "malala-yousafzai",
+    "name": "Malala Yousafzai",
+    "fullName": "Malala Yousafzai",
+    "born": {
+      "date": null,
+      "display": "1997"
+    },
+    "died": null,
+    "categories": [
+      "Education & Advocacy",
+      "Civil Rights"
+    ],
+    "summary": "Pakistani education activist and the youngest Nobel Prize laureate.",
+    "bio": "Malala Yousafzai became a global advocate for girls' education after speaking out against restrictions in Pakistan's Swat Valley. Her human rights work grew into an international movement and earned her the Nobel Peace Prize.",
+    "accomplishments": [
+      "Became the youngest Nobel Prize laureate",
+      "Built an international movement for girls' education",
+      "Co-founded the Malala Fund"
+    ],
+    "image": {
+      "url": "/images/women/Malala-Yousafzai_Antonio-Olmos.jpg",
+      "alt": "Portrait of Malala Yousafzai",
+      "credit": "flowcomm",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_2023_portrait_2x3.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Malala Yousafzai",
+        "url": "https://en.wikipedia.org/wiki/Malala_Yousafzai"
+      },
+      {
+        "label": "Nobel Prize — Malala Yousafzai Nobel Lecture",
+        "url": "https://www.nobelprize.org/prizes/peace/2014/yousafzai/lecture/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Malala_Yousafzai?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "I tell my story, not because it is unique, but because it is not.",
+        "source": "Nobel Peace Prize lecture, Oslo, 10 December 2014"
+      },
+      {
+        "text": "I had two options. One was to remain silent and wait to be killed. And the second was to speak up and then be killed. I chose the second one. I decided to speak up.",
+        "source": "Nobel Peace Prize lecture, Oslo, 10 December 2014"
+      },
+      {
+        "text": "This award is not just for me. It is for those forgotten children who want education. It is for those frightened children who want peace. It is for those voiceless children who want change.",
+        "source": "Nobel Peace Prize lecture, Oslo, 10 December 2014"
+      }
+    ]
+  },
+  {
+    "slug": "manuela-saenz",
+    "name": "Manuela Sáenz",
+    "fullName": "Manuela Sáenz de Vergara y Aizpuru",
+    "born": {
+      "date": null,
+      "display": "1797"
+    },
+    "died": {
+      "date": null,
+      "display": "1856"
+    },
+    "categories": [
+      "Politics & Law",
+      "Civil Rights"
+    ],
+    "summary": "South American revolutionary who supported independence and advocated for women's rights.",
+    "bio": "Manuela Sáenz gathered intelligence, distributed political materials, and actively supported South American independence. She received the Order of the Sun for her service and saved Simón Bolívar from an assassination attempt in 1828.",
+    "accomplishments": [
+      "Provided intelligence and organizing support to independence movements",
+      "Received the Order of the Sun",
+      "Prevented an assassination attempt against Simón Bolívar"
+    ],
+    "image": {
+      "url": "/images/women/manuela saenz.jpeg",
+      "alt": "Portrait of Manuela Sáenz",
+      "credit": "Marco Salas Yepes, after Tecla Walker",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Manuela_S%C3%A1enz.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Manuela Sáenz",
+        "url": "https://en.wikipedia.org/wiki/Manuela_S%C3%A1enz"
+      },
+      {
+        "label": "The Ecuador Reader — “Manuela Sáenz: Americana or Quiteña?”",
+        "url": "https://www.dukeupress.edu/the-ecuador-reader"
+      },
+      {
+        "label": "Ecuadorian Academy of Language — Manuela Sáenz biography and works",
+        "url": "https://eladd.org/autoras-ilustres/manuela-saenz/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Manuela_S%C3%A1enz?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "What I am is, with a formidable character, a friend to my friends and an enemy to my enemies.",
+        "source": "Letter to Ecuadorian president Juan José Flores, 6 May 1834; translated from Spanish"
+      }
+    ]
+  },
+  {
+    "slug": "margaret-hamilton",
+    "name": "Margaret Hamilton",
+    "fullName": "Margaret Heafield Hamilton",
+    "born": {
+      "date": null,
+      "display": "1936"
+    },
+    "died": null,
+    "categories": [
+      "Science & Technology"
+    ],
+    "summary": "Computer scientist who led development of the onboard flight software for NASA's Apollo program.",
+    "bio": "Margaret Hamilton directed the Software Engineering Division at the MIT Instrumentation Laboratory, which built the Apollo program's onboard flight software. Her work helped establish software engineering as a rigorous discipline and supported the missions that landed people on the Moon.",
+    "accomplishments": [
+      "Led development of Apollo onboard flight software",
+      "Helped establish software engineering as a discipline",
+      "Received the Presidential Medal of Freedom"
+    ],
+    "image": {
+      "url": "/images/women/margaret-hamilton.jpg",
+      "alt": "Portrait of Margaret Hamilton",
+      "credit": "Daphne Weld Nichols",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_1995.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Margaret Hamilton",
+        "url": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+      },
+      {
+        "label": "MIT News — Margaret Hamilton recalls Apollo 11",
+        "url": "https://news.mit.edu/2009/apollo-vign-0717"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "There was no second chance. We knew that. We took our work seriously, many of us beginning this journey while still in our 20s.",
+        "source": "MIT News retrospective on Apollo 11, 17 July 2009"
+      },
+      {
+        "text": "We had to find a way and we did. Looking back, we were the luckiest people in the world; there was no choice but to be pioneers; no time to be beginners.",
+        "source": "MIT News retrospective on Apollo 11, 17 July 2009"
+      },
+      {
+        "text": "It quickly became clear that the software was not only informing everyone that there was a hardware-related problem, but that the software was compensating for it.",
+        "source": "MIT News retrospective on Apollo 11, 17 July 2009"
+      }
+    ]
+  },
+  {
+    "slug": "margaret-thatcher",
+    "name": "Margaret Thatcher",
+    "fullName": "Margaret Hilda Thatcher",
+    "born": {
+      "date": null,
+      "display": "1925"
+    },
+    "died": {
+      "date": null,
+      "display": "2013"
+    },
+    "categories": [
+      "Politics & Law"
+    ],
+    "summary": "First woman to serve as Prime Minister of the United Kingdom.",
+    "bio": "Margaret Thatcher led the Conservative Party from 1975 to 1990 and served as prime minister from 1979 to 1990. She was the longest-serving British prime minister of the twentieth century, and her economic and political program became known as Thatcherism.",
+    "accomplishments": [
+      "First woman to serve as United Kingdom prime minister",
+      "Longest-serving British prime minister of the twentieth century",
+      "Led the Conservative Party for 15 years"
+    ],
+    "image": {
+      "url": "/images/women/margaret-thatcher-and-that-iconic-hairstyle-jpg.jpg",
+      "alt": "Portrait of Margaret Thatcher",
+      "credit": "Begoon, derivative work",
+      "license": "Copyrighted free use",
+      "source": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_stock_portrait_(2)_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Margaret Thatcher",
+        "url": "https://en.wikipedia.org/wiki/Margaret_Thatcher"
+      },
+      {
+        "label": "Margaret Thatcher Foundation — 1980 Conservative Party Conference speech",
+        "url": "https://www.margaretthatcher.org/document/104431"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Margaret_Thatcher?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "You turn if you want to. The lady's not for turning.",
+        "source": "Conservative Party Conference speech, Brighton, 10 October 1980"
+      },
+      {
+        "text": "When the State grows too powerful people feel that they count for less and less.",
+        "source": "Conservative Party Conference speech, Brighton, 10 October 1980"
+      },
+      {
+        "text": "Without a healthy economy we cannot have a healthy society. Without a healthy society the economy will not stay healthy for long.",
+        "source": "Conservative Party Conference speech, Brighton, 10 October 1980"
+      }
+    ]
+  },
+  {
+    "slug": "marie-curie",
+    "name": "Marie Curie",
+    "fullName": "Maria Salomea Skłodowska-Curie",
+    "born": {
+      "date": null,
+      "display": "1867"
+    },
+    "died": {
+      "date": null,
+      "display": "1934"
+    },
+    "categories": [
+      "Science & Technology",
+      "Healthcare"
+    ],
+    "summary": "Physicist and chemist whose pioneering research transformed the study of radioactivity.",
+    "bio": "Marie Curie coined the term radioactivity, discovered polonium and radium, and became the first woman to win a Nobel Prize. She was the first person to win two Nobel Prizes and remains the only person honored in two different scientific fields.",
+    "accomplishments": [
+      "Discovered polonium and radium",
+      "First woman to win a Nobel Prize",
+      "Only person awarded Nobel Prizes in two scientific fields"
+    ],
+    "quotes": [
+      {
+        "text": "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.",
+        "source": "Pierre Curie, 1923"
+      },
+      {
+        "text": "In science, we should be interested in things, not persons.",
+        "source": "Marie Mattingly Meloney, preface to Pierre Curie, 1923"
+      }
+    ],
+    "image": {
+      "url": "/images/women/Mariecurie.jpg",
+      "alt": "Portrait of Marie Curie",
+      "credit": "Henri Manuel",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Marie Curie",
+        "url": "https://en.wikipedia.org/wiki/Marie_Curie"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Marie_Curie?utm_source=copilot.com"
+  },
+  {
+    "slug": "marjorie-post",
+    "name": "Marjorie Merriweather Post",
+    "fullName": "Marjorie Merriweather Post",
+    "born": {
+      "date": null,
+      "display": "1887"
+    },
+    "died": {
+      "date": null,
+      "display": "1973"
+    },
+    "categories": [
+      "Business & Philanthropy",
+      "Arts & Literature"
+    ],
+    "summary": "Business leader, philanthropist, and owner of General Foods.",
+    "bio": "Marjorie Merriweather Post helped expand her inherited food company into General Foods through acquisitions that included well-known American brands. She also became a major philanthropist and art collector, and her Washington estate now operates as Hillwood museum.",
+    "accomplishments": [
+      "Helped build General Foods into a major corporation",
+      "Supported extensive philanthropic work",
+      "Created a significant collection of pre-revolutionary Russian art"
+    ],
+    "image": {
+      "url": "/images/women/Marjorie-Merriweather-Post-photo-1929.jpg",
+      "alt": "Portrait of Marjorie Merriweather Post",
+      "credit": "C. M. Stieglitz / New York World-Telegram",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Marjorie_Merriweather_Post_Hutton_Davies_NYWTS.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Marjorie Merriweather Post",
+        "url": "https://en.wikipedia.org/wiki/Marjorie_Merriweather_Post"
+      },
+      {
+        "label": "Marjorie Merriweather Post official biography",
+        "url": "https://marjoriepost.com/about/"
+      },
+      {
+        "label": "University of Michigan — Post Family Papers, 1882–1973",
+        "url": "https://findingaids.lib.umich.edu/catalog/umich-bhl-85519"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Marjorie_Merriweather_Post?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "There is nothing to equal it. Not even on Fifth Avenue.",
+        "source": "Letter to attorney F. B. Ransom describing her Harlem townhouse and salon, 1913"
+      }
+    ]
+  },
+  {
+    "slug": "mary-edwards-walker",
+    "name": "Mary Edwards Walker",
+    "fullName": "Mary Edwards Walker",
+    "born": {
+      "date": null,
+      "display": "1832"
+    },
+    "died": {
+      "date": null,
+      "display": "1919"
+    },
+    "categories": [
+      "Healthcare",
+      "Civil Rights"
+    ],
+    "summary": "Surgeon, abolitionist, prisoner of war, and the only woman awarded the Medal of Honor.",
+    "bio": "Mary Edwards Walker earned a medical degree and volunteered with the Union Army during the Civil War despite resistance to women physicians. She treated soldiers and civilians, was captured as a prisoner of war, and later campaigned for women's rights and dress reform.",
+    "accomplishments": [
+      "Only woman awarded the Medal of Honor",
+      "Served as a Civil War surgeon",
+      "Continued treating people after being captured as a prisoner of war"
+    ],
+    "image": {
+      "url": "/images/women/mary-e-walker-1817_38d4cbde7de4d08ce9e61da53e627f0d.jpg",
+      "alt": "Portrait of Mary Edwards Walker",
+      "credit": "C. M. Bell / Library of Congress",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Dr._Mary_Walker_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Mary Edwards Walker",
+        "url": "https://en.wikipedia.org/wiki/Mary_Edwards_Walker"
+      },
+      {
+        "label": "Internet Archive — Hit: Essays on Women’s Rights",
+        "url": "https://ia802800.us.archive.org/30/items/60440620R.nlm.nih.gov/60440620R_djvu.txt"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mary_Edwards_Walker?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "There cannot be love without respect, and there cannot be respect unless there is implicit confidence.",
+        "source": "Hit: Essays on Women’s Rights, “Love and Marriage,” 1871"
+      },
+      {
+        "text": "True conjugal companionship is the greatest blessing of which mortals can conceive in this life—to know that there is supreme interest in one individual, and that it is reciprocated.",
+        "source": "Hit: Essays on Women’s Rights, “Love and Marriage,” 1871"
+      },
+      {
+        "text": "Every faculty of our being is capable of cultivation and of restraint—and our reason and observation are for the purpose of assisting and inducing action in effecting these designs, of correcting the evil, and cultivating the good.",
+        "source": "Hit: Essays on Women’s Rights, “Love and Marriage,” 1871"
+      }
+    ]
+  },
+  {
+    "slug": "mary-shelley",
+    "name": "Mary Shelley",
+    "fullName": "Mary Wollstonecraft Shelley",
+    "born": {
+      "date": null,
+      "display": "1797"
+    },
+    "died": {
+      "date": null,
+      "display": "1851"
+    },
+    "categories": [
+      "Arts & Literature"
+    ],
+    "summary": "Novelist whose Frankenstein became a foundational work of modern science fiction.",
+    "bio": "Mary Shelley wrote Frankenstein; or, The Modern Prometheus, published in 1818 and widely considered an early work of science fiction. She also wrote novels, essays, biographies, and travel literature and preserved the work of Percy Bysshe Shelley.",
+    "accomplishments": [
+      "Authored Frankenstein",
+      "Helped establish the literary tradition of science fiction",
+      "Edited and promoted Percy Bysshe Shelley's writing"
+    ],
+    "image": {
+      "url": "/images/women/mary-shelley.png",
+      "alt": "Portrait of Mary Shelley",
+      "credit": "Richard Rothwell",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:RothwellMaryShelley.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Mary Shelley",
+        "url": "https://en.wikipedia.org/wiki/Mary_Shelley"
+      },
+      {
+        "label": "Project Gutenberg — Frankenstein, 1831 introduction",
+        "url": "https://www.gutenberg.org/files/42324/42324-h/42324-h.htm"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mary_Shelley?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "Invention, it must be humbly admitted, does not consist in creating out of void, but out of chaos; the materials must, in the first place, be afforded: it can give form to dark, shapeless substances, but cannot bring into being the substance itself.",
+        "source": "Introduction to the revised edition of Frankenstein, 1831"
+      }
+    ]
+  },
+  {
+    "slug": "condoleezza-rice",
+    "name": "Condoleezza Rice",
+    "fullName": "Condoleezza Rice",
+    "born": {
+      "date": null,
+      "display": "1954"
+    },
+    "died": null,
+    "categories": [
+      "Politics & Law",
+      "Education & Advocacy"
+    ],
+    "summary": "Diplomat, political scientist, professor, and the first Black woman to serve as United States Secretary of State.",
+    "bio": "Condoleezza Rice served as U.S. National Security Advisor from 2001 to 2005 and Secretary of State from 2005 to 2009. She was the first woman to hold the National Security Advisor role and the first Black woman to serve as Secretary of State.",
+    "accomplishments": [
+      "First woman to serve as U.S. National Security Advisor",
+      "First Black woman to serve as U.S. Secretary of State",
+      "Led and taught at Stanford University"
+    ],
+    "image": {
+      "url": "/images/women/Rice_Condoleezza_PROMOPIC.jpg",
+      "alt": "Portrait of Condoleezza Rice",
+      "credit": "U.S. Department of State",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Condoleezza_Rice_cropped.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Condoleezza Rice",
+        "url": "https://en.wikipedia.org/wiki/Condoleezza_Rice"
+      },
+      {
+        "label": "U.S. Department of State archive — Boston College commencement address",
+        "url": "https://2001-2009.state.gov/secretary/rm/2006/66630.htm"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Condoleezza_Rice?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "Education is transformational. It literally changes lives.",
+        "source": "Commencement Address at Boston College, 22 May 2006"
+      }
+    ]
+  },
+  {
+    "slug": "rosa-parks",
+    "name": "Rosa Parks",
+    "fullName": "Rosa Louise McCauley Parks",
+    "born": {
+      "date": null,
+      "display": "1913"
+    },
+    "died": {
+      "date": null,
+      "display": "2005"
+    },
+    "categories": [
+      "Civil Rights"
+    ],
+    "summary": "Civil rights activist whose resistance helped launch the Montgomery bus boycott.",
+    "bio": "Rosa Parks refused a bus driver's order to give up her seat to a white passenger in Montgomery in 1955. Her arrest helped mobilize a year-long bus boycott and made her an enduring international symbol of resistance to racial segregation.",
+    "accomplishments": [
+      "Catalyzed the Montgomery bus boycott",
+      "Became an international symbol of the civil rights movement",
+      "Recognized by Congress as the mother of the freedom movement"
+    ],
+    "image": {
+      "url": "/images/women/Rosa-L.-Parks-.jpg",
+      "alt": "Portrait of Rosa Parks",
+      "credit": "Unknown photographer / Library of Congress",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks,_November_1956_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Rosa Parks",
+        "url": "https://en.wikipedia.org/wiki/Rosa_Parks"
+      },
+      {
+        "label": "Internet Archive — Rosa Parks: My Story",
+        "url": "https://archive.org/details/rosaparksmystory00park"
+      },
+      {
+        "label": "Academy of Achievement — Rosa Parks interview",
+        "url": "https://achievement.org/achiever/rosa-parks/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rosa_Parks?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "No, the only tired I was, was tired of giving in.",
+        "source": "Rosa Parks: My Story, with Jim Haskins, 1992, p. 116"
+      },
+      {
+        "text": "All of us should be free and equal and have equal opportunity and that is what I’m trying to instill and encourage and inspire young people to reach their highest potential.",
+        "source": "Academy of Achievement interview, 1995"
+      }
+    ]
+  },
+  {
+    "slug": "rosalind-franklin",
+    "name": "Rosalind Franklin",
+    "fullName": "Rosalind Elsie Franklin",
+    "born": {
+      "date": null,
+      "display": "1920"
+    },
+    "died": {
+      "date": null,
+      "display": "1958"
+    },
+    "categories": [
+      "Science & Technology",
+      "Healthcare"
+    ],
+    "summary": "Chemist and X-ray crystallographer whose work was central to understanding DNA's structure.",
+    "bio": "Rosalind Franklin used X-ray crystallography to investigate DNA, RNA, viruses, coal, and graphite. Her precise experimental work, including the evidence captured in Photo 51, was essential to identifying DNA's double-helix structure.",
+    "accomplishments": [
+      "Produced crucial X-ray evidence of DNA's structure",
+      "Advanced understanding of RNA and viruses",
+      "Made important contributions to the study of coal and graphite"
+    ],
+    "quotes": [
+      {
+        "text": "Science and everyday life cannot and should not be separated.",
+        "source": "Letter to Ellis Franklin, 1940"
+      },
+      {
+        "text": "In my view, all that is necessary for faith is the belief that by doing our best we shall succeed in our aims: the improvement of mankind.",
+        "source": "Letter to Ellis Franklin, 1940"
+      }
+    ],
+    "image": {
+      "url": "/images/women/Rosalind_Franklin_NIH_1024.jpg",
+      "alt": "Portrait of Rosalind Franklin",
+      "credit": "MRC Laboratory of Molecular Biology",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin_(retouched).jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Rosalind Franklin",
+        "url": "https://en.wikipedia.org/wiki/Rosalind_Franklin"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rosalind_Franklin?utm_source=copilot.com"
+  },
+  {
+    "slug": "ruth-bader-ginsburg",
+    "name": "Ruth Bader Ginsburg",
+    "fullName": "Joan Ruth Bader Ginsburg",
+    "born": {
+      "date": null,
+      "display": "1933"
+    },
+    "died": {
+      "date": null,
+      "display": "2020"
+    },
+    "categories": [
+      "Politics & Law",
+      "Civil Rights"
+    ],
+    "summary": "Jurist and equality advocate who served on the United States Supreme Court for 27 years.",
+    "bio": "Ruth Bader Ginsburg built a landmark legal career challenging sex discrimination before joining the Supreme Court in 1993. She was the second woman and first Jewish woman to serve on the Court and became known for influential opinions and dissents.",
+    "accomplishments": [
+      "Built a landmark legal strategy against sex discrimination",
+      "Second woman to serve on the U.S. Supreme Court",
+      "First Jewish woman to serve on the Court"
+    ],
+    "image": {
+      "url": "/images/women/ruth-bader-ginsburg.jpg",
+      "alt": "Portrait of Ruth Bader Ginsburg",
+      "credit": "Steve Petteway / Supreme Court of the United States",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_2016_portrait.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Ruth Bader Ginsburg",
+        "url": "https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg"
+      },
+      {
+        "label": "Justia — Ledbetter v. Goodyear Tire & Rubber Co.",
+        "url": "https://supreme.justia.com/cases/federal/us/550/618/"
+      },
+      {
+        "label": "Justia — Shelby County v. Holder",
+        "url": "https://supreme.justia.com/cases/federal/us/570/529/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "The Court does not comprehend, or is indifferent to, the insidious way in which women can be victims of pay discrimination.",
+        "source": "Dissenting opinion, Ledbetter v. Goodyear Tire & Rubber Co., 29 May 2007"
+      },
+      {
+        "text": "Throwing out preclearance when it has worked and is continuing to work to stop discriminatory changes is like throwing away your umbrella in a rainstorm because you are not getting wet.",
+        "source": "Dissenting opinion, Shelby County v. Holder, 25 June 2013"
+      }
+    ]
+  },
+  {
+    "slug": "sacagawea",
+    "name": "Sacagawea",
+    "fullName": "Sacagawea",
+    "born": {
+      "date": null,
+      "display": "c. 1788"
+    },
+    "died": {
+      "date": null,
+      "display": "Traditionally 1812"
+    },
+    "categories": [
+      "Aviation & Exploration"
+    ],
+    "summary": "Lemhi Shoshone woman whose knowledge and diplomacy supported the Lewis and Clark Expedition.",
+    "bio": "As a teenager, Sacagawea traveled thousands of miles with the Lewis and Clark Expedition from present-day North Dakota to the Pacific Ocean. Her language skills, geographic knowledge, and presence helped the expedition establish contact with Native communities.",
+    "accomplishments": [
+      "Supported the Lewis and Clark Expedition as an interpreter, cultural intermediary, and symbol of peaceful intent",
+      "Helped establish diplomatic contacts with Native communities",
+      "Contributed knowledge of regional plants and landscapes"
+    ],
+    "image": {
+      "url": "/images/women/Sacagawea-photo.jpg",
+      "alt": "Historical representation of Sacagawea",
+      "credit": "Edgar Samuel Paxson",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Detail_Lewis_%26_Clark_at_Three_Forks.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Sacagawea",
+        "url": "https://en.wikipedia.org/wiki/Sacagawea"
+      },
+      {
+        "label": "Journals of the Lewis and Clark Expedition — 6 January 1806",
+        "url": "https://lewisandclarkjournals.unl.edu/item/lc.jrn.1806-01-06"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sacagawea?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "She observed that she had traveled a long way with us to see the great waters, and that now that monstrous fish was also to be seen, she thought it very hard she could not be permitted to see either.",
+        "source": "Reported indirectly by Meriwether Lewis in his expedition journal, 6 January 1806; her exact original-language wording was not preserved"
+      }
+    ]
+  },
+  {
+    "slug": "sonia-sotomayor",
+    "name": "Sonia Sotomayor",
+    "fullName": "Sonia Maria Sotomayor",
+    "born": {
+      "date": null,
+      "display": "1954"
+    },
+    "died": null,
+    "categories": [
+      "Politics & Law",
+      "Civil Rights"
+    ],
+    "summary": "United States Supreme Court justice and the first Hispanic and Latina member of the Court.",
+    "bio": "Sonia Sotomayor joined the Supreme Court in 2009 after serving as a federal trial and appellate judge. A graduate of Princeton and Yale Law School, she became the first Hispanic and Latina justice in United States history.",
+    "accomplishments": [
+      "First Hispanic and Latina U.S. Supreme Court justice",
+      "Served at all three levels of the federal judiciary",
+      "Graduated summa cum laude from Princeton"
+    ],
+    "image": {
+      "url": "/images/women/Sonia_Sotomayor_in_SCOTUS_robe.jpg",
+      "alt": "Official portrait of Sonia Sotomayor in judicial robes",
+      "credit": "Steve Petteway / Supreme Court of the United States",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Sonia_Sotomayor_in_SCOTUS_robe.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Sonia Sotomayor",
+        "url": "https://en.wikipedia.org/wiki/Sonia_Sotomayor"
+      },
+      {
+        "label": "Berkeley La Raza Law Journal — A Latina Judge’s Voice",
+        "url": "https://doi.org/10.15779/Z38F08T"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sonia_Sotomayor?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "I would hope that a wise Latina woman with the richness of her experiences would more often than not reach a better conclusion than a white male who hasn't lived that life.",
+        "source": "“A Latina Judge’s Voice,” Judge Mario G. Olmos Memorial Lecture, 26 October 2001"
+      }
+    ]
+  },
+  {
+    "slug": "susan-b-anthony",
+    "name": "Susan B. Anthony",
+    "fullName": "Susan Brownell Anthony",
+    "born": {
+      "date": null,
+      "display": "1820"
+    },
+    "died": {
+      "date": null,
+      "display": "1906"
+    },
+    "categories": [
+      "Civil Rights",
+      "Politics & Law"
+    ],
+    "summary": "Social reformer, abolitionist, and central organizer of the American women's suffrage movement.",
+    "bio": "Susan B. Anthony began collecting antislavery petitions as a teenager and became a leading national organizer for women's voting rights. She endured ridicule and arrest while building organizations and campaigns that sustained the suffrage movement for decades.",
+    "accomplishments": [
+      "Led national organizing for women's suffrage",
+      "Worked as an organizer for the American Anti-Slavery Society",
+      "First woman depicted on circulating U.S. coinage"
+    ],
+    "image": {
+      "url": "/images/women/susan b anthony.jpg",
+      "alt": "Portrait of Susan B. Anthony",
+      "credit": "Unknown artist",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:SB_Anthony_from_RoRaWW.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Susan B. Anthony",
+        "url": "https://en.wikipedia.org/wiki/Susan_B._Anthony"
+      },
+      {
+        "label": "Wikisource — On Women’s Rights to Vote",
+        "url": "https://en.wikisource.org/wiki/On_Women%27s_Rights_to_Vote"
+      },
+      {
+        "label": "Project Gutenberg — Trial of Susan B. Anthony",
+        "url": "https://www.gutenberg.org/files/18281/18281-h/18281-h.htm"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Susan_B._Anthony?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "Being persons, then, women are citizens; and no state has a right to make any law, or to enforce any old law, that shall abridge their privileges or immunities.",
+        "source": "“Is It a Crime for a Citizen of the United States to Vote?”, 1873"
+      },
+      {
+        "text": "Yes, your honor, I have many things to say; for in your ordered verdict of guilty, you have trampled under foot every vital principle of our government.",
+        "source": "Statement before sentencing in United States v. Susan B. Anthony, 18 June 1873"
+      }
+    ]
+  },
+  {
+    "slug": "madam-c-j-walker",
+    "name": "Madam C. J. Walker",
+    "fullName": "Sarah Breedlove",
+    "born": {
+      "date": null,
+      "display": "1867"
+    },
+    "died": {
+      "date": null,
+      "display": "1919"
+    },
+    "categories": [
+      "Business & Philanthropy",
+      "Civil Rights"
+    ],
+    "summary": "Entrepreneur, philanthropist, and activist who built a major hair-care business for Black women.",
+    "bio": "Madam C. J. Walker developed and marketed cosmetics and hair-care products through the company she founded. Often recognized as America's first female self-made millionaire, she used her success to support civil rights organizations, education, and the arts.",
+    "accomplishments": [
+      "Built a nationally successful beauty company",
+      "Created economic opportunities for thousands of Black women",
+      "Funded civil rights, education, and arts organizations"
+    ],
+    "image": {
+      "url": "/images/women/Madam_CJ_Walker_face_circa_1914.jpg",
+      "alt": "Portrait of Madam C. J. Walker",
+      "credit": "Addison N. Scurlock; restoration by Adam Cuerden",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Madam_C._J._Walker_by_Addison_N._Scurlock.jpg"
+    },
+    "sources": [
+      {
+        "label": "Women.pptx presentation",
+        "url": null
+      },
+      {
+        "label": "Wikipedia — Madam C. J. Walker",
+        "url": "https://en.wikipedia.org/wiki/Madam_C._J._Walker"
+      },
+      {
+        "label": "Madam C. J. Walker official biography",
+        "url": "https://madamcjwalker.com/about/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Madam_C._J._Walker?utm_source=copilot.com",
+    "quotes": [
+      {
+        "text": "There is nothing to equal it. Not even on Fifth Avenue.",
+        "source": "Letter to attorney F. B. Ransom describing her Harlem townhouse and salon, 1913"
+      }
+    ]
+  },
+  {
+    "slug": "indira-gandhi",
+    "name": "Indira Gandhi",
+    "fullName": "Indira Priyadarshini Gandhi",
+    "born": {
+      "date": "1917-11-19",
+      "display": "19 November 1917"
+    },
+    "died": {
+      "date": "1984-10-31",
+      "display": "31 October 1984"
+    },
+    "categories": [
+      "Politics & Law"
+    ],
+    "summary": "India's first woman prime minister and a dominant, consequential, and controversial figure in its post-independence politics.",
+    "bio": "Indira Gandhi served as prime minister of India from 1966 to 1977 and again from 1980 until her assassination in 1984. She led India during the 1971 war that resulted in Bangladesh's independence and pursued centralized economic and foreign policies. Her legacy is also marked by the 1975–77 Emergency, during which civil liberties were restricted and political opponents were imprisoned.",
+    "accomplishments": [
+      "Became the first and, to date, only woman to serve as prime minister of India",
+      "Led India during the 1971 conflict that resulted in the independence of Bangladesh",
+      "Oversaw the 1969 nationalization of fourteen major commercial banks",
+      "Chaired the Non-Aligned Movement from 1983 to 1984"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Indira_Gandhi?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/indira-gandhi.png",
+      "alt": "Official portrait of Indira Gandhi",
+      "credit": "Prime Minister's Office, Government of India",
+      "license": "Government Open Data License – India (GODL-India)",
+      "source": "https://commons.wikimedia.org/wiki/File:Indira_Gandhi_official_portrait.png"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Indira Gandhi",
+        "url": "https://www.britannica.com/biography/Indira-Gandhi"
+      },
+      {
+        "label": "Prime Minister of India — Smt. Indira Gandhi",
+        "url": "https://www.pmindia.gov.in/en/former_pm/smt-indira-gandhi/"
+      },
+      {
+        "label": "Wikipedia — Indira Gandhi",
+        "url": "https://en.wikipedia.org/wiki/Indira_Gandhi"
+      },
+      {
+        "label": "United Nations Digital Library — Indira Gandhi Stockholm address",
+        "url": "https://digitallibrary.un.org/record/191558"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Are not poverty and need the greatest polluters?",
+        "source": "Address to the United Nations Conference on the Human Environment, Stockholm, 14 June 1972"
+      }
+    ]
+  },
+  {
+    "slug": "golda-meir",
+    "name": "Golda Meir",
+    "fullName": "Golda Meir",
+    "born": {
+      "date": "1898-05-03",
+      "display": "3 May 1898"
+    },
+    "died": {
+      "date": "1978-12-08",
+      "display": "8 December 1978"
+    },
+    "categories": [
+      "Politics & Law"
+    ],
+    "summary": "Israeli stateswoman, independence declaration signatory, and Israel's first woman prime minister.",
+    "bio": "Born Golda Mabovitch in Kyiv, Meir immigrated to the United States as a child and to British-administered Palestine in 1921. She signed Israel's declaration of independence and served as labor minister and foreign minister before becoming prime minister in 1969. Public criticism of the government's lack of preparedness for the 1973 Yom Kippur War contributed to her resignation in 1974.",
+    "accomplishments": [
+      "Signed Israel's declaration of independence in 1948",
+      "Became Israel's first and, to date, only woman prime minister",
+      "Directed major housing and road-building programs as minister of labor",
+      "Expanded Israeli diplomatic and development ties with newly independent African states as foreign minister"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Golda_Meir?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/golda-meir.jpg",
+      "alt": "Golda Meir at a 1969 press conference",
+      "credit": "Israel Press and Photo Agency / Dan Hadani Collection, National Library of Israel",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dan_Hadani_collection_(990044371930205171).jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Golda Meir",
+        "url": "https://www.britannica.com/biography/Golda-Meir"
+      },
+      {
+        "label": "Jewish Women's Archive — Golda Meir",
+        "url": "https://jwa.org/encyclopedia/article/meir-golda"
+      },
+      {
+        "label": "Wikipedia — Golda Meir",
+        "url": "https://en.wikipedia.org/wiki/Golda_Meir"
+      },
+      {
+        "label": "Government of Israel — Golda Meir statement to the Knesset",
+        "url": "https://www.gov.il/en/pages/8-statement-to-the-knesset-by-pm-meir-5-may-1969"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Peace is not a favour bestowed by one party upon the other.",
+        "source": "Statement to the Knesset, 5 May 1969"
+      }
+    ]
+  },
+  {
+    "slug": "benazir-bhutto",
+    "name": "Benazir Bhutto",
+    "fullName": "Benazir Bhutto",
+    "born": {
+      "date": "1953-06-21",
+      "display": "21 June 1953"
+    },
+    "died": {
+      "date": "2007-12-27",
+      "display": "27 December 2007"
+    },
+    "categories": [
+      "Politics & Law"
+    ],
+    "summary": "Pakistani stateswoman who became the first woman elected to lead a democratic government in a Muslim-majority country.",
+    "bio": "Benazir Bhutto led the Pakistan People's Party and served as prime minister from 1988 to 1990 and from 1993 to 1996. Both governments were dismissed before completing their terms amid institutional conflict and corruption allegations, although a major conviction was later overturned because of evidence of governmental interference. After years in exile, she returned to Pakistan in 2007 and was assassinated while campaigning for parliamentary elections.",
+    "accomplishments": [
+      "Became Pakistan's first woman prime minister in 1988",
+      "Became the first woman elected to head a democratic government in a Muslim-majority country",
+      "Led the Pakistan People's Party through military rule, detention, and exile",
+      "Served two nonconsecutive terms as prime minister",
+      "Promoted education, village electrification, and public-health initiatives during her governments"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Benazir_Bhutto?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/benazir-bhutto.jpg",
+      "alt": "Portrait of Benazir Bhutto in Dubai in 2006",
+      "credit": "Oliver Mark",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Oliver_Mark_-_Benazir_Bhutto,_Dubai_2006_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Benazir Bhutto",
+        "url": "https://www.britannica.com/biography/Benazir-Bhutto"
+      },
+      {
+        "label": "American Academy of Achievement — Benazir Bhutto",
+        "url": "https://achievement.org/achiever/benazir-bhutto/"
+      },
+      {
+        "label": "Wikipedia — Benazir Bhutto",
+        "url": "https://en.wikipedia.org/wiki/Benazir_Bhutto"
+      },
+      {
+        "label": "Pakistan Peoples Party — Benazir Bhutto address to the U.S. Congress",
+        "url": "https://pppp.org.pk/website/address-by-her-excellency-mohtarma-benazir-bhutto-prime-minister-of-the-islamic-republic-of-pakistan-at-us-house-of-representatives-june-07-1989/"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "We set as our focus reconciliation, not retribution.",
+        "source": "Address to a Joint Meeting of the United States Congress, 7 June 1989"
+      }
+    ]
+  },
+  {
+    "slug": "wangari-maathai",
+    "name": "Wangari Maathai",
+    "fullName": "Wangari Muta Maathai",
+    "born": {
+      "date": "1940-04-01",
+      "display": "1 April 1940"
+    },
+    "died": {
+      "date": "2011-09-25",
+      "display": "25 September 2011"
+    },
+    "categories": [
+      "Environment",
+      "Civil Rights",
+      "Education & Advocacy"
+    ],
+    "summary": "Kenyan environmentalist, democracy advocate, Green Belt Movement founder, and first African woman awarded the Nobel Peace Prize.",
+    "bio": "Wangari Maathai founded the Green Belt Movement in 1977, mobilizing women to plant trees while strengthening livelihoods, environmental stewardship, and civic participation. She challenged land seizures and authoritarian government in Kenya and later served in parliament and as assistant minister for the environment. In 2004 she received the Nobel Peace Prize for her contribution to sustainable development, democracy, and peace.",
+    "accomplishments": [
+      "Founded the Green Belt Movement",
+      "Became the first woman in East and Central Africa to earn a doctorate",
+      "Helped communities plant more than thirty million trees by the time of her Nobel Prize",
+      "Became the first African woman awarded the Nobel Peace Prize",
+      "Served in Kenya's parliament and as assistant minister for environment, natural resources, and wildlife"
+    ],
+    "quotes": [
+      {
+        "text": "Recognizing that sustainable development, democracy and peace are indivisible is an idea whose time has come.",
+        "source": "Nobel Lecture, Oslo, 10 December 2004 — https://www.nobelprize.org/prizes/peace/2004/maathai/lecture/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Wangari_Maathai?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/wangari-maathai.jpg",
+      "alt": "Portrait of Wangari Maathai",
+      "credit": "John Mathew Smith (Kingkongphoto)",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wangari_Maathai_in_2001.jpg"
+    },
+    "sources": [
+      {
+        "label": "Nobel Prize — Wangari Maathai facts",
+        "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/"
+      },
+      {
+        "label": "Nobel Prize — Wangari Maathai biographical",
+        "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/biographical/"
+      },
+      {
+        "label": "Green Belt Movement — Wangari Maathai",
+        "url": "https://www.greenbeltmovement.org/wangari-maathai"
+      },
+      {
+        "label": "Wikipedia — Wangari Maathai",
+        "url": "https://en.wikipedia.org/wiki/Wangari_Maathai"
+      }
+    ]
+  },
+  {
+    "slug": "emmeline-pankhurst",
+    "name": "Emmeline Pankhurst",
+    "fullName": "Emmeline Goulden Pankhurst",
+    "born": {
+      "date": null,
+      "display": "14 or 15 July 1858"
+    },
+    "died": {
+      "date": "1928-06-14",
+      "display": "14 June 1928"
+    },
+    "categories": [
+      "Civil Rights",
+      "Politics & Law"
+    ],
+    "summary": "British suffrage leader who founded the Women's Social and Political Union and made militant direct action central to the campaign for women's votes.",
+    "bio": "Emmeline Pankhurst founded the Women's Franchise League in 1889 and the Women's Social and Political Union in 1903. Under her leadership, the WSPU used confrontational and sometimes destructive tactics; Pankhurst was repeatedly imprisoned and participated in hunger strikes. She died shortly before the 1928 law that granted British women the parliamentary vote on the same terms as men.",
+    "accomplishments": [
+      "Founded the Women's Franchise League in 1889",
+      "Founded the Women's Social and Political Union in 1903",
+      "Made women's suffrage a sustained national political issue through demonstrations and direct action",
+      "Influenced American suffrage leaders and tactics through speaking tours and WSPU organizing",
+      "Helped build the movement that preceded partial women's suffrage in 1918 and equal voting terms in 1928"
+    ],
+    "quotes": [
+      {
+        "text": "Human life for us is sacred, but we say if any life is to be sacrificed it shall be ours; we won't do it ourselves, but we will put the enemy in the position where they will have to choose between giving us freedom or giving us death.",
+        "source": "\"Freedom or Death\" speech, Hartford, 13 November 1913; transcript cited by the U.S. National Park Service — https://www.nps.gov/people/emmeline-pankhurst.htm"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Emmeline_Pankhurst?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/emmeline-pankhurst.jpg",
+      "alt": "Formal seated portrait of Emmeline Pankhurst in 1913",
+      "credit": "Richard Gordon Matzene; restored by Adam Cuerden; Library of Congress",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Emmeline_Pankhurst,_seated_(1913).jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Emmeline Pankhurst",
+        "url": "https://www.britannica.com/biography/Emmeline-Pankhurst"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Researcher's Note on Pankhurst's birth date",
+        "url": "https://www.britannica.com/biography/Emmeline-Pankhurst/additional-info#Researchers-Note"
+      },
+      {
+        "label": "U.S. National Park Service — Emmeline Pankhurst",
+        "url": "https://www.nps.gov/people/emmeline-pankhurst.htm"
+      },
+      {
+        "label": "Wikipedia — Emmeline Pankhurst",
+        "url": "https://en.wikipedia.org/wiki/Emmeline_Pankhurst"
+      }
+    ]
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "name": "Simone de Beauvoir",
+    "fullName": "Simone Lucie Ernestine Marie Bertrand de Beauvoir",
+    "born": {
+      "date": "1908-01-09",
+      "display": "9 January 1908"
+    },
+    "died": {
+      "date": "1986-04-14",
+      "display": "14 April 1986"
+    },
+    "categories": [
+      "Arts & Literature",
+      "Civil Rights",
+      "Education & Advocacy"
+    ],
+    "summary": "French existentialist writer, philosopher, and feminist theorist whose work transformed modern understandings of women's oppression.",
+    "bio": "Simone de Beauvoir wrote fiction, memoir, philosophy, and political criticism grounded in existentialism and lived experience. Her 1949 study The Second Sex became a foundational work of modern feminist thought, while The Mandarins won the Prix Goncourt. She later identified publicly as a feminist, signed the 1971 Manifesto of the 343, and campaigned for reproductive rights and against colonial violence.",
+    "accomplishments": [
+      "Published The Second Sex, a foundational work of twentieth-century feminist theory",
+      "Developed an influential existentialist ethics in The Ethics of Ambiguity",
+      "Co-founded and edited the journal Les Temps modernes",
+      "Won the 1954 Prix Goncourt for The Mandarins",
+      "Signed the Manifesto of the 343 and advocated for reproductive rights in France"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/simone-de-beauvoir.jpg",
+      "alt": "Portrait of Simone de Beauvoir in 1967",
+      "credit": "Moshe Milner / Israel Government Press Office, National Photo Collection",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Simone_De_Beauvoir_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy — Simone de Beauvoir",
+        "url": "https://plato.stanford.edu/entries/beauvoir/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Simone de Beauvoir",
+        "url": "https://www.britannica.com/biography/Simone-de-Beauvoir"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy — Simone de Beauvoir",
+        "url": "https://iep.utm.edu/simone-de-beauvoir/"
+      },
+      {
+        "label": "Wikipedia — Simone de Beauvoir",
+        "url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir"
+      },
+      {
+        "label": "Internet Archive — The Second Sex",
+        "url": "https://archive.org/details/secondsex00beau"
+      },
+      {
+        "label": "Internet Archive — The Ethics of Ambiguity",
+        "url": "https://archive.org/details/ethicsofambiguit0000simo"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "One is not born, but rather becomes, a woman.",
+        "source": "The Second Sex, 1949; translated by H. M. Parshley, 1953"
+      },
+      {
+        "text": "To will oneself moral and to will oneself free are one and the same decision.",
+        "source": "The Ethics of Ambiguity, 1947; translated by Bernard Frechtman"
+      }
+    ]
+  },
+  {
+    "slug": "sojourner-truth",
+    "name": "Sojourner Truth",
+    "fullName": "Isabella Baumfree (later Sojourner Truth)",
+    "born": {
+      "date": null,
+      "display": "c. 1797"
+    },
+    "died": {
+      "date": "1883-11-26",
+      "display": "November 26, 1883"
+    },
+    "categories": [
+      "Civil Rights",
+      "Education & Advocacy"
+    ],
+    "summary": "Abolitionist and women's-rights advocate who transformed her experience of enslavement into a powerful campaign for freedom and equality.",
+    "bio": "Born into slavery in New York, Isabella Baumfree escaped with her infant daughter in 1826 and later won a court judgment securing the return of her illegally sold son. In 1843 she adopted the name Sojourner Truth and began traveling as an abolitionist and women's-rights speaker. She published a dictated narrative, recruited Black soldiers during the Civil War, supported formerly enslaved people, and continued advocating for voting rights and other reforms until late in life.",
+    "accomplishments": [
+      "Successfully pursued the 1828 legal case that returned her son Peter from illegal enslavement",
+      "Published The Narrative of Sojourner Truth in 1850",
+      "Delivered an influential address at the 1851 Ohio Women's Rights Convention",
+      "Recruited Black men for the Union Army and aided formerly enslaved people during the Civil War",
+      "Became the first Black woman memorialized with a bust in the United States Capitol"
+    ],
+    "quotes": [
+      {
+        "text": "I sell the shadow to support the substance.",
+        "source": "Caption on photographs sold by Sojourner Truth, documented by the Smithsonian National Museum of African American History and Culture"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sojourner_Truth?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/sojourner-truth.jpg",
+      "alt": "Seated portrait of Sojourner Truth around 1870",
+      "credit": "Randall Studio; restoration by Coffeeandcrumbs; National Portrait Gallery, Smithsonian Institution",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Sojourner_Truth,_1870_(cropped,_restored).jpg"
+    },
+    "sources": [
+      {
+        "label": "National Park Service biography",
+        "url": "https://www.nps.gov/people/sojourner-truth.htm"
+      },
+      {
+        "label": "Smithsonian portrait and quotation record",
+        "url": "https://nmaahc.si.edu/object/nmaahc_2018.17.12"
+      },
+      {
+        "label": "Library of Congress—Narrative of Sojourner Truth",
+        "url": "https://www.loc.gov/resource/lhbum.25244/"
+      },
+      {
+        "label": "Wikipedia — Sojourner Truth",
+        "url": "https://en.wikipedia.org/wiki/Sojourner_Truth"
+      }
+    ]
+  },
+  {
+    "slug": "gloria-steinem",
+    "name": "Gloria Steinem",
+    "fullName": "Gloria Marie Steinem",
+    "born": {
+      "date": "1934-03-25",
+      "display": "March 25, 1934"
+    },
+    "died": null,
+    "categories": [
+      "Civil Rights",
+      "Arts & Literature"
+    ],
+    "summary": "Journalist, author, and organizer who became a leading voice of the modern American women's-rights movement.",
+    "bio": "Gloria Steinem gained national attention as an investigative journalist before becoming a prominent advocate for women's equality. She helped establish Ms. magazine and co-founded organizations that expanded women's political participation and representation in media. Her writing, public testimony, and grassroots organizing have addressed legal equality, reproductive freedom, racial justice, and gender roles.",
+    "accomplishments": [
+      "Co-founded Ms. magazine and served as one of its leading editors and writers",
+      "Co-founded the National Women's Political Caucus",
+      "Helped establish the Women's Action Alliance and Women's Media Center",
+      "Received the Presidential Medal of Freedom in 2013"
+    ],
+    "quotes": [
+      {
+        "text": "Most important to me, I have been denied a society in which women are encouraged, or even allowed to think of themselves as first-class citizens and responsible human beings.",
+        "source": "Testimony before U.S. Senate hearings on the Equal Rights Amendment, May 6, 1970"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gloria_Steinem?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/gloria-steinem.jpg",
+      "alt": "Close portrait of Gloria Steinem speaking in 2016",
+      "credit": "Gage Skidmore",
+      "license": "Creative Commons Attribution-ShareAlike 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gloria_Steinem_(29126367513)_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "National Women's History Museum biography",
+        "url": "https://www.womenshistory.org/education-resources/biographies/gloria-steinem"
+      },
+      {
+        "label": "Encyclopaedia Britannica biography",
+        "url": "https://www.britannica.com/biography/Gloria-Steinem"
+      },
+      {
+        "label": "Voices of Democracy—Equal Rights Amendment testimony",
+        "url": "https://voicesofdemocracy.umd.edu/steinem-testimony-speech-text/"
+      },
+      {
+        "label": "Wikipedia — Gloria Steinem",
+        "url": "https://en.wikipedia.org/wiki/Gloria_Steinem"
+      }
+    ]
+  },
+  {
+    "slug": "dolores-huerta",
+    "name": "Dolores Huerta",
+    "fullName": "Dolores Clara Fernández Huerta",
+    "born": {
+      "date": "1930-04-10",
+      "display": "April 10, 1930"
+    },
+    "died": null,
+    "categories": [
+      "Civil Rights",
+      "Education & Advocacy"
+    ],
+    "summary": "Labor leader and community organizer who co-founded the organization that became the United Farm Workers.",
+    "bio": "Dolores Huerta left teaching after witnessing the poverty experienced by farmworkers' children and became a labor and civil-rights organizer. With César Chávez, she founded the National Farm Workers Association, which later became the United Farm Workers. She organized strikes, boycotts, voter-registration campaigns, and legislative advocacy while promoting nonviolent collective action.",
+    "accomplishments": [
+      "Co-founded the National Farm Workers Association, which became the United Farm Workers",
+      "Helped organize the Delano grape strike and nationwide consumer boycott",
+      "Coined and popularized the organizing slogan \"¡Sí, se puede!\"",
+      "Founded the Dolores Huerta Foundation for grassroots community organizing",
+      "Received the Presidential Medal of Freedom in 2012"
+    ],
+    "quotes": [
+      {
+        "text": "¡Sí, se puede!",
+        "source": "United Farm Workers campaign in Arizona, 1972, documented by the National Park Service"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dolores_Huerta?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/dolores-huerta.jpg",
+      "alt": "Portrait-oriented photograph of Dolores Huerta speaking in 2016",
+      "credit": "Gage Skidmore",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dolores_Huerta_by_Gage_Skidmore.jpg"
+    },
+    "sources": [
+      {
+        "label": "National Park Service biography",
+        "url": "https://www.nps.gov/people/dolores-huerta.htm"
+      },
+      {
+        "label": "National Park Service—Dolores Huerta's House and \"Sí se puede\"",
+        "url": "https://www.nps.gov/places/000/dolores-huertas-house.htm"
+      },
+      {
+        "label": "Encyclopaedia Britannica biography",
+        "url": "https://www.britannica.com/biography/Dolores-Huerta"
+      },
+      {
+        "label": "Wikipedia — Dolores Huerta",
+        "url": "https://en.wikipedia.org/wiki/Dolores_Huerta"
+      }
+    ]
+  },
+  {
+    "slug": "rigoberta-menchu",
+    "name": "Rigoberta Menchú",
+    "fullName": "Rigoberta Menchú Tum",
+    "born": {
+      "date": "1959-01-09",
+      "display": "January 9, 1959"
+    },
+    "died": null,
+    "categories": [
+      "Civil Rights",
+      "Education & Advocacy"
+    ],
+    "summary": "K'iche' Maya activist and Nobel laureate who brought international attention to Indigenous rights and Guatemala's civil conflict.",
+    "bio": "Rigoberta Menchú Tum grew up in a K'iche' Maya farming family and became involved in movements for workers' and Indigenous peoples' rights during Guatemala's civil war. After fleeing to Mexico, she became an international advocate against repression, racism, and cultural discrimination. She received the 1992 Nobel Peace Prize for her work advancing social justice and ethno-cultural reconciliation.",
+    "accomplishments": [
+      "Received the 1992 Nobel Peace Prize",
+      "Brought international attention to violence and discrimination against Guatemala's Indigenous peoples",
+      "Advocated globally for Indigenous rights, peace, and ethno-cultural reconciliation",
+      "Established the Rigoberta Menchú Tum Foundation",
+      "Served as a UNESCO Goodwill Ambassador"
+    ],
+    "quotes": [
+      {
+        "text": "Let there be freedom for the Indians, wherever they may be in the American Continent or elsewhere in the world, because while they are alive, a glow of hope will be alive as well as a true concept of life.",
+        "source": "Nobel Peace Prize lecture, December 10, 1992"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rigoberta_Mench%C3%BA?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/rigoberta-menchu.jpg",
+      "alt": "Clear portrait of Rigoberta Menchú in 2024",
+      "credit": "Government of Guatemala",
+      "license": "Public domain; Flickr Public Domain Mark",
+      "source": "https://commons.wikimedia.org/wiki/File:20240620_NP_PRESIDENTE_BERNARDO_AREVALO_Y_KARIN_HERRERA_PARTICIPAN_EN_DIALOGO_PREMIO_NOBEL_DE_LA_PAZ_054_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Nobel Prize biographical profile",
+        "url": "https://www.nobelprize.org/prizes/peace/1992/tum/biographical/"
+      },
+      {
+        "label": "Nobel Peace Prize lecture",
+        "url": "https://www.nobelprize.org/prizes/peace/1992/tum/lecture/"
+      },
+      {
+        "label": "Encyclopaedia Britannica biography",
+        "url": "https://www.britannica.com/biography/Rigoberta-Menchu"
+      },
+      {
+        "label": "Wikipedia — Rigoberta Menchú",
+        "url": "https://en.wikipedia.org/wiki/Rigoberta_Mench%C3%BA"
+      }
+    ]
+  },
+  {
+    "slug": "aung-san-suu-kyi",
+    "name": "Aung San Suu Kyi",
+    "fullName": "Aung San Suu Kyi",
+    "born": {
+      "date": "1945-06-19",
+      "display": "June 19, 1945"
+    },
+    "died": null,
+    "categories": [
+      "Politics & Law",
+      "Civil Rights"
+    ],
+    "summary": "Myanmar political leader and Nobel laureate whose democratic resistance and later record in government form a complex and contested legacy.",
+    "bio": "Aung San Suu Kyi co-founded the National League for Democracy in 1988 and became an international symbol of nonviolent opposition to military rule, spending many years under house arrest and receiving the 1991 Nobel Peace Prize. She served as state counsellor and de facto civilian leader from 2016 until the military overthrew her government in 2021 and detained her. Her legacy is complex: she faced strong international criticism for her government's response to the military's persecution of Rohingya Muslims, including its denial of documented abuses and her defense of Myanmar against genocide allegations before the International Court of Justice, while the armed forces retained substantial constitutional autonomy from civilian control. Her earlier democratic leadership and later human-rights record consequently remain subjects of sharply contrasting assessments.",
+    "accomplishments": [
+      "Co-founded Myanmar's National League for Democracy",
+      "Led a sustained nonviolent campaign against military rule",
+      "Received the 1991 Nobel Peace Prize",
+      "Led the NLD through historic national election victories",
+      "Served as Myanmar's state counsellor from 2016 to 2021"
+    ],
+    "quotes": [
+      {
+        "text": "I am standing here because I was once a prisoner of conscience. As you look at me and listen to me, please remember the often repeated truth that one prisoner of conscience is one too many.",
+        "source": "Nobel Peace Prize lecture, June 16, 2012"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/aung-san-suu-kyi.jpg",
+      "alt": "Portrait of Aung San Suu Kyi during a 2019 diplomatic meeting",
+      "credit": "Cabinet Public Relations Office, Cabinet Secretariat, Government of Japan",
+      "license": "Creative Commons Attribution 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg"
+    },
+    "sources": [
+      {
+        "label": "Nobel Prize biographical chronology",
+        "url": "https://www.nobelprize.org/prizes/peace/1991/kyi/biographical/"
+      },
+      {
+        "label": "Nobel Peace Prize lecture",
+        "url": "https://www.nobelprize.org/prizes/peace/1991/kyi/26193-aung-san-suu-kyi-nobel-lecture-english/"
+      },
+      {
+        "label": "Encyclopaedia Britannica biography",
+        "url": "https://www.britannica.com/biography/Aung-San-Suu-Kyi"
+      },
+      {
+        "label": "UN Independent International Fact-Finding Mission on Myanmar",
+        "url": "https://www.ohchr.org/en/documents/country-reports/ahrc3964-report-independent-international-fact-finding-mission-myanmar"
+      },
+      {
+        "label": "Wikipedia — Aung San Suu Kyi",
+        "url": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi"
+      }
+    ]
+  },
+  {
+    "slug": "rachel-carson",
+    "name": "Rachel Carson",
+    "fullName": "Rachel Louise Carson",
+    "born": {
+      "date": "1907-05-27",
+      "display": "May 27, 1907"
+    },
+    "died": {
+      "date": "1964-04-14",
+      "display": "April 14, 1964"
+    },
+    "categories": [
+      "Environment",
+      "Science & Technology"
+    ],
+    "summary": "Marine biologist and author whose scientific writing helped launch the modern environmental movement.",
+    "bio": "Rachel Carson combined scientific training with literary skill while working as a biologist and editor for the U.S. Fish and Wildlife Service. Her marine books introduced broad audiences to ocean ecology, while Silent Spring documented the environmental dangers of indiscriminate pesticide use. The public debate her work generated influenced pesticide regulation and the development of the modern environmental movement.",
+    "accomplishments": [
+      "Rose to editor-in-chief of U.S. Fish and Wildlife Service publications",
+      "Won the National Book Award for The Sea Around Us",
+      "Published Silent Spring in 1962",
+      "Brought the ecological effects of indiscriminate pesticide use to national attention",
+      "Influenced environmental policy, including the United States ban on most uses of DDT"
+    ],
+    "quotes": [
+      {
+        "text": "The aim of science is to discover and illuminate truth.",
+        "source": "National Book Award acceptance remarks for The Sea Around Us"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rachel_Carson?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/rachel-carson.jpg",
+      "alt": "Black-and-white official portrait of Rachel Carson",
+      "credit": "U.S. Fish and Wildlife Service",
+      "license": "Public domain; work of the United States federal government",
+      "source": "https://commons.wikimedia.org/wiki/File:Rachel-Carson.jpg"
+    },
+    "sources": [
+      {
+        "label": "National Park Service biography",
+        "url": "https://www.nps.gov/people/rachel-carson.htm"
+      },
+      {
+        "label": "U.S. Fish and Wildlife Service biography",
+        "url": "https://www.fws.gov/staff-profile/rachel-carson-1907-1964-author-modern-environmental-movement"
+      },
+      {
+        "label": "U.S. Environmental Protection Agency history",
+        "url": "https://www.epa.gov/archive/epa/aboutepa/rachel-carson.html"
+      },
+      {
+        "label": "Wikipedia — Rachel Carson",
+        "url": "https://en.wikipedia.org/wiki/Rachel_Carson"
+      }
+    ]
+  },
+  {
+    "slug": "katherine-johnson",
+    "name": "Katherine Johnson",
+    "fullName": "Katherine Coleman Goble Johnson",
+    "born": {
+      "date": "1918-08-26",
+      "display": "August 26, 1918"
+    },
+    "died": {
+      "date": "2020-02-24",
+      "display": "February 24, 2020"
+    },
+    "categories": [
+      "Science & Technology"
+    ],
+    "summary": "NASA mathematician whose orbital calculations helped make early American human spaceflight and the Moon landing possible.",
+    "bio": "Katherine Johnson joined the segregated West Area Computing unit at the National Advisory Committee for Aeronautics in 1953 and later became a key member of NASA's Space Task Group. Her calculations supported the Mercury, Apollo, Space Shuttle and Landsat programs, and John Glenn specifically asked her to verify the computer-generated trajectory for his historic orbital flight.",
+    "accomplishments": [
+      "Calculated the trajectory for Alan Shepard's 1961 Freedom 7 mission",
+      "Verified the orbital calculations for John Glenn's 1962 Friendship 7 mission",
+      "Helped calculate the lunar-module rendezvous for the Apollo program",
+      "Received the Presidential Medal of Freedom in 2015"
+    ],
+    "quotes": [
+      {
+        "text": "I loved going to work every single day.",
+        "source": "NASA, Katherine Johnson Biography"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Katherine_Johnson?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/katherine-johnson.jpg",
+      "alt": "Portrait of Katherine Johnson in 1983",
+      "credit": "NASA",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_1983.jpg"
+    },
+    "sources": [
+      {
+        "label": "NASA — Katherine Johnson Biography",
+        "url": "https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Katherine Johnson",
+        "url": "https://www.britannica.com/biography/Katherine-Johnson"
+      },
+      {
+        "label": "Wikipedia — Katherine Johnson",
+        "url": "https://en.wikipedia.org/wiki/Katherine_Johnson"
+      }
+    ]
+  },
+  {
+    "slug": "dorothy-hodgkin",
+    "name": "Dorothy Hodgkin",
+    "fullName": "Dorothy Mary Crowfoot Hodgkin",
+    "born": {
+      "date": "1910-05-12",
+      "display": "May 12, 1910"
+    },
+    "died": {
+      "date": "1994-07-29",
+      "display": "July 29, 1994"
+    },
+    "categories": [
+      "Science & Technology"
+    ],
+    "summary": "British chemist who used X-ray crystallography to reveal the structures of vital biochemical substances.",
+    "bio": "Dorothy Hodgkin advanced X-ray crystallography and used it to determine the structures of penicillin, vitamin B12 and insulin. She received the 1964 Nobel Prize in Chemistry for determining the structures of important biochemical substances.",
+    "accomplishments": [
+      "Determined the three-dimensional structure of penicillin",
+      "Solved the structure of vitamin B12",
+      "Received the 1964 Nobel Prize in Chemistry",
+      "Completed the structure of insulin after decades of research"
+    ],
+    "quotes": [
+      {
+        "text": "I was captured for life by chemistry and by crystals.",
+        "source": "Georgina Ferry, Dorothy Hodgkin: A Life, pp. 7–8"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dorothy_Hodgkin?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/dorothy-hodgkin.jpg",
+      "alt": "Portrait of Dorothy Hodgkin in 1970",
+      "credit": "Landesarchiv Baden-Württemberg, Staatsarchiv Freiburg W 134 Nr. 092478c / photographer Willy Pragher",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:20._Tagung_1970_Chemiker;_Auf_dem_Schiff-_Dorthy_Hodgkin_Portr%C3%A4t_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._092478c.jpeg"
+    },
+    "sources": [
+      {
+        "label": "Nobel Prize — Dorothy Crowfoot Hodgkin facts",
+        "url": "https://www.nobelprize.org/prizes/chemistry/1964/hodgkin/facts/"
+      },
+      {
+        "label": "Nobel Prize — Dorothy Crowfoot Hodgkin biography",
+        "url": "https://www.nobelprize.org/prizes/chemistry/1964/hodgkin/biographical/"
+      },
+      {
+        "label": "Oxford University Museum of Natural History — Dorothy Crowfoot Hodgkin",
+        "url": "https://oumnh.ox.ac.uk/learn-dorothy-crowfoot-hodgkin"
+      },
+      {
+        "label": "Wikipedia — Dorothy Hodgkin",
+        "url": "https://en.wikipedia.org/wiki/Dorothy_Hodgkin"
+      }
+    ]
+  },
+  {
+    "slug": "chien-shiung-wu",
+    "name": "Chien-Shiung Wu",
+    "fullName": "Chien-Shiung Wu",
+    "born": {
+      "date": "1912-05-31",
+      "display": "May 31, 1912"
+    },
+    "died": {
+      "date": "1997-02-16",
+      "display": "February 16, 1997"
+    },
+    "categories": [
+      "Science & Technology"
+    ],
+    "summary": "Chinese American experimental physicist whose landmark experiment demonstrated that parity is not conserved in weak interactions.",
+    "bio": "Chien-Shiung Wu contributed to radiation-detection and uranium-enrichment research during the Manhattan Project before becoming a leading experimental physicist at Columbia University. Her cobalt-60 experiment provided decisive evidence that parity conservation fails in weak nuclear interactions.",
+    "accomplishments": [
+      "Designed and conducted the landmark Wu experiment on parity violation",
+      "Contributed to radiation-detection and uranium-enrichment work for the Manhattan Project",
+      "Became the first woman to serve as president of the American Physical Society",
+      "Became the first recipient of the Wolf Prize in Physics"
+    ],
+    "quotes": [
+      {
+        "text": "Whether the tiny atoms and nuclei, or the mathematical symbols, or the DNA molecules have any preference for either masculine or feminine treatment.",
+        "source": "MIT symposium remarks, 1964, quoted by the National Park Service"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chien-Shiung_Wu?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/chien-shiung-wu.jpg",
+      "alt": "Portrait of physicist Chien-Shiung Wu in 1963",
+      "credit": "Smithsonian Institution Archives, Science Service Records, SIA2010-1509",
+      "license": "No known copyright restrictions",
+      "source": "https://commons.wikimedia.org/wiki/File:Chien-shiung_Wu_(1912-1997)_C.jpg"
+    },
+    "sources": [
+      {
+        "label": "National Park Service — Dr. Chien-Shiung Wu",
+        "url": "https://www.nps.gov/people/dr-chien-shiung-wu-the-first-lady-of-physics.htm"
+      },
+      {
+        "label": "Smithsonian — Wu Experiment Apparatus",
+        "url": "https://americanhistory.si.edu/collections/object/nmah_700109"
+      },
+      {
+        "label": "National Academy of Sciences — Chien-Shiung Wu: A Biographical Memoir",
+        "url": "http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/wu-chien-shiung.pdf"
+      },
+      {
+        "label": "Wikipedia — Chien-Shiung Wu",
+        "url": "https://en.wikipedia.org/wiki/Chien-Shiung_Wu"
+      }
+    ]
+  },
+  {
+    "slug": "oprah-winfrey",
+    "name": "Oprah Winfrey",
+    "fullName": "Oprah Gail Winfrey",
+    "born": {
+      "date": "1954-01-29",
+      "display": "January 29, 1954"
+    },
+    "died": null,
+    "categories": [
+      "Arts & Literature",
+      "Business & Philanthropy"
+    ],
+    "summary": "Media entrepreneur, interviewer, actress and philanthropist who transformed American daytime television.",
+    "bio": "Oprah Winfrey turned a struggling Chicago program into The Oprah Winfrey Show, which became the highest-rated television talk show in the United States. Through Harpo Productions, the Oprah Winfrey Network, her book club and philanthropic initiatives, she built an influential media and charitable enterprise.",
+    "accomplishments": [
+      "Hosted and produced The Oprah Winfrey Show for 25 seasons",
+      "Founded Harpo Productions and co-founded the Oprah Winfrey Network",
+      "Established the Oprah Winfrey Leadership Academy for Girls in South Africa",
+      "Received the Presidential Medal of Freedom in 2013"
+    ],
+    "quotes": [
+      {
+        "text": "What I know for sure is that speaking your truth is the most powerful tool we all have.",
+        "source": "Cecil B. DeMille Award acceptance speech, Golden Globe Awards, 2018"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Oprah_Winfrey?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/oprah-winfrey.jpg",
+      "alt": "Portrait of Oprah Winfrey in 2016",
+      "credit": "U.S. Embassy South Africa",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Oprah Winfrey",
+        "url": "https://www.britannica.com/biography/Oprah-Winfrey"
+      },
+      {
+        "label": "Obama White House Archives — Presidential Medal of Freedom recipient Oprah Winfrey",
+        "url": "https://obamawhitehouse.archives.gov/node/246161/"
+      },
+      {
+        "label": "TIME — Oprah's Golden Globes speech transcript",
+        "url": "https://time.com/5092249/golden-globes-oprah-speech-transcript/"
+      },
+      {
+        "label": "Academy of Achievement — Oprah Winfrey interview",
+        "url": "https://achievement.org/achiever/oprah-winfrey/"
+      },
+      {
+        "label": "Wikipedia — Oprah Winfrey",
+        "url": "https://en.wikipedia.org/wiki/Oprah_Winfrey"
+      }
+    ]
+  },
+  {
+    "slug": "serena-williams",
+    "name": "Serena Williams",
+    "fullName": "Serena Jameka Williams",
+    "born": {
+      "date": "1981-09-26",
+      "display": "September 26, 1981"
+    },
+    "died": null,
+    "categories": [
+      "Sports"
+    ],
+    "summary": "American tennis champion whose 23 major singles titles are the most won by a woman in the Open Era.",
+    "bio": "Serena Williams transformed women's tennis with her powerful serve, athleticism and sustained excellence across more than two decades. She won 23 major singles titles, completed career Grand Slams in singles and doubles, and earned four Olympic gold medals.",
+    "accomplishments": [
+      "Won 23 Grand Slam singles titles, an Open Era women's record",
+      "Won 14 Grand Slam women's doubles titles with Venus Williams",
+      "Earned four Olympic gold medals across singles and doubles",
+      "Held the WTA world No. 1 singles ranking for 319 weeks"
+    ],
+    "quotes": [
+      {
+        "text": "But these days, if I have to choose between building my tennis résumé and building my family, I choose the latter.",
+        "source": "Serena Williams, Vogue, August 2022"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Serena_Williams?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/serena-williams.jpg",
+      "alt": "Portrait of Serena Williams in 2013",
+      "credit": "Vinod Divakaran / Doha Stadium Plus Qatar",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Serena_Williams_2013.jpg"
+    },
+    "sources": [
+      {
+        "label": "WTA — Serena Williams",
+        "url": "https://www.wtatennis.com/legends/230234/serena-williams"
+      },
+      {
+        "label": "Olympics.com — Serena Williams",
+        "url": "https://www.olympics.com/en/athletes/serena-williams"
+      },
+      {
+        "label": "Vogue — Serena Williams in her own words",
+        "url": "https://www.vogue.com/article/serena-williams-retirement-in-her-own-words"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Serena Williams",
+        "url": "https://www.britannica.com/biography/Serena-Williams"
+      },
+      {
+        "label": "Wikipedia — Serena Williams",
+        "url": "https://en.wikipedia.org/wiki/Serena_Williams"
+      }
+    ]
+  },
+  {
+    "slug": "greta-thunberg",
+    "name": "Greta Thunberg",
+    "fullName": "Greta Tintin Eleonora Ernman Thunberg",
+    "born": {
+      "date": "2003-01-03",
+      "display": "January 3, 2003"
+    },
+    "died": null,
+    "categories": [
+      "Environment",
+      "Education & Advocacy"
+    ],
+    "summary": "Swedish climate activist whose school strike inspired the international Fridays for Future movement.",
+    "bio": "Greta Thunberg began a solitary school strike outside Sweden's parliament in August 2018 to demand stronger action on climate change. Her protest grew into the international Fridays for Future movement, and she has addressed lawmakers and world leaders at major climate forums.",
+    "accomplishments": [
+      "Started the 2018 school strike that inspired Fridays for Future",
+      "Helped mobilize millions of participants in global climate strikes",
+      "Addressed the 2019 United Nations Climate Action Summit",
+      "Became TIME's youngest Person of the Year in 2019"
+    ],
+    "quotes": [
+      {
+        "text": "You have stolen my dreams and my childhood with your empty words.",
+        "source": "United Nations Climate Action Summit speech, September 23, 2019"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Greta_Thunberg?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/greta-thunberg.jpg",
+      "alt": "Greta Thunberg at the European Parliament in 2019",
+      "credit": "European Parliament",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Greta_Thunberg_at_the_Parliament_(46705842745)_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Greta Thunberg",
+        "url": "https://www.britannica.com/biography/Greta-Thunberg"
+      },
+      {
+        "label": "TIME — 2019 Person of the Year",
+        "url": "https://time.com/person-of-the-year-2019-greta-thunberg/"
+      },
+      {
+        "label": "United Nations — Greta Thunberg at the 2019 Climate Action Summit",
+        "url": "https://www.un.org/youthenvoy/2019/09/greta-thunberg-youth-climate-summit/"
+      },
+      {
+        "label": "Wikipedia — Greta Thunberg",
+        "url": "https://en.wikipedia.org/wiki/Greta_Thunberg"
+      }
+    ]
+  },
+  {
+    "slug": "jacinda-ardern",
+    "name": "Jacinda Ardern",
+    "fullName": "Jacinda Kate Laurell Ardern",
+    "born": {
+      "date": "1980-07-26",
+      "display": "July 26, 1980"
+    },
+    "died": null,
+    "categories": [
+      "Politics & Law"
+    ],
+    "summary": "Former New Zealand prime minister recognized for crisis leadership and reforms following the Christchurch terrorist attacks.",
+    "bio": "Jacinda Ardern served as prime minister of New Zealand from October 2017 to January 2023, taking office at age 37 as the country's youngest prime minister in more than 150 years. Her government enacted rapid firearms reforms after the 2019 Christchurch mosque attacks and led New Zealand through the early COVID-19 pandemic.",
+    "accomplishments": [
+      "Served as prime minister of New Zealand from 2017 to 2023",
+      "Became New Zealand's youngest prime minister since 1856",
+      "Led the passage of major firearms restrictions after the Christchurch attacks",
+      "Became the second elected world leader to give birth while holding office",
+      "Was appointed Dame Grand Companion of the New Zealand Order of Merit in 2023"
+    ],
+    "quotes": [
+      {
+        "text": "They are us. The person who has perpetuated this violence against us is not. They have no place in New Zealand.",
+        "source": "Statement on the Christchurch terrorist attack, March 15, 2019"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jacinda_Ardern?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/jacinda-ardern.jpg",
+      "alt": "Portrait of New Zealand prime minister Jacinda Ardern in 2018",
+      "credit": "Newzild",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:New_Zealand_Prime_Minister_Jacinda_Ardern_in_2018.jpg"
+    },
+    "sources": [
+      {
+        "label": "NZ History — Jacinda Ardern",
+        "url": "https://nzhistory.govt.nz/people/jacinda-ardern"
+      },
+      {
+        "label": "Firearms Safety Authority New Zealand — 2019 firearms law changes",
+        "url": "https://www.firearmssafetyauthority.govt.nz/news-and-publications/firearms-law-changes/2019-firearms-law-changes"
+      },
+      {
+        "label": "New Zealand Government — Statement on the Christchurch terror attack",
+        "url": "https://www.beehive.govt.nz/speech/statement-christchurch-terror-attack"
+      },
+      {
+        "label": "Department of the Prime Minister and Cabinet — 2023 honours citation",
+        "url": "https://www.dpmc.govt.nz/honours/lists/kb2023-gnzm"
+      },
+      {
+        "label": "Wikipedia — Jacinda Ardern",
+        "url": "https://en.wikipedia.org/wiki/Jacinda_Ardern"
+      }
+    ]
+  },
+  {
+    "slug": "maya-angelou",
+    "name": "Maya Angelou",
+    "fullName": "Marguerite Annie Johnson",
+    "born": {
+      "date": "1928-04-04",
+      "display": "April 4, 1928"
+    },
+    "died": {
+      "date": "2014-05-28",
+      "display": "May 28, 2014"
+    },
+    "categories": [
+      "Arts & Literature",
+      "Civil Rights"
+    ],
+    "summary": "American poet, memoirist, and civil rights activist whose writing transformed modern autobiographical literature.",
+    "bio": "Maya Angelou achieved international recognition with her 1969 memoir I Know Why the Caged Bird Sings, an unflinching account of childhood, racism, and resilience. She worked with Martin Luther King Jr. and Malcolm X, wrote poetry, drama, and screenplays, and taught at Wake Forest University. In 1993 she recited “On the Pulse of Morning” at President Bill Clinton’s inauguration.",
+    "accomplishments": [
+      "Authored the landmark memoir I Know Why the Caged Bird Sings",
+      "Served as northern coordinator for the Southern Christian Leadership Conference",
+      "Became the first Black woman to deliver a poem at a United States presidential inauguration",
+      "Received the Presidential Medal of Freedom"
+    ],
+    "quotes": [
+      {
+        "text": "There is no greater agony than bearing an untold story inside you.",
+        "source": "I Know Why the Caged Bird Sings (1969)"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maya_Angelou?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/maya-angelou.jpg",
+      "alt": "Clear, portrait-oriented photograph of Maya Angelou circa 1955",
+      "credit": "Unknown photographer / The San Francisco Examiner",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_Maya_Angelou,_c._1955.jpg"
+    },
+    "sources": [
+      {
+        "label": "Maya Angelou — Official Biography",
+        "url": "https://www.mayaangelou.com/biography/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Maya Angelou",
+        "url": "https://www.britannica.com/biography/Maya-Angelou"
+      },
+      {
+        "label": "Poetry Foundation — Maya Angelou",
+        "url": "https://www.poetryfoundation.org/poets/maya-angelou"
+      },
+      {
+        "label": "Wikipedia — Maya Angelou",
+        "url": "https://en.wikipedia.org/wiki/Maya_Angelou"
+      }
+    ]
+  },
+  {
+    "slug": "toni-morrison",
+    "name": "Toni Morrison",
+    "fullName": "Chloe Ardelia Wofford Morrison",
+    "born": {
+      "date": "1931-02-18",
+      "display": "February 18, 1931"
+    },
+    "died": {
+      "date": "2019-08-05",
+      "display": "August 5, 2019"
+    },
+    "categories": [
+      "Arts & Literature"
+    ],
+    "summary": "Nobel Prize-winning American novelist and editor whose lyrical fiction illuminated Black history, memory, and identity.",
+    "bio": "Toni Morrison wrote celebrated novels including The Bluest Eye, Song of Solomon, and Beloved, which won the 1988 Pulitzer Prize for Fiction. As the first Black woman editor at Random House, she helped bring important works by Black writers and public figures into print. In 1993 she became the first Black woman awarded the Nobel Prize in Literature.",
+    "accomplishments": [
+      "First Black woman awarded the Nobel Prize in Literature",
+      "Won the Pulitzer Prize for Fiction for Beloved",
+      "Authored an influential body of novels centered on Black American experience",
+      "Championed Black authors as an editor at Random House"
+    ],
+    "quotes": [
+      {
+        "text": "We die. That may be the meaning of life. But we do language. That may be the measure of our lives.",
+        "source": "Nobel Lecture, December 7, 1993"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toni_Morrison?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/toni-morrison.jpg",
+      "alt": "Clear, portrait-oriented photograph of Toni Morrison in 1998",
+      "credit": "John Mathew Smith / celebrity-photos.com",
+      "license": "Creative Commons Attribution-Share Alike 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Toni_Morrison.jpg"
+    },
+    "sources": [
+      {
+        "label": "Nobel Prize — Toni Morrison Facts",
+        "url": "https://www.nobelprize.org/prizes/literature/1993/morrison/facts/"
+      },
+      {
+        "label": "Nobel Prize — Toni Morrison Biographical",
+        "url": "https://www.nobelprize.org/prizes/literature/1993/morrison/biographical/"
+      },
+      {
+        "label": "Nobel Prize — Toni Morrison Nobel Lecture",
+        "url": "https://www.nobelprize.org/prizes/literature/1993/morrison/lecture/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Toni Morrison",
+        "url": "https://www.britannica.com/biography/Toni-Morrison"
+      },
+      {
+        "label": "Wikipedia — Toni Morrison",
+        "url": "https://en.wikipedia.org/wiki/Toni_Morrison"
+      }
+    ]
+  },
+  {
+    "slug": "virginia-woolf",
+    "name": "Virginia Woolf",
+    "fullName": "Adeline Virginia Woolf (née Stephen)",
+    "born": {
+      "date": "1882-01-25",
+      "display": "January 25, 1882"
+    },
+    "died": {
+      "date": "1941-03-28",
+      "display": "March 28, 1941"
+    },
+    "categories": [
+      "Arts & Literature"
+    ],
+    "summary": "English modernist whose innovative novels and feminist essays reshaped twentieth-century literature.",
+    "bio": "Virginia Woolf developed nonlinear, interior forms of narration in novels such as Mrs Dalloway, To the Lighthouse, and The Waves. She and her husband Leonard founded the Hogarth Press, which published modernist literature and much of her own work. Her extended essay A Room of One’s Own became a foundational examination of women, economic independence, and authorship.",
+    "accomplishments": [
+      "Pioneered influential modernist approaches to narrative and consciousness",
+      "Authored Mrs Dalloway, To the Lighthouse, Orlando, and The Waves",
+      "Wrote the landmark feminist essay A Room of One’s Own",
+      "Co-founded the Hogarth Press with Leonard Woolf"
+    ],
+    "quotes": [
+      {
+        "text": "A woman must have money and a room of her own if she is to write fiction.",
+        "source": "A Room of One’s Own (1929), chapter 1"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Virginia_Woolf?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/virginia-woolf.jpg",
+      "alt": "Clear, portrait-oriented monochrome photograph of Virginia Woolf in 1902",
+      "credit": "George Charles Beresford; restoration by Adam Cuerden",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Virginia Woolf",
+        "url": "https://www.britannica.com/biography/Virginia-Woolf"
+      },
+      {
+        "label": "Virginia Woolf Society of Great Britain — Short Biography",
+        "url": "https://virginiawoolfsociety.org.uk/resources/virginia-woolf-a-short-biography/"
+      },
+      {
+        "label": "University of Virginia — A Room of One’s Own",
+        "url": "https://anthology.lib.virginia.edu/work/Woolf/woolf-room-of-ones-own"
+      },
+      {
+        "label": "Wikipedia — Virginia Woolf",
+        "url": "https://en.wikipedia.org/wiki/Virginia_Woolf"
+      }
+    ]
+  },
+  {
+    "slug": "zora-neale-hurston",
+    "name": "Zora Neale Hurston",
+    "fullName": "Zora Neale Hurston",
+    "born": {
+      "date": "1891-01-07",
+      "display": "January 7, 1891"
+    },
+    "died": {
+      "date": "1960-01-28",
+      "display": "January 28, 1960"
+    },
+    "categories": [
+      "Arts & Literature"
+    ],
+    "summary": "American novelist, folklorist, and anthropologist who documented and celebrated Black Southern culture.",
+    "bio": "Zora Neale Hurston was a major Harlem Renaissance writer whose fiction drew upon the speech, folklore, and experiences of Black communities in the American South. Trained in anthropology under Franz Boas, she conducted fieldwork across the South and Caribbean and incorporated that research into works such as Mules and Men. Her 1937 novel Their Eyes Were Watching God is now a classic of American literature.",
+    "accomplishments": [
+      "Authored Their Eyes Were Watching God",
+      "Published the influential folklore collection Mules and Men",
+      "Conducted significant ethnographic research in the American South and Caribbean",
+      "Became a defining literary figure of the Harlem Renaissance"
+    ],
+    "quotes": [
+      {
+        "text": "There are years that ask questions and years that answer.",
+        "source": "Their Eyes Were Watching God (1937), chapter 3"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Zora_Neale_Hurston?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/zora-neale-hurston.jpg",
+      "alt": "Clear, portrait-oriented monochrome photograph of Zora Neale Hurston in 1938",
+      "credit": "Carl Van Vechten / Library of Congress, Prints and Photographs Division",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Zora_Neale_Hurston_(1938).jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Zora Neale Hurston",
+        "url": "https://www.britannica.com/biography/Zora-Neale-Hurston"
+      },
+      {
+        "label": "Library of Congress — Zora Neale Hurston Plays",
+        "url": "https://www.loc.gov/collections/zora-neale-hurston-plays/about-this-collection/"
+      },
+      {
+        "label": "Smithsonian Institution — Zora Neale Hurston",
+        "url": "https://www.si.edu/object/zora-neale-hurston:npg_NPG.83.188.24"
+      },
+      {
+        "label": "Wikipedia — Zora Neale Hurston",
+        "url": "https://en.wikipedia.org/wiki/Zora_Neale_Hurston"
+      }
+    ]
+  },
+  {
+    "slug": "emily-dickinson",
+    "name": "Emily Dickinson",
+    "fullName": "Emily Elizabeth Dickinson",
+    "born": {
+      "date": "1830-12-10",
+      "display": "December 10, 1830"
+    },
+    "died": {
+      "date": "1886-05-15",
+      "display": "May 15, 1886"
+    },
+    "categories": [
+      "Arts & Literature"
+    ],
+    "summary": "American lyric poet whose compressed, unconventional verse profoundly influenced modern poetry.",
+    "bio": "Emily Dickinson wrote nearly 1,800 poems, most of which remained unpublished during her lifetime. Her concise poems explored mortality, faith, nature, love, and consciousness through slant rhyme, unusual syntax, and distinctive punctuation. Posthumous publication established her as one of the most important poets in American literature.",
+    "accomplishments": [
+      "Created a body of nearly 1,800 poems",
+      "Developed a highly original style using compression, slant rhyme, and unconventional syntax",
+      "Became one of the most influential American poets through posthumous publication"
+    ],
+    "quotes": [
+      {
+        "text": "“Hope” is the thing with feathers – That perches in the soul –",
+        "source": "“Hope” is the thing with feathers (poem 314)"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Emily_Dickinson?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/emily-dickinson.jpg",
+      "alt": "Clear, portrait-oriented daguerreotype of Emily Dickinson circa 1848",
+      "credit": "Unknown photographer / Todd-Bingham Picture Collection, Yale University; crop by Deerstop",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Emily_Dickinson_daguerreotype_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Emily Dickinson Museum — Biography",
+        "url": "https://www.emilydickinsonmuseum.org/emily-dickinson/biography/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Emily Dickinson",
+        "url": "https://www.britannica.com/biography/Emily-Dickinson"
+      },
+      {
+        "label": "Poetry Foundation — Emily Dickinson",
+        "url": "https://www.poetryfoundation.org/poets/emily-dickinson"
+      },
+      {
+        "label": "Poetry Foundation — “Hope” is the thing with feathers",
+        "url": "https://www.poetryfoundation.org/poems/42889/hope-is-the-thing-with-feathers-314"
+      },
+      {
+        "label": "Wikipedia — Emily Dickinson",
+        "url": "https://en.wikipedia.org/wiki/Emily_Dickinson"
+      }
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+---
+import catalogData from '../../data/women.json';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { assertCatalog } from '../../lib/catalog';
+import type { Woman } from '../../types';
+
+assertCatalog(catalogData);
+export function getStaticPaths() {
+	assertCatalog(catalogData);
+	const women = [...catalogData].sort((a, b) => a.name.localeCompare(b.name));
+	return women.map((woman, index) => ({
+		params: { slug: woman.slug },
+		props: {
+			woman,
+			previous: women[(index - 1 + women.length) % women.length],
+			next: women[(index + 1) % women.length],
+		},
+	}));
+}
+interface Props {
+	woman: Woman;
+	previous: Woman;
+	next: Woman;
+}
+const { woman, previous, next } = Astro.props;
+const lifespan = woman.died ? `${woman.born.display} – ${woman.died.display}` : `Born ${woman.born.display}`;
+---
+
+<BaseLayout title={woman.name} description={woman.summary} brandHref="/catalog/">
+	<article class="profile">
+		<header class="profile-hero">
+			<div class="profile-image-wrap"><img src={woman.image.url} alt={woman.image.alt} /></div>
+			<div class="profile-intro">
+				<div class="category-list">{woman.categories.map((category) => <span class="category">{category}</span>)}</div>
+				<p class="eyebrow">A legendary life</p>
+				<h1>{woman.name}</h1>
+				{woman.fullName !== woman.name && <p class="full-name">{woman.fullName}</p>}
+				<p class="lifespan">{lifespan}</p>
+				<p class="profile-summary">{woman.summary}</p>
+			</div>
+		</header>
+		<div class="profile-grid">
+			<div class="profile-main">
+				<section><p class="eyebrow">Her story</p><h2>A life that changed history</h2><p class="bio">{woman.bio}</p></section>
+				{(woman.quotes?.length ? woman.quotes : woman.quote ? [woman.quote] : []).map((quote) => <blockquote><p>“{quote.text}”</p><cite>{quote.source}</cite></blockquote>)}
+			</div>
+			<aside class="accomplishments">
+				<p class="eyebrow">Landmarks</p><h2>Key accomplishments</h2>
+				<ol>{woman.accomplishments.map((item, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><p>{item}</p></li>)}</ol>
+			</aside>
+		</div>
+		<footer class="profile-sources">
+			<div><p class="eyebrow">Provenance</p><h2>Sources & image</h2></div>
+			<ul>
+				<li class="content-credit">
+					<span>
+						Content adapted from <strong>Wikipedia</strong>, a free encyclopedia maintained by the Wikimedia Foundation.
+						Available at: <a href="https://www.wikipedia.org/?utm_source=copilot.com" title="www.wikipedia.org" rel="noreferrer" target="_blank">www.wikipedia.org ↗</a>
+					</span>
+				</li>
+				<li class="image-credit">
+					<span>
+						Image adapted from <strong>{woman.image.credit}</strong>. License terms are available from the original Wikipedia or Wikimedia Commons file page.
+						Available at: <a href={woman.image.source} title="www.wikipedia.org" rel="noreferrer" target="_blank">www.wikipedia.org ↗</a>
+					</span>
+				</li>
+			</ul>
+		</footer>
+		<a class="wiki-article-link" href={woman.wikipediaUrl} title={`${woman.name} on Wikipedia`} rel="noreferrer">
+			<span><small>Continue reading</small><strong>Read the full Wikipedia article</strong></span>
+			<span aria-hidden="true">↗</span>
+		</a>
+		<nav class="profile-navigation" aria-label="Browse profiles">
+			<a href={`/women/${previous.slug}/`} rel="prev">
+				<span aria-hidden="true">←</span>
+				<span><small>Previous legend</small><strong>{previous.name}</strong></span>
+			</a>
+			<a href={`/women/${next.slug}/`} rel="next">
+				<span><small>Next legend</small><strong>{next.name}</strong></span>
+				<span aria-hidden="true">→</span>
+			</a>
+		</nav>
+	</article>
+</BaseLayout>

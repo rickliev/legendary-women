@@ -1,0 +1,50 @@
+---
+import type { Woman } from '../types';
+
+interface Props {
+	woman: Woman;
+	featured?: boolean;
+}
+
+const { woman, featured = false } = Astro.props;
+const lifespan = woman.died
+	? `${woman.born.display} – ${woman.died.display}`
+	: `Born ${woman.born.display}`;
+---
+
+<article class:list={['woman-card', { featured }]} data-card data-name={woman.name.toLowerCase()} data-categories={woman.categories.join('|')}>
+	<a class="card-image" href={`/women/${woman.slug}/`} aria-label={`Read about ${woman.name}`}>
+		<img
+			src={woman.image.url}
+			alt={woman.image.alt}
+			loading={featured ? 'eager' : 'lazy'}
+			referrerpolicy="no-referrer"
+		/>
+		<span class="image-shade"></span>
+		<div class="card-heading">
+			<div class="category-list">
+				{woman.categories.map((category) => <span class="category">{category}</span>)}
+			</div>
+			<h3>{woman.name}</h3>
+			<p>{lifespan}</p>
+		</div>
+	</a>
+	<div class="card-body">
+		<p>{woman.summary}</p>
+		<div class="card-actions">
+			<div class="card-links">
+				<a class="text-link" href={`/women/${woman.slug}/`}>Explore her story <span aria-hidden="true">→</span></a>
+				<a class="wikipedia-link" href={woman.wikipediaUrl} title={`${woman.name} on Wikipedia`} rel="noreferrer">Wikipedia <span aria-hidden="true">↗</span></a>
+			</div>
+			<button
+				class="favorite-button"
+				type="button"
+				data-favorite={woman.slug}
+				aria-label={`Add ${woman.name} to favorites`}
+				aria-pressed="false"
+			>
+				<span aria-hidden="true">♡</span>
+			</button>
+		</div>
+	</div>
+</article>

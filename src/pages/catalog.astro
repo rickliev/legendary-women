@@ -1,0 +1,99 @@
+---
+import WomanCard from '../components/WomanCard.astro';
+import catalogData from '../data/women.json';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { assertCatalog } from '../lib/catalog';
+
+assertCatalog(catalogData);
+const women = [...catalogData].sort((a, b) => a.name.localeCompare(b.name));
+const categories = [...new Set(women.flatMap((woman) => woman.categories))].sort();
+---
+
+<BaseLayout title="Catalog" description="Explore the complete League of Legendary Women catalog." headerTheme="dark">
+	<header class="catalog-hero">
+		<p class="eyebrow">The league</p>
+		<h1>Every story.<br /><em>One remarkable catalog.</em></h1>
+		<p>Search by name, discover a field, or save the women who inspire you.</p>
+	</header>
+	<section class="catalog-section catalog-page" aria-labelledby="catalog-title">
+		<div class="section-heading">
+			<h2 id="catalog-title">Explore every story</h2>
+			<p class="catalog-count"><span id="result-count">{women.length}</span> remarkable women</p>
+		</div>
+		<div class="catalog-tools">
+			<label class="search-box">
+				<span aria-hidden="true">⌕</span><span class="sr-only">Search the catalog</span>
+				<input id="catalog-search" type="search" placeholder="Search by name or keyword…" autocomplete="off" />
+			</label>
+			<div class="filter-row" aria-label="Filter by category">
+				<button class="filter-chip active" type="button" data-filter="all" aria-pressed="true">All</button>
+				<button class="filter-chip" type="button" data-filter="favorites" aria-pressed="false">My favorites</button>
+				{categories.map((category) => <button class="filter-chip" type="button" data-filter={category} aria-pressed="false">{category}</button>)}
+			</div>
+		</div>
+		<div id="catalog-grid" class="catalog-grid">{women.map((woman) => <WomanCard woman={woman} />)}</div>
+		<p id="empty-state" class="empty-state" hidden>No stories match that search yet.</p>
+	</section>
+</BaseLayout>
+
+<script>
+	const favoritesKey = 'legendary-women:favorites';
+	const cards = [...document.querySelectorAll<HTMLElement>('#catalog-grid [data-card]')];
+	const search = document.querySelector<HTMLInputElement>('#catalog-search')!;
+	const filters = [...document.querySelectorAll<HTMLButtonElement>('[data-filter]')];
+	const count = document.querySelector('#result-count')!;
+	const empty = document.querySelector<HTMLElement>('#empty-state')!;
+	let activeFilter = 'all';
+	const getFavorites = (): Set<string> => {
+		try { return new Set(JSON.parse(localStorage.getItem(favoritesKey) || '[]')); }
+		catch { return new Set(); }
+	};
+	function updateFavoriteButtons() {
+		const favorites = getFavorites();
+		document.querySelectorAll<HTMLButtonElement>('[data-favorite]').forEach((button) => {
+			const selected = favorites.has(button.dataset.favorite!);
+			button.setAttribute('aria-pressed', String(selected));
+			button.querySelector('span')!.textContent = selected ? '♥' : '♡';
+		});
+	}
+	function applyFilters() {
+		const query = search.value.trim().toLowerCase();
+		const favorites = getFavorites();
+		let visible = 0;
+		cards.forEach((card) => {
+			const slug = card.querySelector<HTMLElement>('[data-favorite]')!.dataset.favorite!;
+			const categoryMatch = activeFilter === 'all'
+				|| (activeFilter === 'favorites' && favorites.has(slug))
+				|| card.dataset.categories!.split('|').includes(activeFilter);
+			const show = categoryMatch && (!query || card.textContent!.toLowerCase().includes(query));
+			card.hidden = !show;
+			if (show) visible++;
+		});
+		count.textContent = String(visible);
+		empty.hidden = visible !== 0;
+	}
+	document.addEventListener('click', (event) => {
+		const target = event.target as HTMLElement;
+		const favorite = target.closest<HTMLButtonElement>('[data-favorite]');
+		if (favorite) {
+			const favorites = getFavorites();
+			const slug = favorite.dataset.favorite!;
+			favorites.has(slug) ? favorites.delete(slug) : favorites.add(slug);
+			localStorage.setItem(favoritesKey, JSON.stringify([...favorites]));
+			updateFavoriteButtons();
+			applyFilters();
+		}
+		const filter = target.closest<HTMLButtonElement>('[data-filter]');
+		if (filter) {
+			activeFilter = filter.dataset.filter!;
+			filters.forEach((button) => {
+				const selected = button === filter;
+				button.classList.toggle('active', selected);
+				button.setAttribute('aria-pressed', String(selected));
+			});
+			applyFilters();
+		}
+	});
+	search.addEventListener('input', applyFilters);
+	updateFavoriteButtons();
+</script>

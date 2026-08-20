@@ -1,0 +1,9 @@
+name: legendary-women
+metadata:
+  template: legendary-women@0.1.0
+services:
+  web:
+    project: .
+    host: staticwebapp
+    language: ts
+    dist: dist

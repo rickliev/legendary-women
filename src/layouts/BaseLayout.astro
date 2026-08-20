@@ -1,0 +1,63 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title?: string;
+	description?: string;
+	headerTheme?: 'dark' | 'light';
+	brandHref?: string;
+}
+
+const {
+	title = 'Legendary Women',
+	description = 'Discover the women whose courage, ideas, and leadership changed our world.',
+	headerTheme = 'light',
+	brandHref = '/',
+} = Astro.props;
+const pageTitle = title === 'Legendary Women' ? title : `${title} | Legendary Women`;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#3b123c" />
+		<meta name="description" content={description} />
+		<meta property="og:title" content={pageTitle} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<link rel="icon" href="/favicon.ico" sizes="any" />
+		<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+		<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+		<link rel="manifest" href="/manifest.webmanifest" />
+		<title>{pageTitle}</title>
+	</head>
+	<body>
+		<a class="skip-link" href="#main-content">Skip to content</a>
+		<header class:list={['site-header', `header-${headerTheme}`]}>
+			<a class="brand" href={brandHref} aria-label={brandHref === '/catalog/' ? 'Browse Legendary Women' : 'Legendary Women home'}>
+				<img class="brand-logo" src="/brand/legend_logo.png" alt="Legendary Women" />
+				<span class="brand-copy">
+					<strong>Bold minds. Brave lives.</strong>
+					<small>Stories that move the world forward.</small>
+				</span>
+			</a>
+		</header>
+		<main id="main-content">
+			<slot />
+		</main>
+		<footer class="site-footer">
+			<p>
+				Content adapted from <a href="https://www.wikipedia.org/?utm_source=copilot.com" title="www.wikipedia.org" rel="noreferrer" target="_blank"><strong>Wikipedia</strong></a>,
+				a free encyclopedia maintained by the Wikimedia Foundation.
+			</p>
+			<p><a href="/about">About this project</a></p>
+		</footer>
+		<script is:inline>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
+			}
+		</script>
+	</body>
+</html>
