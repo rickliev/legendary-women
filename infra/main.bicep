@@ -17,7 +17,10 @@ module resources 'resources.bicep' = {
   params: {
     name: 'stapp-${environmentName}-${token}'
     location: location
-    tags: union(tags, { 'azd-env-name': environmentName })
+    tags: union(tags, {
+      'azd-env-name': environmentName
+      'azd-service-name': 'web'
+    })
   }
 }
 
