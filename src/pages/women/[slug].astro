@@ -1,21 +1,27 @@
 ---
 import catalogData from '../../data/women.json';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { assertCatalog } from '../../lib/catalog';
+import { assertCatalog, listedWomen } from '../../lib/catalog';
 import type { Woman } from '../../types';
 
 assertCatalog(catalogData);
 export function getStaticPaths() {
 	assertCatalog(catalogData);
 	const women = [...catalogData].sort((a, b) => a.name.localeCompare(b.name));
-	return women.map((woman, index) => ({
-		params: { slug: woman.slug },
-		props: {
-			woman,
-			previous: women[(index - 1 + women.length) % women.length],
-			next: women[(index + 1) % women.length],
-		},
-	}));
+	const listed = listedWomen(women);
+	return women.map((woman) => {
+		const listedIndex = listed.findIndex((entry) => entry.slug === woman.slug);
+		const nextIndex = listedIndex >= 0
+			? (listedIndex + 1) % listed.length
+			: Math.max(0, listed.findIndex((entry) => entry.name.localeCompare(woman.name) > 0));
+		const previousIndex = listedIndex >= 0
+			? (listedIndex - 1 + listed.length) % listed.length
+			: (nextIndex - 1 + listed.length) % listed.length;
+		return {
+			params: { slug: woman.slug },
+			props: { woman, previous: listed[previousIndex], next: listed[nextIndex] },
+		};
+	});
 }
 interface Props {
 	woman: Woman;
@@ -24,9 +30,11 @@ interface Props {
 }
 const { woman, previous, next } = Astro.props;
 const lifespan = woman.died ? `${woman.born.display} – ${woman.died.display}` : `Born ${woman.born.display}`;
+const profileUrl = woman.profileUrl ?? woman.wikipediaUrl!;
+const profileLabel = woman.profileLabel ?? 'Wikipedia';
 ---
 
-<BaseLayout title={woman.name} description={woman.summary} brandHref="/catalog/">
+<BaseLayout title={woman.name} description={woman.summary} brandHref="/catalog/" noindex={woman.hidden}>
 	<article class="profile">
 		<header class="profile-hero">
 			<div class="profile-image-wrap"><img src={woman.image.url} alt={woman.image.alt} /></div>
@@ -35,7 +43,7 @@ const lifespan = woman.died ? `${woman.born.display} – ${woman.died.display}` 
 				<p class="eyebrow">A legendary life</p>
 				<h1>{woman.name}</h1>
 				{woman.fullName !== woman.name && <p class="full-name">{woman.fullName}</p>}
-				<p class="lifespan">{lifespan}</p>
+				{woman.showLifeDates !== false && <p class="lifespan">{lifespan}</p>}
 				<p class="profile-summary">{woman.summary}</p>
 			</div>
 		</header>
@@ -52,22 +60,23 @@ const lifespan = woman.died ? `${woman.born.display} – ${woman.died.display}` 
 		<footer class="profile-sources">
 			<div><p class="eyebrow">Provenance</p><h2>Sources & image</h2></div>
 			<ul>
-				<li class="content-credit">
-					<span>
-						Content adapted from <strong>Wikipedia</strong>, a free encyclopedia maintained by the Wikimedia Foundation.
-						Available at: <a href="https://www.wikipedia.org/?utm_source=copilot.com" title="www.wikipedia.org" rel="noreferrer" target="_blank">www.wikipedia.org ↗</a>
-					</span>
-				</li>
+				{woman.sources.map((source) => (
+					<li class="content-credit">
+						{source.url
+							? <a href={source.url} rel="noreferrer" target="_blank">{source.label} ↗</a>
+							: <span>{source.label}</span>}
+					</li>
+				))}
 				<li class="image-credit">
 					<span>
-						Image adapted from <strong>{woman.image.credit}</strong>. License terms are available from the original Wikipedia or Wikimedia Commons file page.
-						Available at: <a href={woman.image.source} title="www.wikipedia.org" rel="noreferrer" target="_blank">www.wikipedia.org ↗</a>
+						Image: <strong>{woman.image.credit}</strong> ({woman.image.license}).
+						<a href={woman.image.source} rel="noreferrer" target="_blank"> Source ↗</a>
 					</span>
 				</li>
 			</ul>
 		</footer>
-		<a class="wiki-article-link" href={woman.wikipediaUrl} title={`${woman.name} on Wikipedia`} rel="noreferrer">
-			<span><small>Continue reading</small><strong>Read the full Wikipedia article</strong></span>
+		<a class="wiki-article-link" href={profileUrl} title={`${woman.name} on ${profileLabel}`} rel="noreferrer">
+			<span><small>Continue reading</small><strong>View {woman.name} on {profileLabel}</strong></span>
 			<span aria-hidden="true">↗</span>
 		</a>
 		<nav class="profile-navigation" aria-label="Browse profiles">

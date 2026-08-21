@@ -101,6 +101,63 @@
     ]
   },
   {
+    "slug": "anna-m-gomez",
+    "name": "Anna Gomez",
+    "fullName": "Anna M. Gomez",
+    "born": {
+      "date": null,
+      "display": "Birth date not publicly available"
+    },
+    "died": null,
+    "categories": [
+      "Politics & Law",
+      "Science & Technology"
+    ],
+    "summary": "American telecommunications attorney and FCC commissioner working to expand affordable connectivity, protect consumers, and advance communications policy.",
+    "bio": "Anna M. Gomez is an American telecommunications attorney who was sworn in as a commissioner of the Federal Communications Commission in September 2023. A first-generation American of Colombian heritage, she has held senior roles at the FCC, the National Telecommunications and Information Administration, and the U.S. Department of State, as well as in private practice. Her public service has included managing the transition to digital television, supporting the development of a nationwide public-safety broadband network, and leading U.S. preparations for the 2023 World Radiocommunication Conference.",
+    "accomplishments": [
+      "Confirmed as an FCC commissioner in 2023, becoming the first Latina to serve on the commission in more than two decades",
+      "Managed federal programs supporting the digital television transition and a nationwide public-safety broadband network",
+      "Led U.S. preparations for the 2023 World Radiocommunication Conference"
+    ],
+    "quotes": [
+      {
+        "text": "The ACP is the most successful tool we've ever had to closing the digital divide, because it finally addresses the long-overlooked yet critical affordability piece of the puzzle.",
+        "source": "Remarks at the State of the Net Conference, February 12, 2024"
+      },
+      {
+        "text": "I believe the FCC does best when its work honors the needs of the people it serves. That means connecting everyone everywhere to affordable, reliable, high-speed broadband.",
+        "source": "Statement before the House Subcommittee on Communications and Technology, November 30, 2023"
+      }
+    ],
+    "image": {
+      "url": "/images/women/anna-m-gomez.jpg?v=2",
+      "alt": "FCC Commissioner Anna M. Gomez at CES 2026",
+      "credit": "Xuthoria",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:CES_2026_-_Anna_Gomez_03_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Anna M. Gomez",
+        "url": "https://en.wikipedia.org/wiki/Anna_M._Gomez"
+      },
+      {
+        "label": "Federal Communications Commission — Anna M. Gomez",
+        "url": "https://www.fcc.gov/about/leadership/anna-gomez"
+      },
+      {
+        "label": "FCC — Remarks at the 2024 State of the Net Conference",
+        "url": "https://www.fcc.gov/document/commissioner-gomez-remarks-state-net-2024"
+      },
+      {
+        "label": "U.S. House of Representatives — FCC Oversight Hearing Statement",
+        "url": "https://docs.house.gov/meetings/IF/IF16/20231130/116602/HHRG-118-IF16-Wstate-GomezA-20231130.pdf"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Anna_M._Gomez?utm_source=copilot.com"
+  },
+  {
     "slug": "anne-frank",
     "name": "Anne Frank",
     "fullName": "Annelies Marie Frank",
@@ -3024,6 +3081,53 @@
       {
         "label": "Wikipedia — Emily Dickinson",
         "url": "https://en.wikipedia.org/wiki/Emily_Dickinson"
+      }
+    ]
+  },
+  {
+    "slug": "emily-lievano",
+    "name": "Emily Lievano",
+    "fullName": "Emily Andréa Liévano",
+    "hidden": true,
+    "showLifeDates": false,
+    "born": {
+      "date": null,
+      "display": "Not publicly listed"
+    },
+    "died": null,
+    "categories": [
+      "Politics & Law",
+      "Education & Advocacy"
+    ],
+    "summary": "Law student and emerging leader whose curiosity, drive, and commitment to service inspired the creation of Legendary Women.",
+    "bio": "Emily Andréa Liévano is a J.D. candidate at the University of Colorado Law School, where she has served in student leadership and participated in organizations focused on technology law, intellectual property, advocacy, and community. She graduated summa cum laude from the University of Central Florida with a degree in industrial-organizational psychology. Before law school, she gained experience in federal contracting and legal services, building interests in technology, regulatory and administrative law, litigation, and public-sector innovation. Her example inspired her family to create The League of Legendary Women app.",
+    "accomplishments": [
+      "Elected to leadership roles in her University of Colorado Law School class",
+      "Graduated summa cum laude from the University of Central Florida",
+      "Built experience spanning federal contracting, legal services, technology policy, and advocacy",
+      "Inspired the creation of the Legendary Women project"
+    ],
+    "profileUrl": "https://www.linkedin.com/in/emily-lievano",
+    "profileLabel": "LinkedIn",
+    "image": {
+      "url": "/images/women/emily-lievano.jpg",
+      "alt": "Portrait of Emily Lievano",
+      "credit": "Emily Lievano via LinkedIn",
+      "license": "Profile image; all rights reserved",
+      "source": "https://www.linkedin.com/in/emily-lievano"
+    },
+    "sources": [
+      {
+        "label": "LinkedIn — Emily Lievano",
+        "url": "https://www.linkedin.com/in/emily-lievano"
+      },
+      {
+        "label": "Colorado Hispanic Bar Association — Emily Andréa Liévano",
+        "url": "https://chba.net/member-profiles/11817/"
+      },
+      {
+        "label": "Project inspiration provided by her family",
+        "url": null
       }
     ]
   }

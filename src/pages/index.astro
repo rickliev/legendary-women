@@ -1,12 +1,12 @@
 ---
 import catalogData from '../data/women.json';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { assertCatalog } from '../lib/catalog';
+import { assertCatalog, listedWomen } from '../lib/catalog';
 import { dailyIndex } from '../lib/daily';
 import type { Woman } from '../types';
 
 assertCatalog(catalogData);
-const women: Woman[] = [...catalogData].sort((a, b) => a.name.localeCompare(b.name));
+const women: Woman[] = listedWomen(catalogData).sort((a, b) => a.name.localeCompare(b.name));
 const featured = women[dailyIndex(new Date(), women.length)];
 const featuredQuotes = featured.quotes?.length ? featured.quotes : featured.quote ? [featured.quote] : [];
 const lifespan = featured.died ? `${featured.born.display} – ${featured.died.display}` : `Born ${featured.born.display}`;

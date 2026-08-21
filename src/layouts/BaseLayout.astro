@@ -6,6 +6,7 @@ interface Props {
 	description?: string;
 	headerTheme?: 'dark' | 'light';
 	brandHref?: string;
+	noindex?: boolean;
 }
 
 const {
@@ -13,6 +14,7 @@ const {
 	description = 'Discover the women whose courage, ideas, and leadership changed our world.',
 	headerTheme = 'light',
 	brandHref = '/',
+	noindex = false,
 } = Astro.props;
 const pageTitle = title === 'Legendary Women' ? title : `${title} | Legendary Women`;
 ---
@@ -24,6 +26,7 @@ const pageTitle = title === 'Legendary Women' ? title : `${title} | Legendary Wo
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#3b123c" />
 		<meta name="description" content={description} />
+		{noindex && <meta name="robots" content="noindex, nofollow" />}
 		<meta property="og:title" content={pageTitle} />
 		<meta property="og:description" content={description} />
 		<meta property="og:type" content="website" />
@@ -48,10 +51,7 @@ const pageTitle = title === 'Legendary Women' ? title : `${title} | Legendary Wo
 			<slot />
 		</main>
 		<footer class="site-footer">
-			<p>
-				Content adapted from <a href="https://www.wikipedia.org/?utm_source=copilot.com" title="www.wikipedia.org" rel="noreferrer" target="_blank"><strong>Wikipedia</strong></a>,
-				a free encyclopedia maintained by the Wikimedia Foundation.
-			</p>
+			<p>Sources and image credits are provided on each profile.</p>
 			<p><a href="/about">About this project</a></p>
 		</footer>
 		<script is:inline>

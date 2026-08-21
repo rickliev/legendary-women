@@ -29,6 +29,8 @@ export interface Woman {
 	slug: string;
 	name: string;
 	fullName: string;
+	hidden?: boolean;
+	showLifeDates?: boolean;
 	born: LifeDate;
 	died: LifeDate | null;
 	categories: Category[];
@@ -37,7 +39,9 @@ export interface Woman {
 	accomplishments: string[];
 	quote?: Quote | null;
 	quotes?: Quote[];
-	wikipediaUrl: string;
+	wikipediaUrl?: string;
+	profileUrl?: string;
+	profileLabel?: string;
 	image: {
 		url: string;
 		alt: string;
