@@ -58,6 +58,18 @@ const pageTitle = title === 'Legendary Women' ? title : `${title} | Legendary Wo
 			if ('serviceWorker' in navigator) {
 				window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
 			}
+
+			const prefetched = new Set();
+			const prefetchInternalPage = (target) => {
+				const link = target.closest?.('a[href]');
+				if (!link) return;
+				const url = new URL(link.href, window.location.href);
+				if (url.origin !== window.location.origin || url.pathname === window.location.pathname || prefetched.has(url.href)) return;
+				prefetched.add(url.href);
+				fetch(url.href, { credentials: 'same-origin' }).catch(() => prefetched.delete(url.href));
+			};
+			document.addEventListener('pointerover', (event) => prefetchInternalPage(event.target), { passive: true });
+			document.addEventListener('focusin', (event) => prefetchInternalPage(event.target));
 		</script>
 	</body>
 </html>
