@@ -1,7 +1,8 @@
 ---
 import catalogData from '../../data/women.json';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { assertCatalog, listedWomen } from '../../lib/catalog';
+import { assertCatalog, categorySlug, listedWomen } from '../../lib/catalog';
+import { portraitSrcSet } from '../../lib/images';
 import type { Woman } from '../../types';
 
 assertCatalog(catalogData);
@@ -32,16 +33,80 @@ const { woman, previous, next } = Astro.props;
 const lifespan = woman.died ? `${woman.born.display} – ${woman.died.display}` : `Born ${woman.born.display}`;
 const profileUrl = woman.profileUrl ?? woman.wikipediaUrl!;
 const profileLabel = woman.profileLabel ?? 'Wikipedia';
+const profilePageUrl = new URL(`/women/${woman.slug}/`, Astro.site);
+const profileSchema = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'ProfilePage',
+		name: `${woman.name}: Biography and Achievements`,
+		headline: woman.name,
+		description: woman.summary,
+		url: profilePageUrl,
+		mainEntity: {
+			'@type': 'Person',
+			name: woman.fullName,
+			alternateName: woman.name === woman.fullName ? undefined : woman.name,
+			description: woman.summary,
+			image: new URL(woman.image.url, Astro.site),
+			birthDate: woman.born.date ?? undefined,
+			deathDate: woman.died?.date ?? undefined,
+			knowsAbout: woman.categories,
+			sameAs: [profileUrl],
+		},
+	},
+	{
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site) },
+			{ '@type': 'ListItem', position: 2, name: 'Catalog', item: new URL('/catalog/', Astro.site) },
+			{ '@type': 'ListItem', position: 3, name: woman.name, item: profilePageUrl },
+		],
+	},
+];
 ---
 
-<BaseLayout title={woman.name} description={woman.summary} brandHref="/catalog/" noindex={woman.hidden}>
+<BaseLayout
+	title={`${woman.name}: Biography and Achievements`}
+	description={woman.summary}
+	brandHref="/catalog/"
+	noindex={woman.hidden}
+	image={woman.image.url}
+	imageAlt={woman.image.alt}
+	pageType="profile"
+	structuredData={profileSchema}
+>
 	<article class="profile">
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
+			<a href="/">Home</a><span aria-hidden="true">/</span>
+			<a href="/catalog/">Catalog</a><span aria-hidden="true">/</span>
+			<span aria-current="page">{woman.name}</span>
+		</nav>
 		<header class="profile-hero">
-			<div class="profile-image-wrap"><img src={woman.image.url} alt={woman.image.alt} /></div>
+			<div class="profile-image-wrap">
+				<picture>
+					<source type="image/avif" srcset={portraitSrcSet(woman.slug, 'avif')} sizes="(max-width: 900px) calc(100vw - 2.5rem), 500px" />
+					<source type="image/webp" srcset={portraitSrcSet(woman.slug, 'webp')} sizes="(max-width: 900px) calc(100vw - 2.5rem), 500px" />
+					<img src={woman.image.url} alt={woman.image.alt} width="800" height="1000" decoding="async" fetchpriority="high" />
+				</picture>
+			</div>
 			<div class="profile-intro">
-				<div class="category-list">{woman.categories.map((category) => <span class="category">{category}</span>)}</div>
+				<div class="category-list">{woman.categories.map((category) => <a class="category" href={`/categories/${categorySlug(category)}/`}>{category}</a>)}</div>
 				<p class="eyebrow">A legendary life</p>
-				<h1>{woman.name}</h1>
+				<div class="profile-title-row">
+					<h1>{woman.name}</h1>
+					<button
+						id="profile-favorite"
+						class="favorite-button profile-favorite"
+						type="button"
+						data-favorite={woman.slug}
+						data-favorite-name={woman.name}
+						aria-label={`Add ${woman.name} to favorites`}
+						aria-pressed="false"
+					>
+						<span aria-hidden="true">♡</span>
+					</button>
+				</div>
 				{woman.fullName !== woman.name && <p class="full-name">{woman.fullName}</p>}
 				{woman.showLifeDates !== false && <p class="lifespan">{lifespan}</p>}
 				<p class="profile-summary">{woman.summary}</p>
@@ -80,14 +145,52 @@ const profileLabel = woman.profileLabel ?? 'Wikipedia';
 			<span aria-hidden="true">↗</span>
 		</a>
 		<nav class="profile-navigation" aria-label="Browse profiles">
-			<a href={`/women/${previous.slug}/`} rel="prev">
+			<a id="previous-profile" href={`/women/${previous.slug}/`} rel="prev" aria-keyshortcuts="ArrowLeft">
 				<span aria-hidden="true">←</span>
 				<span><small>Previous legend</small><strong>{previous.name}</strong></span>
 			</a>
-			<a href={`/women/${next.slug}/`} rel="next">
+			<a id="next-profile" href={`/women/${next.slug}/`} rel="next" aria-keyshortcuts="ArrowRight">
 				<span><small>Next legend</small><strong>{next.name}</strong></span>
 				<span aria-hidden="true">→</span>
 			</a>
 		</nav>
 	</article>
 </BaseLayout>
+
+<script>
+	import { getFavorites, toggleFavorite, updateFavoriteButton } from '../../lib/favorites';
+
+	const favoriteButton = document.querySelector<HTMLButtonElement>('#profile-favorite');
+	if (favoriteButton) {
+		updateFavoriteButton(favoriteButton, getFavorites());
+		favoriteButton.addEventListener('click', () => {
+			const favorites = toggleFavorite(favoriteButton.dataset.favorite!, 'profile');
+			updateFavoriteButton(favoriteButton, favorites);
+		});
+	}
+
+	document.addEventListener('keydown', (event) => {
+		if (
+			event.defaultPrevented
+			|| event.altKey
+			|| event.ctrlKey
+			|| event.metaKey
+			|| event.shiftKey
+			|| event.target instanceof HTMLInputElement
+			|| event.target instanceof HTMLTextAreaElement
+			|| event.target instanceof HTMLSelectElement
+			|| event.target instanceof HTMLButtonElement
+			|| (event.target instanceof HTMLElement && event.target.isContentEditable)
+		) return;
+
+		const linkId = event.key === 'ArrowLeft'
+			? 'previous-profile'
+			: event.key === 'ArrowRight'
+				? 'next-profile'
+				: null;
+		if (!linkId) return;
+
+		const link = document.querySelector<HTMLAnchorElement>(`#${linkId}`);
+		if (link) window.location.assign(link.href);
+	});
+</script>

@@ -2,15 +2,37 @@
 import WomanCard from '../components/WomanCard.astro';
 import catalogData from '../data/women.json';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { assertCatalog, listedWomen } from '../lib/catalog';
+import { assertCatalog, categorySlug, listedWomen } from '../lib/catalog';
 
 assertCatalog(catalogData);
 const women = [...catalogData].sort((a, b) => a.name.localeCompare(b.name));
 const listed = listedWomen(women);
 const categories = [...new Set(listed.flatMap((woman) => woman.categories))].sort();
+const catalogSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'CollectionPage',
+	name: 'Influential Women in History',
+	description: 'Explore biographies of influential women in science, civil rights, politics, arts, sports, healthcare, and more.',
+	url: new URL('/catalog/', Astro.site),
+	mainEntity: {
+		'@type': 'ItemList',
+		numberOfItems: listed.length,
+		itemListElement: listed.map((woman, index) => ({
+			'@type': 'ListItem',
+			position: index + 1,
+			name: woman.name,
+			url: new URL(`/women/${woman.slug}/`, Astro.site),
+		})),
+	},
+};
 ---
 
-<BaseLayout title="Catalog" description="Explore the complete League of Legendary Women catalog." headerTheme="dark">
+<BaseLayout
+	title="Influential Women: Biographies and Achievements"
+	description="Explore biographies of influential women in science, civil rights, politics, arts, sports, healthcare, and more."
+	headerTheme="dark"
+	structuredData={catalogSchema}
+>
 	<header class="catalog-hero">
 		<p class="eyebrow">The league</p>
 		<h1>Every story.<br /><em>One remarkable catalog.</em></h1>
@@ -32,13 +54,18 @@ const categories = [...new Set(listed.flatMap((woman) => woman.categories))].sor
 				{categories.map((category) => <button class="filter-chip" type="button" data-filter={category} aria-pressed="false">{category}</button>)}
 			</div>
 		</div>
+		<nav class="category-directory" aria-label="Browse women by field">
+			<strong>Browse by field</strong>
+			{categories.map((category) => <a href={`/categories/${categorySlug(category)}/`}>{category}</a>)}
+		</nav>
 		<div id="catalog-grid" class="catalog-grid">{women.map((woman) => <WomanCard woman={woman} />)}</div>
 		<p id="empty-state" class="empty-state" hidden>No stories match that search yet.</p>
 	</section>
 </BaseLayout>
 
 <script>
-	const favoritesKey = 'legendary-women:favorites';
+	import { getFavorites, toggleFavorite, updateFavoriteButton } from '../lib/favorites';
+
 	const cards = [...document.querySelectorAll<HTMLElement>('#catalog-grid [data-card]')];
 	const search = document.querySelector<HTMLInputElement>('#catalog-search')!;
 	const filters = [...document.querySelectorAll<HTMLButtonElement>('[data-filter]')];
@@ -46,17 +73,10 @@ const categories = [...new Set(listed.flatMap((woman) => woman.categories))].sor
 	const empty = document.querySelector<HTMLElement>('#empty-state')!;
 	let activeFilter = 'all';
 	const normalize = (value: string): string => value.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
-	const getFavorites = (): Set<string> => {
-		try { return new Set(JSON.parse(localStorage.getItem(favoritesKey) || '[]')); }
-		catch { return new Set(); }
-	};
 	function updateFavoriteButtons() {
 		const favorites = getFavorites();
-		document.querySelectorAll<HTMLButtonElement>('[data-favorite]').forEach((button) => {
-			const selected = favorites.has(button.dataset.favorite!);
-			button.setAttribute('aria-pressed', String(selected));
-			button.querySelector('span')!.textContent = selected ? '♥' : '♡';
-		});
+		document.querySelectorAll<HTMLButtonElement>('[data-favorite]')
+			.forEach((button) => updateFavoriteButton(button, favorites));
 	}
 	function applyFilters() {
 		const query = normalize(search.value.trim());
@@ -82,10 +102,7 @@ const categories = [...new Set(listed.flatMap((woman) => woman.categories))].sor
 		const target = event.target as HTMLElement;
 		const favorite = target.closest<HTMLButtonElement>('[data-favorite]');
 		if (favorite) {
-			const favorites = getFavorites();
-			const slug = favorite.dataset.favorite!;
-			favorites.has(slug) ? favorites.delete(slug) : favorites.add(slug);
-			localStorage.setItem(favoritesKey, JSON.stringify([...favorites]));
+			toggleFavorite(favorite.dataset.favorite!, 'catalog');
 			updateFavoriteButtons();
 			applyFilters();
 		}

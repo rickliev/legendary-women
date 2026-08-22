@@ -1,1 +1,18 @@
-{"navigationFallback":{"rewrite":"/404.html","exclude":["/_astro/*","/images/*","/brand/*","/*.css","/*.js","/*.png","/*.jpg","/*.jpeg","/*.svg","/*.ico","/*.webmanifest"]},"globalHeaders":{"Referrer-Policy":"strict-origin-when-cross-origin","X-Content-Type-Options":"nosniff","Permissions-Policy":"camera=(), microphone=(), geolocation=()"},"mimeTypes":{".webmanifest":"application/manifest+json"}}
+{
+	"trailingSlash": "auto",
+	"responseOverrides": {
+		"404": {
+			"rewrite": "/404.html",
+			"statusCode": 404
+		}
+	},
+	"globalHeaders": {
+		"Referrer-Policy": "strict-origin-when-cross-origin",
+		"X-Content-Type-Options": "nosniff",
+		"Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+	},
+	"mimeTypes": {
+		".webmanifest": "application/manifest+json",
+		".xml": "application/xml"
+	}
+}

@@ -17,9 +17,10 @@ module resources 'resources.bicep' = {
   params: {
     name: 'stapp-${environmentName}-${token}'
     location: location
+    repositoryUrl: 'https://github.com/rickliev/legendary-women'
+    branch: 'main'
     tags: union(tags, {
       'azd-env-name': environmentName
-      'azd-service-name': 'web'
     })
   }
 }
@@ -28,3 +29,5 @@ output AZURE_LOCATION string = location
 output AZURE_RESOURCE_GROUP string = rg.name
 output SERVICE_WEB_RESOURCE_NAME string = resources.outputs.name
 output SERVICE_WEB_ENDPOINT string = resources.outputs.endpoint
+output PUBLIC_APPLICATIONINSIGHTS_CONNECTION_STRING string = resources.outputs.appInsightsConnectionString
+output ANALYTICS_WORKBOOK_ID string = resources.outputs.analyticsWorkbookId

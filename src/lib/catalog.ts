@@ -1,7 +1,15 @@
-import type { Woman } from '../types';
+import type { Category, Woman } from '../types';
 
 export function listedWomen(women: Woman[]): Woman[] {
 	return women.filter((woman) => !woman.hidden);
+}
+
+export function categorySlug(category: Category): string {
+	return category
+		.toLowerCase()
+		.replace(/&/g, 'and')
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-|-$/g, '');
 }
 
 export function assertCatalog(value: unknown): asserts value is Woman[] {

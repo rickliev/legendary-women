@@ -1,4 +1,5 @@
 ---
+import { portraitSrcSet } from '../lib/images';
 import type { Woman } from '../types';
 
 interface Props {
@@ -25,12 +26,20 @@ const searchText = [woman.name, woman.fullName, woman.summary, ...woman.categori
 	hidden={woman.hidden}
 >
 	<a class="card-image" href={`/women/${woman.slug}/`} aria-label={`Read about ${woman.name}`}>
-		<img
-			src={woman.image.url}
-			alt={woman.image.alt}
-			loading={featured ? 'eager' : 'lazy'}
-			referrerpolicy="no-referrer"
-		/>
+		<picture>
+			<source type="image/avif" srcset={portraitSrcSet(woman.slug, 'avif')} sizes="(max-width: 650px) calc(100vw - 2.5rem), (max-width: 900px) 45vw, 380px" />
+			<source type="image/webp" srcset={portraitSrcSet(woman.slug, 'webp')} sizes="(max-width: 650px) calc(100vw - 2.5rem), (max-width: 900px) 45vw, 380px" />
+			<img
+				src={woman.image.url}
+				alt={woman.image.alt}
+				width="800"
+				height="1000"
+				loading={featured ? 'eager' : 'lazy'}
+				decoding="async"
+				fetchpriority={featured ? 'high' : 'auto'}
+				referrerpolicy="no-referrer"
+			/>
+		</picture>
 		<span class="image-shade"></span>
 		<div class="card-heading">
 			<div class="category-list">
@@ -51,6 +60,7 @@ const searchText = [woman.name, woman.fullName, woman.summary, ...woman.categori
 				class="favorite-button"
 				type="button"
 				data-favorite={woman.slug}
+				data-favorite-name={woman.name}
 				aria-label={`Add ${woman.name} to favorites`}
 				aria-pressed="false"
 			>

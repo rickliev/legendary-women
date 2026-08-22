@@ -39,8 +39,33 @@ npm run build
 
 Catalog records live in `src\data\women.json`; portraits live in `public\images\women`. Each record includes biographical information, categories, accomplishments, quotations, source links, and portrait attribution.
 
-After editing the catalog, run the check and build commands above to validate the data and generated profile pages.
+After adding or replacing a portrait, generate its responsive AVIF and WebP variants:
+
+```powershell
+npm run optimize:images
+```
+
+Then run the check and build commands above to validate the data and generated profile pages.
 
 ## Hosting
 
 The application builds to static files in `dist\` and is prepared for deployment to Azure Static Web Apps.
+
+## Analytics
+
+Production builds can send anonymous browser telemetry to Azure Application Insights when `PUBLIC_APPLICATIONINSIGHTS_CONNECTION_STRING` is set. Local development does not initialize analytics.
+
+The deployment workflow reads the public connection string from the GitHub repository variable `APPLICATIONINSIGHTS_CONNECTION_STRING`. Useful Log Analytics queries include:
+
+```kusto
+pageViews
+| summarize PageViews=count(), ApproximateUsers=dcount(user_Id) by name
+| order by PageViews desc
+```
+
+```kusto
+customEvents
+| where name in ("favorite_added", "favorite_removed")
+| summarize Events=count() by name, Woman=tostring(customDimensions.woman_slug)
+| order by Events desc
+```

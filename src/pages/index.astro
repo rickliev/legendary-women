@@ -3,6 +3,7 @@ import catalogData from '../data/women.json';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { assertCatalog, listedWomen } from '../lib/catalog';
 import { dailyIndex } from '../lib/daily';
+import { portraitSrcSet } from '../lib/images';
 import type { Woman } from '../types';
 
 assertCatalog(catalogData);
@@ -10,9 +11,33 @@ const women: Woman[] = listedWomen(catalogData).sort((a, b) => a.name.localeComp
 const featured = women[dailyIndex(new Date(), women.length)];
 const featuredQuotes = featured.quotes?.length ? featured.quotes : featured.quote ? [featured.quote] : [];
 const lifespan = featured.died ? `${featured.born.display} – ${featured.died.display}` : `Born ${featured.born.display}`;
+const dailyWomen = women.map((woman) => ({
+	name: woman.name,
+	slug: woman.slug,
+	born: woman.born,
+	died: woman.died,
+	categories: woman.categories,
+	summary: woman.summary,
+	image: woman.image,
+	quote: woman.quote,
+	quotes: woman.quotes,
+}));
+const websiteSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'WebSite',
+	name: 'The League of Legendary Women',
+	alternateName: 'Legendary Women',
+	url: new URL('/', Astro.site),
+	description: 'Discover influential women in history whose courage, ideas, creativity, and leadership changed the world.',
+};
 ---
 
-<BaseLayout headerTheme="dark">
+<BaseLayout
+	title="Influential Women in History"
+	description="Discover influential women in history whose courage, ideas, creativity, and leadership changed the world."
+	headerTheme="dark"
+	structuredData={websiteSchema}
+>
 	<section class="daily-home" aria-labelledby="daily-name">
 		<div class="daily-home-glow" aria-hidden="true"></div>
 		<div class="daily-home-heading">
@@ -21,7 +46,11 @@ const lifespan = featured.died ? `${featured.born.display} – ${featured.died.d
 		</div>
 		<article class="daily-spotlight">
 			<div class="daily-portrait">
-				<img id="daily-image" src={featured.image.url} alt={featured.image.alt} />
+				<picture>
+					<source id="daily-image-avif" type="image/avif" srcset={portraitSrcSet(featured.slug, 'avif')} sizes="(max-width: 800px) calc(100vw - 2rem), 530px" />
+					<source id="daily-image-webp" type="image/webp" srcset={portraitSrcSet(featured.slug, 'webp')} sizes="(max-width: 800px) calc(100vw - 2rem), 530px" />
+					<img id="daily-image" src={featured.image.url} alt={featured.image.alt} width="800" height="1000" decoding="async" fetchpriority="high" />
+				</picture>
 				<div class="daily-image-overlay"></div>
 			</div>
 			<div class="daily-story">
@@ -53,7 +82,7 @@ const lifespan = featured.died ? `${featured.born.display} – ${featured.died.d
 	</section>
 </BaseLayout>
 
-<script is:inline define:vars={{ women }}>
+<script is:inline define:vars={{ women: dailyWomen }}>
 	const now = new Date();
 	const day = Math.floor(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) / 86400000);
 	const mixed = Math.imul(day ^ (day >>> 16), 0x45d9f3b);
@@ -65,6 +94,13 @@ const lifespan = featured.died ? `${featured.born.display} – ${featured.died.d
 		weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
 	}).format(now);
 	const image = document.querySelector('#daily-image');
+	const imageAvif = document.querySelector('#daily-image-avif');
+	const imageWebp = document.querySelector('#daily-image-webp');
+	const optimizedSrcSet = (extension) => [480, 960]
+		.map((width) => `/images/women/optimized/${selected.slug}-${width}.${extension} ${width}w`)
+		.join(', ');
+	imageAvif.srcset = optimizedSrcSet('avif');
+	imageWebp.srcset = optimizedSrcSet('webp');
 	image.src = selected.image.url;
 	image.alt = selected.image.alt;
 	document.querySelector('#daily-name').textContent = selected.name;

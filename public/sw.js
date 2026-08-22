@@ -1,4 +1,4 @@
-const CACHE = 'legendary-women-v6';
+const CACHE = 'legendary-women-v7';
 const SHELL = [
 	'/',
 	'/catalog/',
@@ -35,9 +35,10 @@ self.addEventListener('fetch', (event) => {
 
 	if (event.request.mode === 'navigate') {
 		event.respondWith(
-			caches.match(event.request)
-				.then((cached) => cached || updateCache)
-				.catch(() => caches.match('/')),
+			updateCache.catch(async () => (
+				await caches.match(event.request)
+				|| await caches.match('/')
+			)),
 		);
 		return;
 	}

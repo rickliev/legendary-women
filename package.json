@@ -10,15 +10,18 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
+    "optimize:images": "node scripts/optimize-images.mjs",
     "test": "node --experimental-strip-types --test \"src/**/*.test.ts\"",
     "astro": "astro"
   },
   "dependencies": {
+    "@microsoft/applicationinsights-web": "^3.4.3",
     "astro": "^7.2.1"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.6",
     "@types/node": "^26.2.0",
+    "sharp": "^0.35.3",
     "typescript": "^5.9.2"
   }
 }

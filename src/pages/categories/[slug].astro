@@ -1,0 +1,88 @@
+---
+import WomanCard from '../../components/WomanCard.astro';
+import catalogData from '../../data/women.json';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { categoryDescriptions } from '../../lib/categories';
+import { assertCatalog, categorySlug, listedWomen } from '../../lib/catalog';
+import type { Category, Woman } from '../../types';
+
+assertCatalog(catalogData);
+
+export function getStaticPaths() {
+	assertCatalog(catalogData);
+	const women = listedWomen(catalogData);
+	const categories = [...new Set(women.flatMap((woman) => woman.categories))].sort();
+
+	return categories.map((category) => ({
+		params: { slug: categorySlug(category) },
+		props: {
+			category,
+			women: women
+				.filter((woman) => woman.categories.includes(category))
+				.sort((a, b) => a.name.localeCompare(b.name)),
+		},
+	}));
+}
+
+interface Props {
+	category: Category;
+	women: Woman[];
+}
+
+const { category, women } = Astro.props;
+const description = categoryDescriptions[category];
+const pageUrl = new URL(`/categories/${categorySlug(category)}/`, Astro.site);
+const categorySchema = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: `Influential Women in ${category}`,
+		description,
+		url: pageUrl,
+		mainEntity: {
+			'@type': 'ItemList',
+			numberOfItems: women.length,
+			itemListElement: women.map((woman, index) => ({
+				'@type': 'ListItem',
+				position: index + 1,
+				name: woman.name,
+				url: new URL(`/women/${woman.slug}/`, Astro.site),
+			})),
+		},
+	},
+	{
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site) },
+			{ '@type': 'ListItem', position: 2, name: 'Catalog', item: new URL('/catalog/', Astro.site) },
+			{ '@type': 'ListItem', position: 3, name: category, item: pageUrl },
+		],
+	},
+];
+---
+
+<BaseLayout
+	title={`Influential Women in ${category}`}
+	description={description}
+	headerTheme="dark"
+	structuredData={categorySchema}
+>
+	<header class="catalog-hero category-hero">
+		<p class="eyebrow">Browse by field</p>
+		<h1>Women in<br /><em>{category}</em></h1>
+		<p>{description}</p>
+	</header>
+	<section class="catalog-section category-page" aria-labelledby="category-title">
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
+			<a href="/">Home</a><span aria-hidden="true">/</span>
+			<a href="/catalog/">Catalog</a><span aria-hidden="true">/</span>
+			<span aria-current="page">{category}</span>
+		</nav>
+		<div class="section-heading">
+			<h2 id="category-title">{women.length} remarkable women</h2>
+			<a class="text-link" href="/catalog/">Explore the full catalog <span aria-hidden="true">→</span></a>
+		</div>
+		<div class="catalog-grid">{women.map((woman) => <WomanCard woman={woman} />)}</div>
+	</section>
+</BaseLayout>

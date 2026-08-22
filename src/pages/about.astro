@@ -1,7 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const aboutSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'AboutPage',
+	name: 'About The League of Legendary Women',
+	url: new URL('/about/', Astro.site),
+	description: 'Learn about the mission, sources, editorial approach, and privacy practices behind The League of Legendary Women.',
+};
 ---
-<BaseLayout title="About">
+<BaseLayout
+	title="About the Legendary Women Archive"
+	description="Learn about the mission, sources, editorial approach, and privacy practices behind The League of Legendary Women."
+	structuredData={aboutSchema}
+>
 	<article class="text-page">
 		<p class="eyebrow">About the archive</p>
 		<h1>History belongs to everyone.</h1>
@@ -39,12 +50,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 			</section>
 		</div>
 		<h2>Privacy</h2>
-		<p>Favorites are stored only in your browser using local storage and are never sent to a server.</p>
+		<p>Favorites are stored only in your browser using local storage. The production site uses Azure Application Insights to collect anonymous page views, approximate visitor and session counts, performance data, browser errors, and favorite add or remove events. Favorite events include only the profile identifier and whether the action occurred on the catalog or profile page. We do not send names, email addresses, LinkedIn data, or your complete favorites list.</p>
 		<h2>Sources and images</h2>
 		<p>
 			Content is adapted from <strong>Wikipedia</strong>, a free encyclopedia maintained by the Wikimedia Foundation.
 			Available at: <a href="https://www.wikipedia.org/?utm_source=copilot.com" title="www.wikipedia.org" rel="noreferrer" target="_blank">www.wikipedia.org</a>.
 			Image provenance is credited separately to Wikipedia on each profile, with license terms governed by the original Wikipedia or Wikimedia Commons file page.
 		</p>
+		<h2>Contact</h2>
+		<p>Questions, corrections, or suggestions? Connect with project creator <a href="https://www.linkedin.com/in/ricklievano/" rel="noreferrer" target="_blank">Rick Lievano on LinkedIn</a>.</p>
 	</article>
 </BaseLayout>

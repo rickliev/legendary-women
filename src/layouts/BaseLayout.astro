@@ -7,16 +7,29 @@ interface Props {
 	headerTheme?: 'dark' | 'light';
 	brandHref?: string;
 	noindex?: boolean;
+	image?: string;
+	imageAlt?: string;
+	pageType?: 'website' | 'article' | 'profile';
+	structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
-	title = 'Legendary Women',
-	description = 'Discover the women whose courage, ideas, and leadership changed our world.',
+	title = 'Influential Women in History',
+	description = 'Discover influential women in history whose courage, ideas, creativity, and leadership changed the world.',
 	headerTheme = 'light',
 	brandHref = '/',
 	noindex = false,
+	image = '/brand/icon-512.png',
+	imageAlt = 'The League of Legendary Women',
+	pageType = 'website',
+	structuredData,
 } = Astro.props;
-const pageTitle = title === 'Legendary Women' ? title : `${title} | Legendary Women`;
+const pageTitle = `${title} | Legendary Women`;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const socialImage = new URL(image, Astro.site);
+const serializedStructuredData = structuredData
+	? JSON.stringify(structuredData).replace(/</g, '\\u003c')
+	: null;
 ---
 
 <!doctype html>
@@ -26,21 +39,33 @@ const pageTitle = title === 'Legendary Women' ? title : `${title} | Legendary Wo
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#3b123c" />
 		<meta name="description" content={description} />
-		{noindex && <meta name="robots" content="noindex, nofollow" />}
+		<meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'} />
+		<link rel="canonical" href={canonicalUrl} />
 		<meta property="og:title" content={pageTitle} />
 		<meta property="og:description" content={description} />
-		<meta property="og:type" content="website" />
+		<meta property="og:type" content={pageType} />
+		<meta property="og:site_name" content="The League of Legendary Women" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:url" content={canonicalUrl} />
+		<meta property="og:image" content={socialImage} />
+		<meta property="og:image:alt" content={imageAlt} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={pageTitle} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={socialImage} />
+		<meta name="twitter:image:alt" content={imageAlt} />
 		<link rel="icon" href="/favicon.ico" sizes="any" />
 		<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
 		<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
 		<link rel="manifest" href="/manifest.webmanifest" />
+		{serializedStructuredData && <script is:inline type="application/ld+json" set:html={serializedStructuredData} />}
 		<title>{pageTitle}</title>
 	</head>
 	<body>
 		<a class="skip-link" href="#main-content">Skip to content</a>
 		<header class:list={['site-header', `header-${headerTheme}`]}>
 			<a class="brand" href={brandHref} aria-label={brandHref === '/catalog/' ? 'Browse Legendary Women' : 'Legendary Women home'}>
-				<img class="brand-logo" src="/brand/legend_logo.png" alt="Legendary Women" />
+				<img class="brand-logo" src="/brand/legend_logo.png" alt="Legendary Women" width="570" height="447" />
 				<span class="brand-copy">
 					<strong>Bold minds. Brave lives.</strong>
 					<small>Stories that move the world forward.</small>
@@ -52,8 +77,12 @@ const pageTitle = title === 'Legendary Women' ? title : `${title} | Legendary Wo
 		</main>
 		<footer class="site-footer">
 			<p>Sources and image credits are provided on each profile.</p>
-			<p><a href="/about">About this project</a></p>
+			<p><a href="/about/">About this project</a></p>
 		</footer>
+		<script>
+			import { trackPageView } from '../lib/analytics';
+			trackPageView();
+		</script>
 		<script is:inline>
 			if ('serviceWorker' in navigator) {
 				window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
