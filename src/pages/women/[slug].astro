@@ -169,6 +169,11 @@ const profileSchema = [
 		});
 	}
 
+	const navigateToProfile = (linkId: 'previous-profile' | 'next-profile') => {
+		const link = document.querySelector<HTMLAnchorElement>(`#${linkId}`);
+		if (link) window.location.assign(link.href);
+	};
+
 	document.addEventListener('keydown', (event) => {
 		if (
 			event.defaultPrevented
@@ -190,7 +195,45 @@ const profileSchema = [
 				: null;
 		if (!linkId) return;
 
-		const link = document.querySelector<HTMLAnchorElement>(`#${linkId}`);
-		if (link) window.location.assign(link.href);
+		navigateToProfile(linkId);
 	});
+
+	const profile = document.querySelector<HTMLElement>('.profile');
+	let touchStart: { x: number; y: number; time: number } | null = null;
+
+	profile?.addEventListener('touchstart', (event) => {
+		if (event.touches.length !== 1) {
+			touchStart = null;
+			return;
+		}
+
+		const touch = event.touches[0];
+		touchStart = { x: touch.clientX, y: touch.clientY, time: performance.now() };
+	}, { passive: true });
+
+	profile?.addEventListener('touchend', (event) => {
+		if (!touchStart || event.changedTouches.length !== 1) {
+			touchStart = null;
+			return;
+		}
+
+		const touch = event.changedTouches[0];
+		const horizontalDistance = touch.clientX - touchStart.x;
+		const verticalDistance = touch.clientY - touchStart.y;
+		const duration = performance.now() - touchStart.time;
+		const threshold = Math.min(120, Math.max(60, window.innerWidth * 0.12));
+		touchStart = null;
+
+		if (
+			duration > 800
+			|| Math.abs(horizontalDistance) < threshold
+			|| Math.abs(horizontalDistance) < Math.abs(verticalDistance) * 1.5
+		) return;
+
+		navigateToProfile(horizontalDistance < 0 ? 'next-profile' : 'previous-profile');
+	}, { passive: true });
+
+	profile?.addEventListener('touchcancel', () => {
+		touchStart = null;
+	}, { passive: true });
 </script>
