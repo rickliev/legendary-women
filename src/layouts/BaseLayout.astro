@@ -20,11 +20,11 @@ const {
 	brandHref = '/',
 	noindex = false,
 	image = '/brand/icon-512.png',
-	imageAlt = 'The League of Legendary Women',
+	imageAlt = 'League of Legendary Women',
 	pageType = 'website',
 	structuredData,
 } = Astro.props;
-const pageTitle = `${title} | Legendary Women`;
+const pageTitle = `${title} | League of Legendary Women`;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 const socialImage = new URL(image, Astro.site);
 const serializedStructuredData = structuredData
@@ -44,7 +44,7 @@ const serializedStructuredData = structuredData
 		<meta property="og:title" content={pageTitle} />
 		<meta property="og:description" content={description} />
 		<meta property="og:type" content={pageType} />
-		<meta property="og:site_name" content="The League of Legendary Women" />
+		<meta property="og:site_name" content="League of Legendary Women" />
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:url" content={canonicalUrl} />
 		<meta property="og:image" content={socialImage} />
@@ -64,8 +64,8 @@ const serializedStructuredData = structuredData
 	<body>
 		<a class="skip-link" href="#main-content">Skip to content</a>
 		<header class:list={['site-header', `header-${headerTheme}`]}>
-			<a class="brand" href={brandHref} aria-label={brandHref === '/catalog/' ? 'Browse Legendary Women' : 'Legendary Women home'}>
-				<img class="brand-logo" src="/brand/legend_logo.png" alt="Legendary Women" width="570" height="447" />
+			<a class="brand" href={brandHref} aria-label={brandHref === '/catalog/' ? 'Browse League of Legendary Women' : 'League of Legendary Women home'}>
+				<img class="brand-logo" src="/brand/legend_logo.png" alt="League of Legendary Women" width="570" height="447" />
 				<span class="brand-copy">
 					<strong>Bold minds. Brave lives.</strong>
 					<small>Stories that move the world forward.</small>
