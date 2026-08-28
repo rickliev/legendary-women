@@ -10,7 +10,7 @@ export const GET: APIRoute = () => {
 		.map((woman) => woman.name)
 		.sort((a, b) => a.localeCompare(b));
 
-	return new Response(`${names.join('\n')}\n`, {
+	return new Response(`\uFEFF${names.join('\n')}\n`, {
 		headers: { 'Content-Type': 'text/plain; charset=utf-8' },
 	});
 };
