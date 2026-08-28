@@ -3185,6 +3185,68 @@
     ]
   },
   {
+    "slug": "lucille-ball",
+    "name": "Lucille Ball",
+    "fullName": "Lucille Désirée Ball",
+    "born": {
+      "date": "1911-08-06",
+      "display": "August 6, 1911"
+    },
+    "died": {
+      "date": "1989-04-26",
+      "display": "April 26, 1989"
+    },
+    "categories": [
+      "Arts & Literature",
+      "Business & Philanthropy"
+    ],
+    "summary": "Pioneering comedian, actress, producer, and studio executive who transformed American television.",
+    "bio": "Lucille Ball became one of television's most influential comedians through I Love Lucy, whose physical comedy and production techniques helped define the modern sitcom. She co-founded Desilu Productions with Desi Arnaz and, in 1962, became the first woman to run a major television studio. Under her leadership, Desilu produced landmark series including Star Trek and Mission: Impossible.",
+    "accomplishments": [
+      "Starred in and co-produced I Love Lucy, one of television's most influential sitcoms",
+      "Became the first woman to run a major television studio",
+      "Won four Primetime Emmy Awards from 13 nominations",
+      "Was inducted into the Television Academy Hall of Fame in 1984",
+      "Received the Presidential Medal of Freedom posthumously in 1989"
+    ],
+    "quotes": [
+      {
+        "text": "You cannot teach someone comedy, either they have it or they don't.",
+        "source": "National Women's Hall of Fame biography"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lucille_Ball?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/lucille-ball.jpg",
+      "alt": "Monochrome portrait of Lucille Ball in 1944",
+      "credit": "Harry Warnecke and Robert F. Cranston / National Portrait Gallery, Smithsonian Institution",
+      "license": "CC0 1.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucille_Ball,_NPG_94_40.jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Lucille Ball",
+        "url": "https://www.britannica.com/biography/Lucille-Ball"
+      },
+      {
+        "label": "Television Academy — Lucille Ball",
+        "url": "https://www.televisionacademy.com/bios/lucille-ball"
+      },
+      {
+        "label": "National Women's Hall of Fame — Lucille Ball",
+        "url": "https://www.womenofthehall.org/inductee/lucille-ball/"
+      },
+      {
+        "label": "National Portrait Gallery — Lucille Ball",
+        "url": "https://npg.si.edu/object/npg_NPG.94.40"
+      },
+      {
+        "label": "Wikipedia — Lucille Ball",
+        "url": "https://en.wikipedia.org/wiki/Lucille_Ball"
+      }
+    ]
+  },
+  {
     "slug": "emily-lievano",
     "name": "Emily Lievano",
     "fullName": "Emily Andréa Liévano",
