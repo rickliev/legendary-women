@@ -3185,6 +3185,66 @@
     ]
   },
   {
+    "slug": "dolly-parton",
+    "name": "Dolly Parton",
+    "fullName": "Dolly Rebecca Parton",
+    "born": {
+      "date": "1946-01-19",
+      "display": "January 19, 1946"
+    },
+    "died": {
+      "date": "2026-08-25",
+      "display": "August 25, 2026"
+    },
+    "categories": [
+      "Arts & Literature",
+      "Business & Philanthropy"
+    ],
+    "summary": "Singer, songwriter, actress, entrepreneur, and philanthropist whose work transformed country music and expanded children's access to books.",
+    "bio": "Dolly Parton rose from rural East Tennessee to become one of country music's most influential singer-songwriters. Her catalog includes enduring songs such as Jolene, Coat of Many Colors, and I Will Always Love You, while her crossover recordings and film roles broadened her cultural impact. Beyond entertainment, she built Dollywood into a major regional enterprise and founded the Imagination Library, which mails free books to young children in several countries.",
+    "accomplishments": [
+      "Wrote and recorded enduring songs including Jolene, Coat of Many Colors, and I Will Always Love You",
+      "Was inducted into the Country Music Hall of Fame in 1999",
+      "Received the Recording Academy Lifetime Achievement Award in 2011",
+      "Was inducted into the Rock & Roll Hall of Fame in 2022",
+      "Founded the Imagination Library, an international book-gifting program for young children"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dolly_Parton?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/dolly-parton.jpg",
+      "alt": "Monochrome portrait of Dolly Parton in 2010",
+      "credit": "Curtis Hilbun / Liseberg",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dolly_Parton_accepting_Liseberg_Applause_Award_2010_portrait_(cropped).jpg"
+    },
+    "sources": [
+      {
+        "label": "Country Music Hall of Fame — Dolly Parton",
+        "url": "https://www.countrymusichalloffame.org/hall-of-fame/dolly-parton"
+      },
+      {
+        "label": "Recording Academy — Dolly Parton",
+        "url": "https://www.grammy.com/artists/dolly-parton/17205"
+      },
+      {
+        "label": "Rock & Roll Hall of Fame — Dolly Parton",
+        "url": "https://rockhall.com/inductees/dolly-parton/"
+      },
+      {
+        "label": "Dolly Parton's Imagination Library — About",
+        "url": "https://imaginationlibrary.com/about-us/"
+      },
+      {
+        "label": "NBC News — Dolly Parton, country music icon, dies at 80",
+        "url": "https://www.nbcnews.com/news/us-news/dolly-parton-county-music-icon-dies-80-rcna236277"
+      },
+      {
+        "label": "Wikipedia — Dolly Parton",
+        "url": "https://en.wikipedia.org/wiki/Dolly_Parton"
+      }
+    ]
+  },
+  {
     "slug": "lucille-ball",
     "name": "Lucille Ball",
     "fullName": "Lucille Désirée Ball",
