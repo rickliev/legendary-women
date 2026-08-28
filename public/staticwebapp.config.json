@@ -1,5 +1,11 @@
 {
 	"trailingSlash": "auto",
+	"routes": [
+		{
+			"route": "/list*",
+			"rewrite": "/list.txt"
+		}
+	],
 	"responseOverrides": {
 		"404": {
 			"rewrite": "/404.html",
@@ -13,6 +19,7 @@
 	},
 	"mimeTypes": {
 		".webmanifest": "application/manifest+json",
+		".txt": "text/plain",
 		".xml": "application/xml"
 	}
 }
