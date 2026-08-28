@@ -10,6 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
+    "generate:social": "node scripts/generate-social-images.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
     "test": "node --experimental-strip-types --test \"src/**/*.test.ts\"",
     "astro": "astro"

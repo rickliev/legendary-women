@@ -9,6 +9,9 @@ interface Props {
 	noindex?: boolean;
 	image?: string;
 	imageAlt?: string;
+	imageWidth?: number;
+	imageHeight?: number;
+	imageType?: string;
 	pageType?: 'website' | 'article' | 'profile';
 	structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
@@ -21,6 +24,9 @@ const {
 	noindex = false,
 	image = '/brand/icon-512.png',
 	imageAlt = 'League of Legendary Women',
+	imageWidth,
+	imageHeight,
+	imageType,
 	pageType = 'website',
 	structuredData,
 } = Astro.props;
@@ -48,6 +54,10 @@ const serializedStructuredData = structuredData
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:url" content={canonicalUrl} />
 		<meta property="og:image" content={socialImage} />
+		<meta property="og:image:secure_url" content={socialImage} />
+		{imageType && <meta property="og:image:type" content={imageType} />}
+		{imageWidth && <meta property="og:image:width" content={String(imageWidth)} />}
+		{imageHeight && <meta property="og:image:height" content={String(imageHeight)} />}
 		<meta property="og:image:alt" content={imageAlt} />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={pageTitle} />
