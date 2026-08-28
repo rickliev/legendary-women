@@ -51,6 +51,19 @@ Then run the check and build commands above to validate the data and generated p
 
 The application builds to static files in `dist\` and is prepared for deployment to Azure Static Web Apps.
 
+## License
+
+Original source code and project configuration are licensed under the [MIT License](LICENSE).
+
+The MIT License does **not** apply to:
+
+- Catalog records, biographies, quotations, and other editorial content in `src\data\`
+- Portraits and generated image variants in `public\images\`, which remain subject to the license and attribution recorded for each profile
+- Logos, icons, favicons, and other branding in `public\brand\` and `public\favicon*`
+- Third-party dependencies or other third-party material, which remain subject to their respective licenses
+
+No trademark rights in the project name, logo, or branding are granted.
+
 ## Analytics
 
 Production builds can send anonymous browser telemetry to Azure Application Insights when `PUBLIC_APPLICATIONINSIGHTS_CONNECTION_STRING` is set. Local development does not initialize analytics.
