@@ -5,7 +5,7 @@
 ## What the app does
 
 - Highlights a deterministic **Legend of the Day** that changes each calendar day
-- Provides a searchable, category-filtered catalog of 55 women
+- Provides a searchable, category-filtered catalog of 60+ women
 - Presents biographies, life dates, accomplishments, sourced quotations, and image attribution
 - Lets visitors save favorites privately in their browser
 - Generates a dedicated static page for every profile
