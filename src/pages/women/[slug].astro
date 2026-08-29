@@ -1,6 +1,7 @@
 ---
 import catalogData from '../../data/women.json';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { calculateAge, localIsoDate } from '../../lib/age';
 import { assertCatalog, categorySlug, listedWomen } from '../../lib/catalog';
 import { portraitSrcSet } from '../../lib/images';
 import type { Woman } from '../../types';
@@ -31,6 +32,9 @@ interface Props {
 }
 const { woman, previous, next } = Astro.props;
 const lifespan = woman.died ? `${woman.born.display} – ${woman.died.display}` : `Born ${woman.born.display}`;
+const age = woman.born.date && (!woman.died || woman.died.date)
+	? calculateAge(woman.born.date, woman.died?.date ?? localIsoDate())
+	: null;
 const profileUrl = woman.profileUrl ?? woman.wikipediaUrl!;
 const profileLabel = woman.profileLabel ?? 'Wikipedia';
 const profilePageUrl = new URL(`/women/${woman.slug}/`, Astro.site);
@@ -108,7 +112,22 @@ const profileSchema = [
 					</button>
 				</div>
 				{woman.fullName !== woman.name && <p class="full-name">{woman.fullName}</p>}
-				{woman.showLifeDates !== false && <p class="lifespan">{lifespan}</p>}
+				{woman.showLifeDates !== false && (
+					<p class="lifespan">
+						{lifespan}
+						{age !== null && (
+							<>
+								{' '}
+								<span
+									class="profile-age"
+									data-birth-date={!woman.died ? woman.born.date : undefined}
+								>
+									(Age {age})
+								</span>
+							</>
+						)}
+					</p>
+				)}
 				<p class="profile-summary">{woman.summary}</p>
 			</div>
 		</header>
@@ -158,7 +177,13 @@ const profileSchema = [
 </BaseLayout>
 
 <script>
+	import { calculateAge, localIsoDate } from '../../lib/age';
 	import { getFavorites, toggleFavorite, updateFavoriteButton } from '../../lib/favorites';
+
+	const ageLabel = document.querySelector<HTMLElement>('.profile-age[data-birth-date]');
+	if (ageLabel?.dataset.birthDate) {
+		ageLabel.textContent = `(Age ${calculateAge(ageLabel.dataset.birthDate, localIsoDate())})`;
+	}
 
 	const favoriteButton = document.querySelector<HTMLButtonElement>('#profile-favorite');
 	if (favoriteButton) {

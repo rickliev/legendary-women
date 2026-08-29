@@ -4,12 +4,12 @@
     "name": "Ada Lovelace",
     "fullName": "Augusta Ada King, Countess of Lovelace",
     "born": {
-      "date": null,
-      "display": "1815"
+      "date": "1815-12-10",
+      "display": "December 10, 1815"
     },
     "died": {
-      "date": null,
-      "display": "1852"
+      "date": "1852-11-27",
+      "display": "November 27, 1852"
     },
     "categories": [
       "Science & Technology"
@@ -50,8 +50,8 @@
     "name": "Amelia Earhart",
     "fullName": "Amelia Mary Earhart",
     "born": {
-      "date": null,
-      "display": "1897"
+      "date": "1897-07-24",
+      "display": "July 24, 1897"
     },
     "died": {
       "date": null,
@@ -154,12 +154,12 @@
     "name": "Anne Frank",
     "fullName": "Annelies Marie Frank",
     "born": {
-      "date": null,
-      "display": "1929"
+      "date": "1929-06-12",
+      "display": "June 12, 1929"
     },
     "died": {
       "date": null,
-      "display": "1945"
+      "display": "February or March 1945"
     },
     "categories": [
       "Arts & Literature",
@@ -201,8 +201,8 @@
     "name": "Billie Jean King",
     "fullName": "Billie Jean King",
     "born": {
-      "date": null,
-      "display": "1943"
+      "date": "1943-11-22",
+      "display": "November 22, 1943"
     },
     "died": null,
     "categories": [
@@ -246,12 +246,12 @@
     "name": "Clara Barton",
     "fullName": "Clarissa Harlowe Barton",
     "born": {
-      "date": null,
-      "display": "1821"
+      "date": "1821-12-25",
+      "display": "December 25, 1821"
     },
     "died": {
-      "date": null,
-      "display": "1912"
+      "date": "1912-04-12",
+      "display": "April 12, 1912"
     },
     "categories": [
       "Healthcare",
@@ -294,12 +294,12 @@
     "name": "Eleanor Roosevelt",
     "fullName": "Anna Eleanor Roosevelt",
     "born": {
-      "date": null,
-      "display": "1884"
+      "date": "1884-10-11",
+      "display": "October 11, 1884"
     },
     "died": {
-      "date": null,
-      "display": "1962"
+      "date": "1962-11-07",
+      "display": "November 7, 1962"
     },
     "categories": [
       "Politics & Law",
@@ -342,12 +342,12 @@
     "name": "Eva Perón",
     "fullName": "María Eva Duarte de Perón",
     "born": {
-      "date": null,
-      "display": "1919"
+      "date": "1919-05-07",
+      "display": "May 7, 1919"
     },
     "died": {
-      "date": null,
-      "display": "1952"
+      "date": "1952-07-26",
+      "display": "July 26, 1952"
     },
     "categories": [
       "Politics & Law",
@@ -390,12 +390,12 @@
     "name": "Florence Nightingale",
     "fullName": "Florence Nightingale",
     "born": {
-      "date": null,
-      "display": "1820"
+      "date": "1820-05-12",
+      "display": "May 12, 1820"
     },
     "died": {
-      "date": null,
-      "display": "1910"
+      "date": "1910-08-13",
+      "display": "August 13, 1910"
     },
     "categories": [
       "Healthcare",
@@ -438,12 +438,12 @@
     "name": "Frida Kahlo",
     "fullName": "Magdalena Carmen Frida Kahlo y Calderón",
     "born": {
-      "date": null,
-      "display": "1907"
+      "date": "1907-07-06",
+      "display": "July 6, 1907"
     },
     "died": {
-      "date": null,
-      "display": "1954"
+      "date": "1954-07-13",
+      "display": "July 13, 1954"
     },
     "categories": [
       "Arts & Literature"
@@ -485,12 +485,12 @@
     "name": "Grace Hopper",
     "fullName": "Grace Brewster Murray Hopper",
     "born": {
-      "date": null,
-      "display": "1906"
+      "date": "1906-12-09",
+      "display": "December 9, 1906"
     },
     "died": {
-      "date": null,
-      "display": "1992"
+      "date": "1992-01-01",
+      "display": "January 1, 1992"
     },
     "categories": [
       "Science & Technology"
@@ -536,8 +536,8 @@
       "display": "c. 1822"
     },
     "died": {
-      "date": null,
-      "display": "1913"
+      "date": "1913-03-10",
+      "display": "March 10, 1913"
     },
     "categories": [
       "Civil Rights"
@@ -575,12 +575,12 @@
     "name": "Hedy Lamarr",
     "fullName": "Hedwig Eva Maria Kiesler",
     "born": {
-      "date": null,
-      "display": "1914"
+      "date": "1914-11-09",
+      "display": "November 9, 1914"
     },
     "died": {
-      "date": null,
-      "display": "2000"
+      "date": "2000-01-19",
+      "display": "January 19, 2000"
     },
     "categories": [
       "Science & Technology",
@@ -623,12 +623,12 @@
     "name": "Helen Keller",
     "fullName": "Helen Adams Keller",
     "born": {
-      "date": null,
-      "display": "1880"
+      "date": "1880-06-27",
+      "display": "June 27, 1880"
     },
     "died": {
-      "date": null,
-      "display": "1968"
+      "date": "1968-06-01",
+      "display": "June 1, 1968"
     },
     "categories": [
       "Education & Advocacy",
@@ -675,8 +675,8 @@
     "name": "Jane Goodall",
     "fullName": "Dame Jane Morris Goodall",
     "born": {
-      "date": null,
-      "display": "1934"
+      "date": "1934-04-03",
+      "display": "April 3, 1934"
     },
     "died": {
       "date": "2025-10-01",
@@ -723,12 +723,12 @@
     "name": "Madeleine Albright",
     "fullName": "Madeleine Jana Korbel Albright",
     "born": {
-      "date": null,
-      "display": "1937"
+      "date": "1937-05-15",
+      "display": "May 15, 1937"
     },
     "died": {
-      "date": null,
-      "display": "2022"
+      "date": "2022-03-23",
+      "display": "March 23, 2022"
     },
     "categories": [
       "Politics & Law",
@@ -775,8 +775,8 @@
     "name": "Malala Yousafzai",
     "fullName": "Malala Yousafzai",
     "born": {
-      "date": null,
-      "display": "1997"
+      "date": "1997-07-12",
+      "display": "July 12, 1997"
     },
     "died": null,
     "categories": [
@@ -828,12 +828,12 @@
     "name": "Manuela Sáenz",
     "fullName": "Manuela Sáenz de Vergara y Aizpuru",
     "born": {
-      "date": null,
-      "display": "1797"
+      "date": "1797-12-27",
+      "display": "December 27, 1797"
     },
     "died": {
-      "date": null,
-      "display": "1856"
+      "date": "1856-11-23",
+      "display": "November 23, 1856"
     },
     "categories": [
       "Politics & Law",
@@ -880,8 +880,8 @@
     "name": "Margaret Hamilton",
     "fullName": "Margaret Heafield Hamilton",
     "born": {
-      "date": null,
-      "display": "1936"
+      "date": "1936-08-17",
+      "display": "August 17, 1936"
     },
     "died": null,
     "categories": [
@@ -932,12 +932,12 @@
     "name": "Margaret Thatcher",
     "fullName": "Margaret Hilda Thatcher",
     "born": {
-      "date": null,
-      "display": "1925"
+      "date": "1925-10-13",
+      "display": "October 13, 1925"
     },
     "died": {
-      "date": null,
-      "display": "2013"
+      "date": "2013-04-08",
+      "display": "April 8, 2013"
     },
     "categories": [
       "Politics & Law"
@@ -987,12 +987,12 @@
     "name": "Marie Curie",
     "fullName": "Maria Salomea Skłodowska-Curie",
     "born": {
-      "date": null,
-      "display": "1867"
+      "date": "1867-11-07",
+      "display": "November 7, 1867"
     },
     "died": {
-      "date": null,
-      "display": "1934"
+      "date": "1934-07-04",
+      "display": "July 4, 1934"
     },
     "categories": [
       "Science & Technology",
@@ -1035,12 +1035,12 @@
     "name": "Marjorie Merriweather Post",
     "fullName": "Marjorie Merriweather Post",
     "born": {
-      "date": null,
-      "display": "1887"
+      "date": "1887-03-15",
+      "display": "March 15, 1887"
     },
     "died": {
-      "date": null,
-      "display": "1973"
+      "date": "1973-09-12",
+      "display": "September 12, 1973"
     },
     "categories": [
       "Business & Philanthropy",
@@ -1087,12 +1087,12 @@
     "name": "Mary Edwards Walker",
     "fullName": "Mary Edwards Walker",
     "born": {
-      "date": null,
-      "display": "1832"
+      "date": "1832-11-26",
+      "display": "November 26, 1832"
     },
     "died": {
-      "date": null,
-      "display": "1919"
+      "date": "1919-02-21",
+      "display": "February 21, 1919"
     },
     "categories": [
       "Healthcare",
@@ -1143,12 +1143,12 @@
     "name": "Mary Shelley",
     "fullName": "Mary Wollstonecraft Shelley",
     "born": {
-      "date": null,
-      "display": "1797"
+      "date": "1797-08-30",
+      "display": "August 30, 1797"
     },
     "died": {
-      "date": null,
-      "display": "1851"
+      "date": "1851-02-01",
+      "display": "February 1, 1851"
     },
     "categories": [
       "Arts & Literature"
@@ -1190,8 +1190,8 @@
     "name": "Condoleezza Rice",
     "fullName": "Condoleezza Rice",
     "born": {
-      "date": null,
-      "display": "1954"
+      "date": "1954-11-14",
+      "display": "November 14, 1954"
     },
     "died": null,
     "categories": [
@@ -1235,12 +1235,12 @@
     "name": "Rosa Parks",
     "fullName": "Rosa Louise McCauley Parks",
     "born": {
-      "date": null,
-      "display": "1913"
+      "date": "1913-02-04",
+      "display": "February 4, 1913"
     },
     "died": {
-      "date": null,
-      "display": "2005"
+      "date": "2005-10-24",
+      "display": "October 24, 2005"
     },
     "categories": [
       "Civil Rights"
@@ -1290,12 +1290,12 @@
     "name": "Rosalind Franklin",
     "fullName": "Rosalind Elsie Franklin",
     "born": {
-      "date": null,
-      "display": "1920"
+      "date": "1920-07-25",
+      "display": "July 25, 1920"
     },
     "died": {
-      "date": null,
-      "display": "1958"
+      "date": "1958-04-16",
+      "display": "April 16, 1958"
     },
     "categories": [
       "Science & Technology",
@@ -1338,12 +1338,12 @@
     "name": "Ruth Bader Ginsburg",
     "fullName": "Joan Ruth Bader Ginsburg",
     "born": {
-      "date": null,
-      "display": "1933"
+      "date": "1933-03-15",
+      "display": "March 15, 1933"
     },
     "died": {
-      "date": null,
-      "display": "2020"
+      "date": "2020-09-18",
+      "display": "September 18, 2020"
     },
     "categories": [
       "Politics & Law",
@@ -1441,8 +1441,8 @@
     "name": "Sonia Sotomayor",
     "fullName": "Sonia Maria Sotomayor",
     "born": {
-      "date": null,
-      "display": "1954"
+      "date": "1954-06-25",
+      "display": "June 25, 1954"
     },
     "died": null,
     "categories": [
@@ -1486,12 +1486,12 @@
     "name": "Susan B. Anthony",
     "fullName": "Susan Brownell Anthony",
     "born": {
-      "date": null,
-      "display": "1820"
+      "date": "1820-02-15",
+      "display": "February 15, 1820"
     },
     "died": {
-      "date": null,
-      "display": "1906"
+      "date": "1906-03-13",
+      "display": "March 13, 1906"
     },
     "categories": [
       "Civil Rights",
@@ -1542,12 +1542,12 @@
     "name": "Madam C. J. Walker",
     "fullName": "Sarah Breedlove",
     "born": {
-      "date": null,
-      "display": "1867"
+      "date": "1867-12-23",
+      "display": "December 23, 1867"
     },
     "died": {
-      "date": null,
-      "display": "1919"
+      "date": "1919-05-25",
+      "display": "May 25, 1919"
     },
     "categories": [
       "Business & Philanthropy",
@@ -3314,7 +3314,7 @@
     "showLifeDates": false,
     "born": {
       "date": null,
-      "display": "Not publicly listed"
+      "display": "Birth date not publicly available"
     },
     "died": null,
     "categories": [
