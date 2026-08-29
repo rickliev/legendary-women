@@ -15,6 +15,9 @@ describe('birth and death date consistency', () => {
 	for (const woman of women as Woman[]) {
 		for (const key of ['born', 'died'] as const) {
 			const lifeDate = woman[key];
+			// Entries without a precise ISO date (year-only or ambiguous dates, e.g.
+			// Emmeline Pankhurst's "July 14 or 15, 1858") are intentionally exempt
+			// from the strict "Month D, YYYY" format checked below.
 			if (!lifeDate?.date) continue;
 
 			it(`${woman.slug} ${key}.display matches "Month D, YYYY" format`, () => {
