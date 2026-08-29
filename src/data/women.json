@@ -680,7 +680,7 @@
     },
     "died": {
       "date": "2025-10-01",
-      "display": "2025"
+      "display": "October 1, 2025"
     },
     "categories": [
       "Science & Technology",
@@ -1591,11 +1591,11 @@
     "fullName": "Indira Priyadarshini Gandhi",
     "born": {
       "date": "1917-11-19",
-      "display": "19 November 1917"
+      "display": "November 19, 1917"
     },
     "died": {
       "date": "1984-10-31",
-      "display": "31 October 1984"
+      "display": "October 31, 1984"
     },
     "categories": [
       "Politics & Law"
@@ -1647,11 +1647,11 @@
     "fullName": "Golda Meir",
     "born": {
       "date": "1898-05-03",
-      "display": "3 May 1898"
+      "display": "May 3, 1898"
     },
     "died": {
       "date": "1978-12-08",
-      "display": "8 December 1978"
+      "display": "December 8, 1978"
     },
     "categories": [
       "Politics & Law"
@@ -1703,11 +1703,11 @@
     "fullName": "Benazir Bhutto",
     "born": {
       "date": "1953-06-21",
-      "display": "21 June 1953"
+      "display": "June 21, 1953"
     },
     "died": {
       "date": "2007-12-27",
-      "display": "27 December 2007"
+      "display": "December 27, 2007"
     },
     "categories": [
       "Politics & Law"
@@ -1760,11 +1760,11 @@
     "fullName": "Wangari Muta Maathai",
     "born": {
       "date": "1940-04-01",
-      "display": "1 April 1940"
+      "display": "April 1, 1940"
     },
     "died": {
       "date": "2011-09-25",
-      "display": "25 September 2011"
+      "display": "September 25, 2011"
     },
     "categories": [
       "Environment",
@@ -1819,11 +1819,11 @@
     "fullName": "Emmeline Goulden Pankhurst",
     "born": {
       "date": null,
-      "display": "14 or 15 July 1858"
+      "display": "July 14 or 15, 1858"
     },
     "died": {
       "date": "1928-06-14",
-      "display": "14 June 1928"
+      "display": "June 14, 1928"
     },
     "categories": [
       "Civil Rights",
@@ -1877,11 +1877,11 @@
     "fullName": "Simone Lucie Ernestine Marie Bertrand de Beauvoir",
     "born": {
       "date": "1908-01-09",
-      "display": "9 January 1908"
+      "display": "January 9, 1908"
     },
     "died": {
       "date": "1986-04-14",
-      "display": "14 April 1986"
+      "display": "April 14, 1986"
     },
     "categories": [
       "Arts & Literature",
