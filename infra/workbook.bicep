@@ -89,7 +89,7 @@ union
         query: '''
 pageViews
 | where timestamp {TimeRange}
-| summarize PageViews=count(), ApproximateUsers=dcount(user_Id) by bin(timestamp, 1d)
+| summarize PageViews=count(), ['Daily active users']=dcount(user_Id) by bin(timestamp, 1d)
 | order by timestamp asc
 '''
         size: 0

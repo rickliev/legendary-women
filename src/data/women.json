@@ -3307,6 +3307,440 @@
     ]
   },
   {
+    "slug": "mother-teresa",
+    "name": "Mother Teresa",
+    "fullName": "Anjezë Gonxhe Bojaxhiu",
+    "born": {
+      "date": "1910-08-26",
+      "display": "August 26, 1910"
+    },
+    "died": {
+      "date": "1997-09-05",
+      "display": "September 5, 1997"
+    },
+    "categories": [
+      "Healthcare",
+      "Business & Philanthropy"
+    ],
+    "summary": "Albanian-born Catholic nun who founded the Missionaries of Charity and received the 1979 Nobel Peace Prize.",
+    "bio": "Born Anjezë Gonxhe Bojaxhiu in Skopje, Mother Teresa joined the Sisters of Loreto at eighteen and arrived in India in 1929. After teaching in Kolkata for nearly two decades, she founded the Missionaries of Charity in 1950. The congregation established homes, clinics, orphanages, and relief centers serving people experiencing poverty and serious illness around the world. She received the Nobel Peace Prize in 1979 and was canonized in 2016.",
+    "accomplishments": [
+      "Founded the Missionaries of Charity in Kolkata in 1950",
+      "Established homes and services for people experiencing poverty, illness, and homelessness",
+      "Received the 1979 Nobel Peace Prize",
+      "Expanded the Missionaries of Charity to more than 100 countries",
+      "Was canonized as Saint Teresa of Calcutta in 2016"
+    ],
+    "quotes": [
+      {
+        "text": "It is not enough for us to say: I love God, but I do not love my neighbour.",
+        "source": "Nobel Lecture, December 11, 1979"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mother_Teresa?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/mother-teresa.jpg",
+      "alt": "Monochrome portrait of Mother Teresa in Washington, D.C., in 1995",
+      "credit": "John Mathew Smith / celebrity-photos.com",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mother_Teresa_1.jpg"
+    },
+    "sources": [
+      {
+        "label": "Nobel Prize — Mother Teresa biographical",
+        "url": "https://www.nobelprize.org/prizes/peace/1979/teresa/biographical/"
+      },
+      {
+        "label": "Nobel Prize — Mother Teresa Nobel Lecture",
+        "url": "https://www.nobelprize.org/prizes/peace/1979/teresa/lecture/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Mother Teresa",
+        "url": "https://www.britannica.com/biography/Mother-Teresa"
+      },
+      {
+        "label": "Wikipedia — Mother Teresa",
+        "url": "https://en.wikipedia.org/wiki/Mother_Teresa"
+      }
+    ]
+  },
+  {
+    "slug": "cleopatra",
+    "name": "Cleopatra",
+    "fullName": "Cleopatra VII Thea Philopator",
+    "born": {
+      "date": null,
+      "display": "c. 69 BC"
+    },
+    "died": {
+      "date": null,
+      "display": "August 30 BC"
+    },
+    "categories": [
+      "Politics & Law"
+    ],
+    "summary": "Last active ruler of Ptolemaic Egypt, known for her diplomacy, multilingual court, and alliances with Julius Caesar and Mark Antony.",
+    "bio": "Cleopatra VII became queen of Egypt in 51 BC and ruled during a period of intense Roman expansion. Unlike most of her Ptolemaic predecessors, she learned the Egyptian language and presented herself through both Egyptian and Greek traditions. She formed political alliances with Julius Caesar and Mark Antony while seeking to preserve Egypt's independence. After defeat by Octavian's forces, she died in Alexandria in August 30 BC, and Egypt became a Roman province.",
+    "accomplishments": [
+      "Ruled Ptolemaic Egypt for more than two decades",
+      "Learned Egyptian and several diplomatic languages used across the eastern Mediterranean",
+      "Restored her position as Egypt's dominant monarch through an alliance with Julius Caesar",
+      "Managed one of the wealthiest and most strategically important kingdoms of the Hellenistic world",
+      "Used diplomacy and dynastic alliances in an effort to preserve Egyptian sovereignty"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cleopatra?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/cleopatra.jpg",
+      "alt": "Monochrome photograph of an ancient marble bust identified as Cleopatra VII",
+      "credit": "Louis le Grand / Altes Museum, Berlin",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Cleopatra",
+        "url": "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt"
+      },
+      {
+        "label": "The Metropolitan Museum of Art — The Ptolemies",
+        "url": "https://www.metmuseum.org/essays/the-ptolemies"
+      },
+      {
+        "label": "Wikipedia — Cleopatra",
+        "url": "https://en.wikipedia.org/wiki/Cleopatra"
+      }
+    ]
+  },
+  {
+    "slug": "joan-of-arc",
+    "name": "Joan of Arc",
+    "fullName": "Jeanne d'Arc",
+    "born": {
+      "date": null,
+      "display": "c. 1412"
+    },
+    "died": {
+      "date": "1431-05-30",
+      "display": "May 30, 1431"
+    },
+    "categories": [
+      "Politics & Law"
+    ],
+    "summary": "French military figure whose leadership helped lift the Siege of Orléans and secure the coronation of Charles VII.",
+    "bio": "Born around 1412 in Domrémy, Joan of Arc said that religious visions directed her to support Charles VII during the Hundred Years' War. At about seventeen, she joined French forces and helped lift the Siege of Orléans in 1429 before accompanying Charles to his coronation at Reims. Burgundian forces captured her in 1430, and an English-backed church court convicted her of heresy. She was executed in 1431, rehabilitated in 1456, and canonized in 1920.",
+    "accomplishments": [
+      "Helped French forces lift the Siege of Orléans in 1429",
+      "Supported the campaign that enabled Charles VII's coronation at Reims",
+      "Became an enduring symbol of French national unity",
+      "Was cleared by a posthumous rehabilitation trial in 1456",
+      "Was canonized by the Catholic Church in 1920"
+    ],
+    "quotes": [
+      {
+        "text": "If I am not, may God put me there; and if I am, may God so keep me.",
+        "source": "Trial of Joan of Arc, third public examination, February 24, 1431"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/joan-of-arc.jpg",
+      "alt": "Monochrome reproduction of an illuminated manuscript depiction of Joan of Arc",
+      "credit": "Anonymous artist / Archives nationales, France",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Joan_of_Arc_miniature_graded.jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Joan of Arc",
+        "url": "https://www.britannica.com/biography/Saint-Joan-of-Arc"
+      },
+      {
+        "label": "Fordham University — Trial of Joan of Arc",
+        "url": "https://sourcebooks.fordham.edu/basis/joanofarc-trial.asp"
+      },
+      {
+        "label": "Wikipedia — Joan of Arc",
+        "url": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+      }
+    ]
+  },
+  {
+    "slug": "jane-austen",
+    "name": "Jane Austen",
+    "fullName": "Jane Austen",
+    "born": {
+      "date": "1775-12-16",
+      "display": "December 16, 1775"
+    },
+    "died": {
+      "date": "1817-07-18",
+      "display": "July 18, 1817"
+    },
+    "categories": [
+      "Arts & Literature"
+    ],
+    "summary": "English novelist whose social observation, irony, and narrative technique helped shape the modern novel.",
+    "bio": "Jane Austen was born in Steventon, Hampshire, and educated largely at home. She began writing in childhood and published Sense and Sensibility, Pride and Prejudice, Mansfield Park, and Emma during her lifetime, with Northanger Abbey and Persuasion appearing posthumously. Through precise characterization, irony, and close attention to the economic and social constraints facing women, she transformed domestic experience into enduring literature and helped establish techniques central to the modern novel.",
+    "accomplishments": [
+      "Published six complete novels that remain widely read and studied",
+      "Helped define the English novel of manners",
+      "Advanced the use of free indirect discourse in modern fiction",
+      "Created enduring examinations of women's economic and social choices",
+      "Influenced generations of novelists and literary critics"
+    ],
+    "quotes": [
+      {
+        "text": "The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.",
+        "source": "Northanger Abbey, chapter 14"
+      },
+      {
+        "text": "I must confess that I think it rather too light, and bright, and sparkling; it wants shade.",
+        "source": "Letter to Cassandra Austen about Pride and Prejudice, February 4, 1813"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jane_Austen?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/jane-austen.jpg",
+      "alt": "Monochrome reproduction of Cassandra Austen's portrait of Jane Austen",
+      "credit": "Cassandra Austen / National Portrait Gallery, London",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg"
+    },
+    "sources": [
+      {
+        "label": "Jane Austen's House — Jane Austen",
+        "url": "https://janeaustens.house/learn/jane-austen/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Jane Austen",
+        "url": "https://www.britannica.com/biography/Jane-Austen"
+      },
+      {
+        "label": "National Portrait Gallery — Jane Austen",
+        "url": "https://www.npg.org.uk/collections/search/portrait/mw00230/Jane-Austen"
+      },
+      {
+        "label": "Wikipedia — Jane Austen",
+        "url": "https://en.wikipedia.org/wiki/Jane_Austen"
+      }
+    ]
+  },
+  {
+    "slug": "aretha-franklin",
+    "name": "Aretha Franklin",
+    "fullName": "Aretha Louise Franklin",
+    "born": {
+      "date": "1942-03-25",
+      "display": "March 25, 1942"
+    },
+    "died": {
+      "date": "2018-08-16",
+      "display": "August 16, 2018"
+    },
+    "categories": [
+      "Arts & Literature",
+      "Civil Rights"
+    ],
+    "summary": "American singer, songwriter, and pianist whose gospel-rooted voice transformed soul music and became closely associated with civil rights.",
+    "bio": "Aretha Franklin grew up in Detroit and began singing gospel at New Bethel Baptist Church, where her father was pastor. After moving to Atlantic Records in 1967, recordings including Respect, Chain of Fools, and (You Make Me Feel Like) A Natural Woman established her as the Queen of Soul. Her music carried powerful messages of dignity and freedom, and she supported the civil rights movement throughout her career. She won 18 Grammy Awards.",
+    "accomplishments": [
+      "Became the first woman inducted into the Rock & Roll Hall of Fame",
+      "Won 18 Grammy Awards, including a Lifetime Achievement Award",
+      "Turned Respect into an enduring anthem of dignity and equality",
+      "Received the Presidential Medal of Freedom in 2005",
+      "Had her recording of Respect added to the National Recording Registry"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aretha_Franklin?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/aretha-franklin.jpg",
+      "alt": "Monochrome portrait of Aretha Franklin at the Kennedy Center in 1997",
+      "credit": "John Mathew Smith / celebrity-photos.com",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Aretha_Franklin_1998.jpg"
+    },
+    "sources": [
+      {
+        "label": "Rock & Roll Hall of Fame — Aretha Franklin",
+        "url": "https://rockhall.com/inductees/aretha-franklin/"
+      },
+      {
+        "label": "Recording Academy — Aretha Franklin",
+        "url": "https://www.grammy.com/artists/aretha-franklin/11503"
+      },
+      {
+        "label": "Library of Congress — Respect",
+        "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Respect.pdf"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Aretha Franklin",
+        "url": "https://www.britannica.com/biography/Aretha-Franklin"
+      },
+      {
+        "label": "Wikipedia — Aretha Franklin",
+        "url": "https://en.wikipedia.org/wiki/Aretha_Franklin"
+      }
+    ]
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "name": "Queen Elizabeth I",
+    "fullName": "Elizabeth I of England",
+    "born": {
+      "date": "1533-09-07",
+      "display": "September 7, 1533"
+    },
+    "died": {
+      "date": "1603-03-24",
+      "display": "March 24, 1603"
+    },
+    "categories": [
+      "Politics & Law",
+      "Arts & Literature"
+    ],
+    "summary": "Queen of England and Ireland whose 44-year reign established a lasting religious settlement and fostered an influential cultural era.",
+    "bio": "Elizabeth I became queen in 1558 after surviving a politically dangerous childhood and imprisonment during the reign of her half-sister Mary I. Her government established a durable Protestant religious settlement, navigated threats from powerful European rivals, and defeated the Spanish Armada in 1588. Elizabeth cultivated an image of independent female sovereignty and presided over a period of expanding maritime ambition and extraordinary literary achievement associated with writers including William Shakespeare and Christopher Marlowe.",
+    "accomplishments": [
+      "Established the Elizabethan Religious Settlement in 1559",
+      "Led England during the defeat of the Spanish Armada in 1588",
+      "Maintained a 44-year reign amid religious and international conflict",
+      "Supported the cultural flourishing known as the Elizabethan Renaissance",
+      "Strengthened England's maritime power and overseas exploration"
+    ],
+    "quotes": [
+      {
+        "text": "I know I have the body but of a weak and feeble woman; but I have the heart and stomach of a king, and of a king of England too.",
+        "source": "Speech to the Troops at Tilbury, 1588"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Elizabeth_I?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/queen-elizabeth-i.jpg",
+      "alt": "Monochrome reproduction of Queen Elizabeth I in coronation robes",
+      "credit": "Unknown artist / National Portrait Gallery, London",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_I_in_coronation_robes.jpg"
+    },
+    "sources": [
+      {
+        "label": "Royal Museums Greenwich — Elizabeth I",
+        "url": "https://www.rmg.co.uk/stories/topics/queen-elizabeth-i-facts"
+      },
+      {
+        "label": "National Portrait Gallery — Queen Elizabeth I",
+        "url": "https://www.npg.org.uk/collections/search/portrait/mw00827/Queen-Elizabeth-I"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Elizabeth I",
+        "url": "https://www.britannica.com/biography/Elizabeth-I"
+      },
+      {
+        "label": "Wikipedia — Elizabeth I",
+        "url": "https://en.wikipedia.org/wiki/Elizabeth_I"
+      }
+    ]
+  },
+  {
+    "slug": "marilyn-monroe",
+    "name": "Marilyn Monroe",
+    "fullName": "Norma Jeane Mortenson",
+    "born": {
+      "date": "1926-06-01",
+      "display": "June 1, 1926"
+    },
+    "died": {
+      "date": "1962-08-04",
+      "display": "August 4, 1962"
+    },
+    "categories": [
+      "Arts & Literature",
+      "Business & Philanthropy"
+    ],
+    "summary": "American actress, model, and producer who became a defining screen presence and challenged Hollywood's studio system.",
+    "bio": "Born Norma Jeane Mortenson in Los Angeles, Marilyn Monroe spent much of her childhood in foster care before entering modeling and signing with 20th Century-Fox. Her performances in Gentlemen Prefer Blondes, Bus Stop, and Some Like It Hot demonstrated both comic precision and dramatic ambition. In 1954, she co-founded Marilyn Monroe Productions and successfully negotiated greater creative control, becoming an important early example of a performer challenging the power of Hollywood's studio system.",
+    "accomplishments": [
+      "Starred in enduring films including Gentlemen Prefer Blondes and Some Like It Hot",
+      "Won a Golden Globe for her performance in Some Like It Hot",
+      "Co-founded Marilyn Monroe Productions to gain greater creative independence",
+      "Successfully renegotiated her studio contract for script and director approval",
+      "Became one of the most recognizable figures in twentieth-century cinema"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Marilyn_Monroe?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/marilyn-monroe.jpg",
+      "alt": "Monochrome photograph of Marilyn Monroe during filming of The Seven Year Itch",
+      "credit": "Sam Shaw",
+      "license": "Public domain in the United States",
+      "source": "https://commons.wikimedia.org/wiki/File:Marilyn_Monroe_photo_pose_Seven_Year_Itch.jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Marilyn Monroe",
+        "url": "https://www.britannica.com/biography/Marilyn-Monroe"
+      },
+      {
+        "label": "Smithsonian Magazine — The real Marilyn Monroe",
+        "url": "https://www.smithsonianmag.com/history/the-real-marilyn-monroe-180955771/"
+      },
+      {
+        "label": "Golden Globes — Marilyn Monroe",
+        "url": "https://goldenglobes.com/person/marilyn-monroe/"
+      },
+      {
+        "label": "Wikipedia — Marilyn Monroe",
+        "url": "https://en.wikipedia.org/wiki/Marilyn_Monroe"
+      }
+    ]
+  },
+  {
+    "slug": "kamala-harris",
+    "name": "Kamala Harris",
+    "fullName": "Kamala Devi Harris",
+    "born": {
+      "date": "1964-10-20",
+      "display": "October 20, 1964"
+    },
+    "died": null,
+    "categories": [
+      "Politics & Law",
+      "Civil Rights"
+    ],
+    "summary": "American attorney and politician who became the first woman, first Black American, and first Asian American vice president of the United States.",
+    "bio": "Kamala Harris began her legal career as a prosecutor in California before serving as San Francisco district attorney and California attorney general. Elected to the U.S. Senate in 2016, she became the second Black woman and first South Asian American senator. From 2021 to 2025, Harris served as the first woman, first Black American, and first Asian American vice president of the United States. In 2024, she became the Democratic Party's presidential nominee.",
+    "accomplishments": [
+      "Became the first woman to serve as vice president of the United States",
+      "Became the first Black American and first Asian American U.S. vice president",
+      "Served as California's first woman and first Black attorney general",
+      "Represented California in the United States Senate",
+      "Became the first Black woman and first Asian American nominated for president by a major U.S. political party"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kamala_Harris?utm_source=copilot.com",
+    "image": {
+      "url": "/images/women/kamala-harris.jpg",
+      "alt": "Official monochrome portrait of Vice President Kamala Harris",
+      "credit": "Lawrence Jackson / The White House",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait.jpg"
+    },
+    "sources": [
+      {
+        "label": "Archived White House — Vice President Kamala Harris",
+        "url": "https://bidenwhitehouse.archives.gov/administration/vice-president-harris/"
+      },
+      {
+        "label": "U.S. House History — Kamala Harris",
+        "url": "https://history.house.gov/People/Detail/15032442523"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Kamala Harris",
+        "url": "https://www.britannica.com/biography/Kamala-Harris"
+      },
+      {
+        "label": "Wikipedia — Kamala Harris",
+        "url": "https://en.wikipedia.org/wiki/Kamala_Harris"
+      }
+    ]
+  },
+  {
     "slug": "emily-lievano",
     "name": "Emily Lievano",
     "fullName": "Emily Andréa Liévano",

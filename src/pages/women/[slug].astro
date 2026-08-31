@@ -87,7 +87,7 @@ const profileSchema = [
 			<span aria-current="page">{woman.name}</span>
 		</nav>
 		<header class="profile-hero">
-			<div class="profile-image-wrap">
+			<div class="profile-image-wrap" data-profile-image={woman.slug}>
 				<picture>
 					<source type="image/avif" srcset={portraitSrcSet(woman.slug, 'avif')} sizes="(max-width: 900px) calc(100vw - 2.5rem), 500px" />
 					<source type="image/webp" srcset={portraitSrcSet(woman.slug, 'webp')} sizes="(max-width: 900px) calc(100vw - 2.5rem), 500px" />
