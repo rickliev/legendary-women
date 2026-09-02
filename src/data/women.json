@@ -3786,5 +3786,60 @@
         "url": null
       }
     ]
+  },
+  {
+    "slug": "lindsey-duffner",
+    "name": "Lindsey Duffner",
+    "fullName": "Lindsey Duffner",
+    "hidden": true,
+    "showLifeDates": false,
+    "born": {
+      "date": null,
+      "display": "Birth date not publicly available"
+    },
+    "died": null,
+    "categories": [
+      "Science & Technology",
+      "Sports"
+    ],
+    "summary": "Computer science student, championship distance runner, martial-arts black belt, and software contributor who maintains and enhances The League of Legendary Women app.",
+    "bio": "Lindsey Duffner is a third-year computer science student at the University of Florida's Herbert Wertheim College of Engineering and a 2024 graduate of St. Thomas Aquinas High School. As a distance runner, she won multiple district and Broward County-area titles and appeared in statewide Florida rankings. Her 2021 season included district championships in the 1600 and 3200 meters, BCAA South Central Qualifier victories in both events, and a BCAA championship in the 3200 meters. Lindsey also earned a black belt from Evolution Martial Arts in Parkland, Florida. She is affiliated with SC Tutoring and applies her technical skills as a maintainer and contributor to The League of Legendary Women app.",
+    "accomplishments": [
+      "Studies computer science at the University of Florida's Herbert Wertheim College of Engineering",
+      "Won five distance titles in 2021: the 1600m and 3200m at both the FHSAA District 13 Championship and BCAA South Central Qualifier, plus the 3200m at the BCAA Track & Field Championship",
+      "Earned a black belt from Evolution Martial Arts in Parkland, Florida",
+      "Maintains The League of Legendary Women app"
+    ],
+    "profileUrl": "https://www.linkedin.com/in/lindsey-duffner-448938355/",
+    "profileLabel": "LinkedIn",
+    "image": {
+      "url": "/images/women/lindsey-duffner.jpg",
+      "alt": "Portrait of Lindsey Duffner",
+      "credit": "Courtesy of Lindsey Duffner",
+      "license": "Used with permission",
+      "source": "https://www.linkedin.com/in/lindsey-duffner-448938355/"
+    },
+    "sources": [
+      {
+        "label": "LinkedIn — Lindsey Duffner",
+        "url": "https://www.linkedin.com/in/lindsey-duffner-448938355/"
+      },
+      {
+        "label": "TFRRS — Lindsey Duffner track and field results",
+        "url": "https://florida.tfrrs.org/athletes/7735736/St_Thomas_Aquinas/Lindsey_Duffner.html"
+      },
+      {
+        "label": "MileSplit Florida — Lindsey Duffner statistics",
+        "url": "https://fl.milesplit.com/athletes/10242256-lindsey-duffner"
+      },
+      {
+        "label": "Martial arts achievement provided by The League of Legendary Women",
+        "url": null
+      },
+      {
+        "label": "Project role provided by The League of Legendary Women",
+        "url": null
+      }
+    ]
   }
 ]

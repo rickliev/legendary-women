@@ -14,6 +14,7 @@ const INTENTIONALLY_IMPRECISE = new Set([
 	'emmeline-pankhurst:born',
 	'harriet-tubman:born',
 	'joan-of-arc:born',
+	'lindsey-duffner:born',
 	'sacagawea:born',
 	'sacagawea:died',
 	'sojourner-truth:born',
