@@ -2008,7 +2008,10 @@
       "date": "1934-03-25",
       "display": "March 25, 1934"
     },
-    "died": null,
+    "died": {
+      "date": "2026-09-02",
+      "display": "September 2, 2026"
+    },
     "categories": [
       "Civil Rights",
       "Arts & Literature"
