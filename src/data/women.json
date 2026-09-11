@@ -3844,5 +3844,172 @@
         "url": null
       }
     ]
+  },
+  {
+    "slug": "rita-levi-montalcini",
+    "name": "Rita Levi-Montalcini",
+    "fullName": "Rita Levi-Montalcini",
+    "born": {
+      "date": "1909-04-22",
+      "display": "April 22, 1909"
+    },
+    "died": {
+      "date": "2012-12-30",
+      "display": "December 30, 2012"
+    },
+    "categories": [
+      "Science & Technology",
+      "Healthcare"
+    ],
+    "summary": "Italian neurobiologist who shared the 1986 Nobel Prize in Physiology or Medicine for the discovery of nerve growth factor.",
+    "bio": "Rita Levi-Montalcini trained as a physician in Turin, and when Italy's 1938 racial laws barred her from academic work she continued her research on nerve development in a laboratory improvised in her bedroom. After the war she joined Washington University in St. Louis, where her experiments on chick embryos and mouse tumours led to the identification of nerve growth factor, a protein that guides the growth and survival of nerve cells. She later directed neurobiology research in Rome, founded the European Brain Research Institute, and was appointed Senator for Life of the Italian Republic in 2001.",
+    "accomplishments": [
+      "Shared the 1986 Nobel Prize in Physiology or Medicine with Stanley Cohen for the discovery of nerve growth factor",
+      "Continued her neuroembryology experiments in a home laboratory after Italy's racial laws excluded her from the university",
+      "Founded the European Brain Research Institute in Rome",
+      "Appointed Senator for Life of the Italian Republic in 2001"
+    ],
+    "image": {
+      "url": "/images/women/rita-levi-montalcini.jpg",
+      "alt": "Portrait placeholder for Rita Levi-Montalcini",
+      "credit": "The League of Legendary Women",
+      "license": "Placeholder portrait pending a licensed photograph",
+      "source": "https://commons.wikimedia.org/wiki/Category:Rita_Levi-Montalcini"
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Rita Levi-Montalcini",
+        "url": "https://en.wikipedia.org/wiki/Rita_Levi-Montalcini"
+      },
+      {
+        "label": "The Nobel Prize — Rita Levi-Montalcini",
+        "url": "https://www.nobelprize.org/prizes/medicine/1986/levi-montalcini/facts/"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rita_Levi-Montalcini"
+  },
+  {
+    "slug": "margherita-hack",
+    "name": "Margherita Hack",
+    "fullName": "Margherita Hack",
+    "born": {
+      "date": "1922-06-12",
+      "display": "June 12, 1922"
+    },
+    "died": {
+      "date": "2013-06-29",
+      "display": "June 29, 2013"
+    },
+    "categories": [
+      "Science & Technology",
+      "Education & Advocacy"
+    ],
+    "summary": "Italian astrophysicist and science communicator who was the first woman to direct an astronomical observatory in Italy.",
+    "bio": "Margherita Hack studied the spectra of stars and built an international research programme around stellar classification and atmospheres. In 1964 she became a full professor at the University of Trieste and took charge of its astronomical observatory, becoming the first woman in Italy to lead one; she modernised the institute and connected it to European and American research networks. Outside the observatory she was a prolific writer, broadcaster, and public speaker who made astronomy accessible to a wide Italian audience.",
+    "accomplishments": [
+      "First woman to direct an astronomical observatory in Italy, leading the Trieste Astronomical Observatory from 1964",
+      "Published extensively on stellar spectroscopy and the atmospheres of stars",
+      "Reached a broad public through books, magazines, and television as one of Italy's best-known science communicators",
+      "Honoured with the naming of asteroid 8558 Hack"
+    ],
+    "image": {
+      "url": "/images/women/margherita-hack.jpg",
+      "alt": "Portrait placeholder for Margherita Hack",
+      "credit": "The League of Legendary Women",
+      "license": "Placeholder portrait pending a licensed photograph",
+      "source": "https://commons.wikimedia.org/wiki/Category:Margherita_Hack"
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Margherita Hack",
+        "url": "https://en.wikipedia.org/wiki/Margherita_Hack"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Margherita_Hack"
+  },
+  {
+    "slug": "samantha-cristoforetti",
+    "name": "Samantha Cristoforetti",
+    "fullName": "Samantha Cristoforetti",
+    "born": {
+      "date": "1977-04-26",
+      "display": "April 26, 1977"
+    },
+    "died": null,
+    "categories": [
+      "Aviation & Exploration",
+      "Science & Technology"
+    ],
+    "summary": "European Space Agency astronaut and Italian Air Force pilot who was the first Italian woman in space and the first European woman to command the International Space Station.",
+    "bio": "Samantha Cristoforetti trained as a mechanical engineer and as a pilot in the Italian Air Force before being selected by the European Space Agency in 2009. Her first mission, Futura, sent her to the International Space Station from November 2014 to June 2015, where she carried out research in human physiology, biology, and materials science during a stay of almost two hundred days. She returned to the station for the Minerva mission in 2022, performed a spacewalk, and took command of the orbiting laboratory, all while sharing spaceflight with a large online audience.",
+    "accomplishments": [
+      "First Italian woman to fly in space, on the Futura mission to the International Space Station in 2014\u20132015",
+      "Set a record for the longest single spaceflight by a European astronaut with a stay of almost 200 days",
+      "First European woman to perform a spacewalk, in 2022",
+      "First European woman to command the International Space Station, in 2022"
+    ],
+    "image": {
+      "url": "/images/women/samantha-cristoforetti.jpg",
+      "alt": "Portrait placeholder for Samantha Cristoforetti",
+      "credit": "The League of Legendary Women",
+      "license": "Placeholder portrait pending a licensed photograph",
+      "source": "https://commons.wikimedia.org/wiki/Category:Samantha_Cristoforetti"
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Samantha Cristoforetti",
+        "url": "https://en.wikipedia.org/wiki/Samantha_Cristoforetti"
+      },
+      {
+        "label": "European Space Agency — Samantha Cristoforetti",
+        "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Astronauts/Samantha_Cristoforetti"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Samantha_Cristoforetti"
+  },
+  {
+    "slug": "maria-montessori",
+    "name": "Maria Montessori",
+    "fullName": "Maria Tecla Artemisia Montessori",
+    "born": {
+      "date": "1870-08-31",
+      "display": "August 31, 1870"
+    },
+    "died": {
+      "date": "1952-05-06",
+      "display": "May 6, 1952"
+    },
+    "categories": [
+      "Education & Advocacy",
+      "Healthcare"
+    ],
+    "summary": "Italian physician and educator whose observations of children became the Montessori method, now practised in schools worldwide.",
+    "bio": "Maria Montessori was among the first women to qualify as a physician in Italy and began her career working with children who had been dismissed as uneducable. Convinced that they learned best through purposeful activity, she opened the Casa dei Bambini in Rome in 1907 and developed classrooms built around child-sized materials, freedom of movement, and careful observation by the teacher. Her books and training courses carried the method across Europe, India, and the Americas, and she spent her later years arguing that education was the surest foundation for peace.",
+    "accomplishments": [
+      "One of the first women to earn a medical degree in Italy",
+      "Opened the Casa dei Bambini in Rome in 1907 and developed the Montessori method of education",
+      "Trained teachers across Europe, India, and the Americas and wrote foundational works including The Montessori Method and The Absorbent Mind",
+      "Nominated for the Nobel Peace Prize for her work linking education and peace"
+    ],
+    "quotes": [
+      {
+        "text": "The greatest sign of success for a teacher is to be able to say, \"The children are now working as if I did not exist.\"",
+        "source": "The Absorbent Mind, 1949"
+      }
+    ],
+    "image": {
+      "url": "/images/women/maria-montessori.jpg",
+      "alt": "Portrait placeholder for Maria Montessori",
+      "credit": "The League of Legendary Women",
+      "license": "Placeholder portrait pending a licensed photograph",
+      "source": "https://commons.wikimedia.org/wiki/Category:Maria_Montessori"
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Maria Montessori",
+        "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maria_Montessori"
   }
 ]
