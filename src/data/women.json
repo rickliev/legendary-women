@@ -4011,5 +4011,89 @@
       }
     ],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Maria_Montessori"
+  },
+  {
+    "slug": "mary-bowser",
+    "name": "Mary Bowser",
+    "fullName": "Mary Richards Bowser",
+    "born": {
+      "date": null,
+      "display": "c. 1840s"
+    },
+    "died": {
+      "date": null,
+      "display": "After 1867"
+    },
+    "categories": [
+      "Civil Rights"
+    ],
+    "summary": "Civil War-era Union spy whose story is linked to Elizabeth Van Lew's intelligence network, though details remain difficult to verify.",
+    "bio": "Born into slavery in Richmond, Virginia, Mary Richards Bowser was freed by the Van Lew family and educated in the North. She returned to Richmond before the Civil War and was later described as part of Elizabeth Van Lew's Union spy network, gathering intelligence while working in the Confederate White House. Few records survive to verify the details of her wartime role.",
+    "accomplishments": [
+      "Was later identified in historical accounts as a member of Elizabeth Van Lew's Union intelligence network",
+      "Was said to have relayed information from the Confederate White House to Union forces"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mary_Bowser",
+    "image": {
+      "url": "/images/women/mary-bowser.jpg",
+      "alt": "Original illustrative portrait of Mary Bowser; no authenticated likeness is known",
+      "credit": "Original grayscale illustration",
+      "license": "CC0 1.0",
+      "source": "/images/women/mary-bowser.jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopedia Virginia — Mary Richards Bowser",
+        "url": "https://encyclopediavirginia.org/entries/bowser-mary-richards-fl-1846-1867/"
+      },
+      {
+        "label": "Wikipedia — Mary Bowser",
+        "url": "https://en.wikipedia.org/wiki/Mary_Bowser"
+      }
+    ]
+  },
+  {
+    "slug": "betty-zane",
+    "name": "Betty Zane",
+    "fullName": "Elizabeth \"Betty\" Zane",
+    "born": {
+      "date": null,
+      "display": "c. 1765"
+    },
+    "died": {
+      "date": null,
+      "display": "1823"
+    },
+    "categories": [
+      "Politics & Law"
+    ],
+    "summary": "Frontierswoman remembered for her role in the 1782 defense of Fort Henry during the American Revolutionary War.",
+    "bio": "Betty Zane was a member of the Zane family, which settled in the Ohio Valley on the western frontier. During the 1782 siege of Fort Henry, local tradition says she ran through hostile fire to retrieve gunpowder from her family home when the defenders were nearly out. Later accounts made her a celebrated heroine of the Revolutionary War, though details of the story vary.",
+    "accomplishments": [
+      "Remembered for bringing gunpowder to the defenders during the 1782 siege of Fort Henry",
+      "Became a celebrated heroine of the American frontier in later histories"
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Betty_Zane",
+    "image": {
+      "url": "/images/women/betty-zane.jpg",
+      "alt": "Original illustrative portrait of Betty Zane",
+      "credit": "Original grayscale illustration",
+      "license": "CC0 1.0",
+      "source": "/images/women/betty-zane.jpg"
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica — Betty Zane",
+        "url": "https://www.britannica.com/biography/Betty-Zane-American-frontier-heroine"
+      },
+      {
+        "label": "West Virginia Encyclopedia — Betty Zane",
+        "url": "https://www.wvencyclopedia.org/articles/1396"
+      },
+      {
+        "label": "Wikipedia — Betty Zane",
+        "url": "https://en.wikipedia.org/wiki/Betty_Zane"
+      }
+    ]
   }
 ]
